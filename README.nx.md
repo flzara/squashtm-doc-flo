@@ -76,4 +76,10 @@ Tout modification locale sur vos fichiers est répercutée en quelques secondes 
 ## Bonnes pratiques
 
 - Comme vous travaillez tous sur la même branche en même temps, pur faciliter les synchronisations et éviter les conflits d'éditions parfois longs à gérer, ne travaillez pas en même temps sur un même fichier.
-- …
+- limiter l'arborescence limitée au maximum à 3 niveaux
+- garder des noms de fichier
+    - courts
+    - sans accents ni caractères spéciaux
+    - en minuscules
+    - mettre des tirets à la place des espaces
+- pour tout nouveau fichier, il faut l'ajouter aussi au bon endroit dans la section `nav` du fichier `mkdocs.yaml`

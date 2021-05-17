@@ -1,3 +1,6 @@
+# To validate this yaml file you may use 
+# https://jsonformatter.org/yaml-validator
+
 # Project information
 site_name: Squash TM documentation
 site_author: Henix
@@ -13,7 +16,8 @@ repo_url: https://github.com/squash-test/squashtm-doc
 
 # Theme
 theme:
-  name: readthedocs
+  name: readthedocs       # https://www.mkdocs.org/user-guide/styling-your-docs/
+  navigation_depth: 3
 
 # Extensions
 markdown_extensions:

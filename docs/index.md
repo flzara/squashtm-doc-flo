@@ -6,7 +6,7 @@ You'll find detailed documentation about Squash TM, whether you're an end-user, 
 
 - [Installation Guide](install-guide/index.md)
 - [Administrator Guide](admin-guide/index.md)
-- [User Guide](user-guide/01.presentation-generale-outil/1.1.differents-espaces-squash/1.1.1.gestionnaire-referentiel-tests.md)
+- [User Guide](user-guide/presentation-generale/espaces-squash/gestionnaire-referentiel-tests.md)
 
 ## Plugins
 
