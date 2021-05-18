@@ -28,7 +28,7 @@ Le bloc 'Indicateur de couverture' présente les indicateurs suivants :
 - 'Taux de validation' : indique le pourcentage de cas de test ayant un statut d'exécution concluant (Succès ou Arbitré), en ne tenant compte que la dernière exécution, parmi les cas de test exécutés couvrants l'exigence ou l'une de ses descendantes.
 
 !!! tip "En savoir plus"
-	Pour plus de détails, consulter la partie [Calculs des indicateurs de couverture](../2.4.suivi-couverture/2.4.2.calculs-indicateurs-couverture.md)
+	Pour plus de détails, consulter la partie [Calculs des indicateurs de couverture](../suivi-couverture/calculs-indicateurs-couverture.md)
 
 
 ### ![Ancre cas de test verifiant cette exigence](resources/icone_linked_test_cases.png) Cas de test vérifiant cette exigence
