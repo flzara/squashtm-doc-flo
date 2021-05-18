@@ -11,4 +11,6 @@ Présentation des notions et concepts abordés dans cette documentation :
 |Itération|Sélection de cas de tests exécutés de manière successive dans le cadre d'une campagne de test. Chaque itération est un cycle de la campagne qui est définie par un laps de temps entre deux livraisons de développements.
 |Suite de tests |Manière d’organiser les cas de test, de les regrouper afin de créer une image d'une partie du plan de test d'une itération. Fonctionnalité permettant d’enchaîner l’exécution des cas de test.
 |Plan d'exécution |Table permettant l’organisation et le pilotage des tests de la campagne. Vision proposant différentes informations sur les cas de test comme leur mode d'exécution (automatique ou manuel), leur importance, leur statut, ou encore l’utilisateur assigné à leur exécution.
-|Exécution|Il s’agit de la phase de déroulement des cas de test sur le système testé. C'est lors de cette phase que sont identifiés et tracés les anomalies rencontrées.|
+|Exécution|Il s’agit de la phase de déroulement des cas de test sur le système testé. C'est lors de cette phase que sont identifiés et tracés les anomalies rencontrées.
+
+<br/>
