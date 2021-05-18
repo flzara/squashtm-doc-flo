@@ -20,4 +20,4 @@ Squash permet d'importer un fichier précédemment exporter depuis l'outil. Cett
 
 	
 !!! tip "En savoir plus" 
-	   Pour compléter un fichier d'import, consulter la page "[Renseigner un fichier d'import d'exigences](Lien vers2.6.1. Renseigner un fichier d'import)" 
+	   Pour compléter un fichier d'import, consulter la page "[Renseigner un fichier d'import d'exigences](./renseigner-fichier-import-exigences.md)" 
