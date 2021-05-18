@@ -84,6 +84,37 @@ nav:
       - Dupliquer et synchroniser un jalon:
         - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/dupliquer-jalon.md'
         - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/synchroniser-jalons.md'
+    - Personnalisation des entités:
+      - Les champs personnalisés:
+        - 'admin-guide/personnalisation-entites/types-champs-persos.md'
+        - 'admin-guide/personnalisation-entites/ajout-modif-suppr-champs-persos.md'
+      - Les listes personnalisées: 'admin-guide/personnalisation-entites/ajout-modif-suppr-listes-persos.md'
+      - Les liens entre exigences: 'admin-guide/personnalisation-entites/ajout-modif-suppr-liens-exigences.md'
+    - Gestion des serveurs:
+      - Les bugtrackeurs et serveurs de synchronisation:
+        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/bugtrackers-vs-serveurs-synchros.md'
+        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/ajout-modif-suppr-bugtracker-serveur-synchro.md'
+        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/parametrer-bugtracker-serveur-synchro.md'
+      - Les serveurs d'exécution automatisée:
+        - 'admin-guide/gestion-serveurs/serveurs-execution-automatisee/ajout-modif-suppr-serveur-autom.md'
+        - 'admin-guide/gestion-serveurs/serveurs-execution-automatisee/parametrer-serveur-autom.md'
+      - Les serveurs de partage de code source:
+        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/ajout-modif-suppr-serveur-scm.md'
+        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/parametrer-serveur-scm.md'
+        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/transmission-cas-test.md'
+    - Gestion du système:
+      - Les informations système: 'admin-guide/gestion-systeme/infos-systeme.md'
+      - Le nettoyage des suites automatisées: 'admin-guide/gestion-systeme/nettoyage-suites-autos.md'
+      - Les paramètres système: 'admin-guide/gestion-systeme/parametres-systeme.md'
+      - Les messages d’accueil: 'admin-guide/gestion-systeme/messages-accueil.md'
+      - Les logs de l’application: 'admin-guide/gestion-systeme/logs-squash.md'
+    - Configurer l'automatisation des tests:
+      - Définir un lien avec un serveur d'exécution automatisée:
+        - 'admin-guide/gestion-automatisation-tests/lien-serveur-squash-autom.md'
+        - 'admin-guide/gestion-automatisation-tests/lien-serveur-squash-tf.md'
+      - Définir un serveur de partage de code source: 'admin-guide/gestion-automatisation-tests/serveur-partage-code-source.md'
+      - Paramétrer l’automatisation du projet: 'admin-guide/gestion-automatisation-tests/parametrer-automatisation-projet.md'
+      - Nettoyage des suites automatisées: 'admin-guide/gestion-automatisation-tests/nettoyage-suites-autos.md'
   - Guide Utilisateur:
     - Présentation générale:
       - Les différents espace de Squash TM:
