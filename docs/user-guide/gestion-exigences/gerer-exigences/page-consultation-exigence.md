@@ -13,7 +13,9 @@ La page de consultation de l'exigence est constituée :
 !!! info "Info"
 	Le nom et la référence (facultative) sont déterminés lors de la création de l’exigence. Avoir une exigence avec une référence est fortement conseillé afin d'organiser son référentiel. Il est possible de modifier la référence et le nom depuis la page de consultation d'une exigence. 
 
-L'ajout d'une nouvelle version de l'exigence ou d'une pièce jointe est possible via les boutons situés en haut à droite de la page : [Icone_attachement et La barre des ancres à gauche, permet au clic sur une ancre, d'accéder au bloc correspondant :
+L'ajout d'une nouvelle version de l'exigence ou d'une pièce jointe est possible via les boutons situés en haut à droite de la page :  ![Icone More](resources/icone_more.png)  et ![Icone Attachement](resources/icone_attachement.png)
+
+ La barre des ancres à gauche, permet au clic sur une ancre, d'accéder au bloc correspondant :
 
 ### ![Ancre Informations](resources/icone_information.png) Informations
 
