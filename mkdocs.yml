@@ -31,6 +31,7 @@ extra_css:
 
 nav:
   - 'user-guide/presentation-generale/espaces-squash/gestionnaire-referentiel-tests.md'
+  - 'index.md'
   - Guide d'installation:
     - 'install-guide/index.md'
   - Guide administrateur:
@@ -321,7 +322,7 @@ nav:
     - Guide du plugin Bibliothèque d'actions: 'plugin-guides/action-word-guide/index.md'
     - Guide du plugin Assistant campagne: 'plugin-guides/campaign-wizard-guide/index.md'
     - Guide des plugins Xsquash: 'plugin-guides/xsquash-guide/index.md'
-    - Guide du plugin Jira Req: 'plugin-guides/jira-req/index.md'
+    - Guide du plugin Jira Req: 'plugin-guides/jira-req-guide/index.md'
     - Guide du plugin Redmine Exigences: 'plugin-guides/redmine-req-guide/index.md'
     - Guide du plugin Polarion Exigences: 'plugin-guides/polarion-guide/index.md'
     - Guide du plugin Workflow Automatisation Jira: 'plugin-guides/waj-guide/index.md'
