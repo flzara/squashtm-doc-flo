@@ -11,4 +11,4 @@ Le clic sur une portion renvoi vers le résultat de recherche relatif aux critè
 
 ![Résultat de recherche clic portion](resources/resultat-de-recherche-graphique-fr.png)
 
-Il est alors possible d'affiner sa recherche et d'utiliser [toutes les fonctionnalités liées à la recherche](1.4.9.rechercher-objet.md).
+Il est alors possible d'affiner sa recherche et d'utiliser [toutes les fonctionnalités liées à la recherche](./rechercher-objet.md).

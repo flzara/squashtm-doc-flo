@@ -37,7 +37,7 @@ Il est également possible d'importer les cas de test au format Zip :
 - Pour ce format, il est nécessaire de sélectionner un projet de destination
 
 !!! tip "En savoir plus"
-    Pour compléter un fichier d'import, consulter les pages [Renseigner un fichier d'import d'exigences](../../02.gestion-exigences/2.6.creer-modifier-en-masse-exigences-import-export/2.6.1.renseigner-fichier-import-exigences.md) et [Renseigner un fichier d'import de cas de test](../../03.gestion-cas-test/3.7.creer-modifier-masse-cas-test-import-export/3.7.1.renseigner-fichier-import-cas-test.md)
+    Pour compléter un fichier d'import, consulter les pages [Renseigner un fichier d'import d'exigences](../../gestion-exigences/import-export-exigences/renseigner-fichier-import-exigences.md) et [Renseigner un fichier d'import de cas de test](../../gestion-cas-test/import-export-cas-test/renseigner-fichier-import-cas-test.md)
     
 
 !!! warning "Attention"
@@ -59,7 +59,7 @@ Pour exporter une arborescence d'exigences ou de cas de test au format Excel :
 L'export dans l'espace Campagnes est différent. Il ne fonctionne que si une seule campagne est sélectionnée et il se décline sous trois formes :  simple, standard ou complet.
 
 !!! tip "En savoir plus"
-    Pour plus de détails sur les exports de campagnes, consulter la page *"Exporter une campagne depuis la bibliothèque"*
+    Pour plus de détails sur les exports de campagnes, consulter la page [Exporter une campagne depuis la bibliothèque](../../gestion-executions/exporter-donnees-campagne/exporter-campagne-bibliotheque.md)
 
 Pour exporter une campagnes au format Excel :
 

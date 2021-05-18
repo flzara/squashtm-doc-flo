@@ -48,6 +48,6 @@ Diverses options sont alors disponibles :
 ![Rechercher un objet - exporter les résultats](resources/rechercher-exporter-fr.png)
 
 !!! tip "En savoir plus"
-	Les résultats de recherche de l'espace Campagne ne sont pas exportables mais il est possible d'[ajouter tout ou sélection des résultats à un plan d'exécution d'une itération](../../04.gestion-executions/4.2.planifier-campagnes-tests/4.2.4.identifier-tests-resultats-exec-precedents-plugin.md).
+	Les résultats de recherche de l'espace Campagne ne sont pas exportables mais il est possible d'[ajouter tout ou sélection des résultats à un plan d'exécution d'une itération](../../gestion-executions/planifier-campagnes/identifier-tests-resultats-exec-precedents-plugin.md).
 
 
