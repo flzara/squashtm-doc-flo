@@ -67,7 +67,7 @@ Le champ 'Description' permet de décrire l'exigence. La description peut-être 
 Elle peut être rédigé sous la forme : "L'application doit permettre de [action]".
 
 ## ID exigence et Id version
-Les numéro d'identifiant prennent pour valeur un entier strictement positif déterminé par Squash TM. Le premier est le numéro d'identifiant de l'exigence. Une même exigence pouvant exister sous différentes versions, le second identifiant est le numéro d'identifiant de la version d'exigence.
+Les numéros d'identifiant prennent pour valeur un entier strictement positif déterminé automatiquement par le système. Le premier est le numéro d'identifiant de l'exigence. Une même exigence pouvant exister sous différentes versions, le second identifiant est le numéro d'identifiant de la version d'exigence.
 <br/>Les 2 champs ne sont pas éditables. 
 
 ## Création et Modification
