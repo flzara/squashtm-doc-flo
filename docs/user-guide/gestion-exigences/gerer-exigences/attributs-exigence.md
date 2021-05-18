@@ -1,6 +1,9 @@
 # Les attributs d’une exigence
 
-Le bloc 'Informations' de la page de consultation d'une exigence est constitué des éléments suivants :
+## Référence
+La référence d'une exigence est facultative, néanmoins elle permet d'organiser son référentiel. Des conventions de nommages doivent être définies pour organiser et identifier les exigences.
+
+Une exigence est caractérisée par différents attributs accessibles depuis le bloc **Informations** :
 
 ## N° version
 Le numéro de version de l'exigence (nombre entier positif), positionné automatiquement par le système, est un lien cliquable qui permet d’accéder à la page de 'Gestion des versions de l'exigence', sur laquelle la liste de versions est disponible.
@@ -9,15 +12,15 @@ Le numéro de version de l'exigence (nombre entier positif), positionné automat
 
 Le champ 'Statut' permet d'affecter un statut à l’exigence (‘En cours de rédaction’ par défaut). La valeur peut-être modifiée au moyen de la liste déroulante dont les valeurs sont le suivantes :
 
-- En cours de rédaction
-- A approuver
-- Approuvée
-- Obsolète
+- [Icone Pastille] En cours de rédaction
+- [Icone Pastille] A approuver
+- [Icone Pastille] Approuvée
+- [Icone Pastille] Obsolète
 
-!!! info "FOCUS"
-Une fois validée, une exigence pourra être passée au statut 'Approuvée'. Elle est alors prête à être associée à un cas de test. 
-Une exigence pourra être passée au statut 'Obsolète', lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
-L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut 'A approuver' pour éditer un attribut.
+!!! info "Info"
+Une fois validée, une exigence pourra être passée au statut **'Approuvée'**. Elle est alors prête à être associée à un ou plusieurs cas de test. 
+Une exigence pourra être passée au statut **'Obsolète'**, lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
+L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer un attribut.
 
 ##  Criticité
 
