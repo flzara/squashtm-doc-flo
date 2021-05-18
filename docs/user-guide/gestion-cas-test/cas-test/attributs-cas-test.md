@@ -71,7 +71,7 @@ Le champ type peut être utilisé pour classer et organiser le patrimoine de tes
 <br/>Les valeurs de ce champ sont personnalisables depuis l'administration de Squash.
 
 !!! tip "En savoir plus"
-	Pour plus d'informations sur les listes personnalisées, se référer à la page [Les listes personnalisées d'un projet](lien vers page)
+	Pour plus d'informations sur les listes personnalisées, se référer à la page [Les listes personnalisées d'un projet](../lien-vers-page.md)
 
 ## Description
 
@@ -83,4 +83,4 @@ Le champ 'Description' permet de décrire l'objectif du cas de test. La descript
 Les champs personnalisés peuvent prendre plusieurs formes (texte, case à cocher, date, tag...) et peuvent être ajoutés au niveau d'un dossier de cas de test, d'un cas de test ou d'un pas de test. Ils n'apparaîtront dans les différents blocs que s'ils ont été ajoutés dans la configuration du projet.
 
 !!! tip "En savoir plus"
-	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](lien vers page)
+	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](../lien-vers-page.md)

@@ -14,7 +14,7 @@ Il est adapté aux tests manuels mais peut également être automatisé.
 ![Cas de test Classique](resources/format-classique-fr.png)
 
 ## Cas de test BDD
-Le cas de test BDD permet de décrire un scénario en langage Gherkin via une interface simple et intuitive proposant de l'autocomplétion*. Chaque pas de test est composé d'un mot-clé (Given-When-Then) et d'une phrase d'action pouvant être réutilisée dans d'autres cas de test BDD.
+Le cas de test BDD permet de décrire un scénario en langage Gherkin via une interface simple et intuitive proposant de l'autocomplétion <sup id="fnref:1"><a  href="#fn:1" rel="footnote">1</a></sup>. Chaque pas de test est composé d'un mot-clé (Given-When-Then) et d'une phrase d'action pouvant être réutilisée dans d'autres cas de test BDD.
 Ce format est particulièrement adapté à l'automatisation. Il permet, sans qu'il n'y ait d'impact sur la rédaction du cas de test, d'exporter le script associé au format attendu par Cucumber ou Robot Framework, Squash se chargeant de faire la traduction. 
 
 ![Cas de test BDD](resources/format-bdd-fr.png)
@@ -25,5 +25,10 @@ Ce format est adapté à l'automatisation, le script Gherkin est exporté au for
 
 ![Cas de test Gherkin](resources/format-gherkin-fr.png)
 
-
-\* Disponible via le plugin Bibliothèque d'actions.
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Disponible via le plugin Bibliothèque d'actions.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
