@@ -31,8 +31,61 @@ extra_css:
 
 nav:
   - index.md
+  - Guide de l'administrateur:
+    - Présentation générale:
+      - L’espace Administration de Squash:
+        - 'admin-guide/presentation-generale/espace-admin/nav-barre-admin.md'
+        - 'admin-guide/presentation-generale/espace-admin/terminologie.md'
+      - Structure générique des pages de l'administration:
+        - 'admin-guide/presentation-generale/structure-generique/tableaux-admin.md'
+        - 'admin-guide/presentation-generale/structure-generique/page-consultation.md'
+      - Fonctionnalités transverses de l’administration:
+        - 'admin-guide/presentation-generale/fonctionnalites-transverses/creer-objet.md'
+        - 'admin-guide/presentation-generale/fonctionnalites-transverses/modifier-champs-objet.md'
+        - 'admin-guide/presentation-generale/fonctionnalites-transverses/rechercher-objet.md'
+        - 'admin-guide/presentation-generale/fonctionnalites-transverses/supprimer-objet.md'
+        - 'admin-guide/presentation-generale/fonctionnalites-transverses/fonctionnement-tables.md'
+    - Gestion des utilisateurs:
+      - Gérer un utilisateur:
+        - 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-utilisateur.md'
+        - 'admin-guide/gestion-utilisateurs/activer-desactiver-utilisateur.md'
+      - Gérer une équipe: 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-equipe.md'
+      - Gérer les habilitations:
+        - 'admin-guide/gestion-utilisateurs/profils-utilisateurs.md'
+        - 'admin-guide/gestion-utilisateurs/habilitation-utilisateur-equipe.md'
+        - 'admin-guide/gestion-utilisateurs/tables-habilitations.md'
+      - Consulter et exporter l’historique des connexions: 'admin-guide/gestion-utilisateurs/historique-connexions.md'
+    - Gestion des projets:
+      - Gérer un projet: 'admin-guide/gestion-projets/gerer-projet/ajout-modif-suppr-projet.md'
+      - Configurer un projet:
+        - 'admin-guide/gestion-projets/configurer-projet/infos-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/bugtracker-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/habilitations-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/preferences-execution-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/automatisation-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/champs-persos-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/listes-persos-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/jalons-projet.md'
+        - 'admin-guide/gestion-projets/configurer-projet/plugins-projet.md'
+      - Gérer un modèle de projet:
+        - 'admin-guide/gestion-projets/gerer-modele-projet/ajout-modif-suppr-modele-projet.md'
+        - 'admin-guide/gestion-projets/gerer-modele-projet/propagation-modifs-modele-projet.md'
+        - 'admin-guide/gestion-projets/gerer-modele-projet/associer-modele-projet.md'
+        - 'admin-guide/gestion-projets/gerer-modele-projet/creer-modele-depuis-projet.md'
+    - Gestion des jalons:
+      - Les jalons dans Squash:
+        - 'admin-guide/gestion-jalons/jalons-squash/jalon.md'
+        - 'admin-guide/gestion-jalons/jalons-squash/cycle-vie-jalon.md'
+        - 'admin-guide/gestion-jalons/jalons-squash/activer-jalon.md'
+      - Gérer un jalon:
+        - 'admin-guide/gestion-jalons/gerer-jalon/ajout-modif-suppr-jalon.md'
+        - 'admin-guide/gestion-jalons/gerer-jalon/droits-associes.md'
+        - 'admin-guide/gestion-jalons/gerer-jalon/associer-jalon-projet.md'
+      - Dupliquer et synchroniser un jalon:
+        - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/dupliquer-jalon.md'
+        - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/synchroniser-jalons.md'
   - Guide Utilisateur:
-    - Présentation Générale:
+    - Présentation générale:
       - Les différents espace de Squash TM:
         - 'user-guide/presentation-generale/espaces-squash/gestionnaire-referentiel-tests.md'
         - 'user-guide/presentation-generale/espaces-squash/page-accueil-squash.md'
@@ -85,8 +138,7 @@ nav:
         - 'user-guide/gestion-exigences/import-export-exigences/importer-exigences.md'
         - 'user-guide/gestion-exigences/import-export-exigences/exporter-exigences.md'
         - 'user-guide/gestion-exigences/import-export-exigences/importer-exigences-depuis-export.md'
-      - Tableaux de bord des exigences:
-        - 'user-guide/gestion-exigences/tableaux-bord-exigences/tableau-bord-exigences.md'
+      - Tableaux de bord des exigences: 'user-guide/gestion-exigences/tableaux-bord-exigences/tableau-bord-exigences.md'
       - Rechercher des exigences:
         - 'user-guide/gestion-exigences/rechercher-exigences/criteres-recherche-exigences.md'
         - 'user-guide/gestion-exigences/rechercher-exigences/resultats-recherche.md'
@@ -128,10 +180,8 @@ nav:
         - 'user-guide/gestion-cas-test/import-export-cas-test/importer-cas-test.md'
         - 'user-guide/gestion-cas-test/import-export-cas-test/exporter-cas-test.md'
         - 'user-guide/gestion-cas-test/import-export-cas-test/importer-cas-test-depuis-export.md'
-      - Suivi des exécutions:
-        - 'user-guide/gestion-cas-test/suivi-executions/suivre-executions-cas-test.md'
-      - Tableau de bord des cas de test:
-        - 'user-guide/gestion-cas-test/tableau-bord-cas-test/tableau-bord-casdetest.md'
+      - Suivi des exécutions: 'user-guide/gestion-cas-test/suivi-executions/suivre-executions-cas-test.md'
+      - Tableau de bord des cas de test: 'user-guide/gestion-cas-test/tableau-bord-cas-test/tableau-bord-casdetest.md'
       - Rechercher des cas de test:
         - 'user-guide/gestion-cas-test/recherche-cas-test/criteres-recherche-cas-test.md'
         - 'user-guide/gestion-cas-test/recherche-cas-test/resultats-recherche.md'
@@ -155,8 +205,7 @@ nav:
         - 'user-guide/gestion-executions/executer-manuellement-tests/execution-en-chaine-tests.md'
         - 'user-guide/gestion-executions/executer-manuellement-tests/modifier-cas-test-pendant-execution.md'
         - 'user-guide/gestion-executions/executer-manuellement-tests/consulter-historique-executions-test.md'
-      - Exporter les données d’une campagne:
-        - 'user-guide/gestion-executions/exporter-donnees-campagne/exporter-campagne-bibliotheque.md'
+      - Exporter les données d’une campagne: 'user-guide/gestion-executions/exporter-donnees-campagne/exporter-campagne-bibliotheque.md'
       - Tableau de bord des campagnes:
         - 'user-guide/gestion-executions/tableau-bord-campagnes/tableau-bord-par-defaut.md'
         - 'user-guide/gestion-executions/tableau-bord-campagnes/avancement-cumule-campagne.md'
@@ -170,8 +219,7 @@ nav:
       - Gérer les anomalies:
         - 'user-guide/gestion-anomalies/gerer-anomalies/declarer-anomalie-execution.md'
         - 'user-guide/gestion-anomalies/gerer-anomalies/associer-anomalie-existante-execution.md'
-      - Suivi des anomalies:
-        - 'user-guide/gestion-anomalies/suivi-anomalies/anomalies-connues-squash.md'
+      - Suivi des anomalies: 'user-guide/gestion-anomalies/suivi-anomalies/anomalies-connues-squash.md'
     - Gestion des tests automatisés:
       - Conception des cas de test automatisés (plugin):
         - 'user-guide/gestion-tests-automatises/conception-test-automatises/rappels-cas-test-bdd-gherkin.md'
@@ -235,8 +283,6 @@ nav:
       - Les jalons et le reporting:
         - 'user-guide/gestion-jalons/jalons-reporting/tableau-bord-jalon.md'
         - 'user-guide/gestion-jalons/jalons-reporting/rapports-jalon.md'
-  - Guide de l'administrateur:
-    - 'admin-guide/index.md'
   - Install Guide:
     - 'install-guide/index.md'
   - Guide des plugins:
