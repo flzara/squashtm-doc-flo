@@ -1,0 +1,3 @@
+# Ajouter, modifier, supprimer un utilisateur
+
+expliquer les 3 groupes + création utilisateur, blocs + infos intéressantes tables en focus, conséquences de la suppression)
