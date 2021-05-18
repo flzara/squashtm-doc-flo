@@ -1,7 +1,7 @@
 # Exporter des exigences depuis la bibliothèque
 
 
-Squash TM permet d’exporter au format .xls une arborescence d'exigences. Cette fonctionnalité est très souvent utilisée pour la sauvegarde de données ou la modification de données en masse [lien vers la partie 2.6.4. Exporter puis importer des exigences]
+Squash TM permet d’exporter au format .xls une arborescence d'exigences. Cette fonctionnalité est très souvent utilisée pour la sauvegarde de données ou la [modification de données en masse](./importer-exigences-depuis-export.md).
 
 Le nom du fichier d'export est par défaut  « export-exigences_aaaammjj_hhmmss » mais peut être modifié.
 

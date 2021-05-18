@@ -2,16 +2,16 @@
 
 Squash permet d’importer une arborescence d'exigences depuis un fichier au format .xls. 
 
-Pour réaliser cet import, il  faut renseigner un fichier Excel en respectant les recommandations faites dans [Renseigner un fichier d'import d'exigences](lien à mettre vers la partie) puis l'importer via l'option **[Importer]** de l'espace Exigences. Il est possible de simuler l'import pour vérifier la cohérence du fichier d'import avant de l'importer.
+Pour réaliser cet import, il  faut renseigner un fichier Excel en respectant les recommandations faites dans [Renseigner un fichier d'import d'exigences](./renseigner-fichier-import-exigences.md) puis l'importer via l'option **[Importer]** de l'espace Exigences. Il est possible de simuler l'import pour vérifier la cohérence du fichier d'import avant de l'importer.
 
 !!! tip "En savoir plus"
-	Pour plus de détails sur la procédure à suivre pour réaliser un import, consulter la page [Importer/Exporter un objet](lien à ajouter).
+	Pour plus de détails sur la procédure à suivre pour réaliser un import, consulter la page [Importer/Exporter un objet](../../presentation-generale/fonctionnalites-transverses/importer-exporter-objet.md).
 
 L'import permet de créer des exigences avec toutes les fonctionnalités disponibles dans l'espace Exigences :
 
 ### Créer une arborescence d'exigences
 
-L'arborescence est très importante car elle permet d'**organiser le référentiel d'exigences**. L'import offre la possibilité de créer une arborescence précise des éléments à importer et ce dans plusieurs projets à la fois : Exigences, Dossiers, [Exigences mères et filles](Lien vers l'explication des exigences mères et filles), etc.
+L'arborescence est très importante car elle permet d'**organiser le référentiel d'exigences**. L'import offre la possibilité de créer une arborescence précise des éléments à importer et ce dans plusieurs projets à la fois : Exigences, Dossiers, [Exigences mères et filles](../organiser-patrimoine-exigences/hierarchie-exigences.md), etc.
 
 ![Importer une arborescence d'exigences](resources/import-arbo-exi-fr.png)
 

@@ -6,7 +6,7 @@ Le bouton **[Rafraîchir]** en haut à droite permet de rafraîchir les graphiqu
 <br/>Le bouton **[Favori]** en haut à droite permet d’afficher un tableau de bord favori personnalisé à la place du tableau de bord par défaut
 
 !!! tip "En savoir plus"
-    Pour plus de renseignements sur le tableau de bord personnalisé, consulter la page "[Les tableaux de bord personnalisés]( 7.5. Les tableaux de bord personnalisés)"
+    Pour plus de renseignements sur le tableau de bord personnalisé, consulter la page "[Les tableaux de bord personnalisés](../../pilotage-recette/tableaux-bord-perso/creer-tableau-bord-personnalise.md)"
 
 ## Les différents graphiques
 

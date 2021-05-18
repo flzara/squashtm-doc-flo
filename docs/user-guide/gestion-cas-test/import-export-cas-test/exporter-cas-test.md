@@ -2,7 +2,7 @@
 # Exporter des cas de test depuis la bibliothèque 
 
 
-Squash TM permet d’exporter au format .xls ou .csv une arborescence de cas de test. Cette fonctionnalité est très souvent utilisée pour la sauvegarde de données ou la [modification de données en masse](lien vers la partie 2.7.4. Importer des cas de test à partir d'un export).
+Squash TM permet d’exporter au format .xls ou .csv une arborescence de cas de test. Cette fonctionnalité est très souvent utilisée pour la sauvegarde de données ou la [modification de données en masse](./importer-cas-test-depuis-export.md).
 
 !!! note "Info"
 	Si le format .csv est sélectionné pour l'export, un seul onglet est exporté contenant les attributs du cas de test et les pas de test. <br/>Les paramètres, les jeux de données et les associations avec des exigences ne sont pas exportés.
@@ -29,4 +29,4 @@ Les associations avec les exigences sont exportées et se trouvent dans l'onglet
 	Lors d'un export de cas de test BDD, les pas de test ne sont pas présents dans le fichier.
 	
 !!! tip "En savoir plus"
-	Il est également possible d'exporter des [scripts Gherkin](Lien vers 3.5.6. Exporter le script d’un cas de test Gherkin) et des [scripts BDD](Lien vers : 3.6.5. Exporter le script d’un cas de test BDD)
+	Il est également possible d'exporter des [scripts Gherkin](../script-test-gherkin/exporter-script-cas-test-gherkin.md) et des [scripts BDD](../script-test-bdd/exporter-script-cas-test-bdd.md)
