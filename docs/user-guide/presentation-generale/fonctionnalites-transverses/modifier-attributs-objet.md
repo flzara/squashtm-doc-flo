@@ -14,6 +14,6 @@ Les différents types de champs présents dans l'application sont les suivants :
 - Texte riche : texte multilignes avec de la mise en forme
 
 !!! tip "En savoir plus"
-	Pour plus de détails sur les champs texte riche, consulter la page "*Les champs texte riche*"
+	Pour plus de détails sur les champs texte riche, consulter la page [Les champs texte riche](./champs-texte-riche.md)
 
 ![Modification d'un tag](resources/modification-tag.png)
