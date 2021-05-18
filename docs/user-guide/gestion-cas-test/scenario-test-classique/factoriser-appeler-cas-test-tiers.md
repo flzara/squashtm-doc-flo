@@ -17,10 +17,10 @@ Il est possible d’appeler un cas de test de deux façons :
 
 Les cas de tests appelants sont listés dans le bloc « Cas de test appelé par » dans l'onglet ‘Informations' du cas de test appelé.
 
-*Exemple : Il y a deux cas de test "Cas de test A" et "Cas de test B".
+*Exemple : 
 Le Cas de test B est appelé dans le Cas de test A c'est à dire que les pas de test contenus dans le Cas de test B se retrouvent dans le Cas de test A.*
 
-![Cas de test appelé](resources/appel-cas-de-testFR.png)
+![Cas de test appelé](resources/appel-de-cas-de-testFR.png)
 
 *Le Cas de test A (cas de test appelant) s'affiche dans le bloc "Cas de test appelé par" dans l'onglet 'Informations' du Cas de test B (cas de test appelé).*
 
