@@ -21,4 +21,4 @@ Squash TM permet d'importer un fichier précédemment exporter depuis l'outil. C
 
 	
 !!! tip "En savoir plus" 
-	   Pour compléter un fichier d'import, consulter la page "[Renseigner un fichier d'import de cas de test](Lien vers 3.7.1. Renseigner un fichier d'import)" 
+	   Pour compléter un fichier d'import, consulter la page "[Renseigner un fichier d'import de cas de test](./renseigner-fichier-import-cas-test.md)" 

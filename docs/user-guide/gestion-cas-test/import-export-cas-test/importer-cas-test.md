@@ -3,10 +3,10 @@
 
 Squash permet d’importer une arborescence de cas de test depuis un fichier au format .xls ou .zip 
 
-Pour réaliser cet import, il  faut renseigner un fichier Excel en respectant les recommandations faites dans [Renseigner un fichier d'import de cas de test](lien à mettre vers la partie) puis l'importer via l'option **[Importer]** de l'espace Cas de test. Il est possible de simuler l'import pour vérifier la cohérence du fichier d'import avant de l'importer.
+Pour réaliser cet import, il  faut renseigner un fichier Excel en respectant les recommandations faites dans [Renseigner un fichier d'import de cas de test](./renseigner-fichier-import-cas-test.md) puis l'importer via l'option **[Importer]** de l'espace Cas de test. Il est possible de simuler l'import pour vérifier la cohérence du fichier d'import avant de l'importer.
 
 !!! tip "En savoir plus"
-	Pour plus de détails sur la procédure à suivre pour réaliser un import, consulter la page [Importer/Exporter un objet](lien à ajouter).
+	Pour plus de détails sur la procédure à suivre pour réaliser un import, consulter la page [Importer/Exporter un objet](../../presentation-generale/fonctionnalites-transverses/importer-exporter-objet.md).
 
 L'import permet de créer des cas de test avec toutes les fonctionnalités disponibles dans l'espace Cas de test:
 
@@ -81,7 +81,7 @@ Les onglets "PARAMETERS" et "DATASETS" permettent d'importer des paramètres et 
 ![Importer un cas de test avec des paramètres et des jeux de données (partie 2)](resources/import-param-jdd-pt2.png)
 
 !!! tip "En savoir plus"
-	Pour en savoir plus sur le fonctionnement des paramètres et jeux de données, consulter la page [Variabiliser un cas de test classique](lien vers la page)
+	Pour en savoir plus sur le fonctionnement des paramètres et jeux de données, consulter la page [Variabiliser un cas de test classique](../scenario-test-classique/variabiliser-cas-test-classique.md)
 
 ## Importer un cas de test faisant appel à un autre cas de test
 
@@ -97,7 +97,7 @@ Renseigner le cas de test appelant dans l'onglet "TEST_CASES", puis dans l'ongle
 
 
 !!! tip "En savoir plus"
-	Pour en savoir plus sur le fonctionnement d'appel de cas de test, consulter la page [Factoriser : Appeler un cas de test tiers](lien vers la page).
+	Pour en savoir plus sur le fonctionnement d'appel de cas de test, consulter la page [Factoriser : Appeler un cas de test tiers](../scenario-test-classique/factoriser-appeler-cas-test-tiers.md).
 
 ## Importer un cas de test Gherkin avec un script
 
