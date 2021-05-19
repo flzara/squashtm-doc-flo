@@ -77,7 +77,7 @@ Le champ 'Création' affiche automatiquement la date de création avec le login 
 Les champs personnalisés peuvent prendre plusieurs formes (texte simple ou riche, case à cocher, liste déroulante, date, tag ou numérique) et peuvent être ajoutés au niveau de l'entité 'Exigence'. Une fois paramétré, sur la page de consultation d'une exigence, ils apparaissent sous le champ 'Jalons' du bloc **Informations**.
 
 !!! tip "En savoir plus"
-	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](../../../admin-guide/personnalisation-entites/ajout-modif-suppr-champs-persos.md) du guide administrateur.
+	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](../../../admin-guide/personnalisation-entites/types-champs-persos.md) du guide administrateur.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk5NDQyNDg3LDg1NTMyMDIwNCwtODQwOD
