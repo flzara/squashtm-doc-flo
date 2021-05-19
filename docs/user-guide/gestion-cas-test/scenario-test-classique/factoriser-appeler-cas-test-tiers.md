@@ -5,9 +5,9 @@
 
 Le mécanisme d'appels de tests dans un cas de test permet la construction de bibliothèques modulaires de cas de test. Lors de l'exécution, les pas de test du cas de test appelé sont vu comme des pas de test dans le cas de test appelant.
 
-Ce mécanisme peut également être utilisé pour des tests de bout en bout faisant appel au patrimoine de tests de différents projets.
+Ce mécanisme peut aussi être utilisé pour des tests de bout en bout faisant appel au patrimoine de tests de différents projets.
 
-L'appel de cas de test se fait depuis l'ancre 'Prérequis et Pas de test' ![Prérequis et Pas de test](resources/steps.png) de l'espace **Cas de test** et peut être ajouté avant ou après n’importe quel pas de test.
+L'appel de cas de test se fait depuis l'ancre 'Prérequis et Pas de test' ![Prérequis et Pas de test](resources/steps.png) de l'espace **Cas de test**. Un cas de test appelé peut être ajouté avant ou après n’importe quel pas de test.
 
 Il est possible d’appeler un cas de test de deux façons :
 
@@ -34,7 +34,7 @@ Lors d'un appel de cas de test avec jeux de données, Squash TM permet de choisi
 
 - d'hériter d'un des jeux de données du cas de test appelé.
 
-En choisissant l'option *"Choisir un jeu de données parmi ceux du cas de test appelé"*, lors de l'exécution le paramètre sera automatiquement remplacé par la valeur du jeu de données choisi.
+En choisissant l'option *"Choisir un jeu de données parmi ceux du cas de test appelé"*, lors de l'exécution le paramètre est automatiquement remplacé par la valeur du jeu de données choisi.
 
 - d'hériter des paramètres du cas de test appelé sans ses jeux de données.
 
