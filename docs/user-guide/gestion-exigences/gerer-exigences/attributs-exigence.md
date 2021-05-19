@@ -48,10 +48,8 @@ Le champ 'Catégorie' permet d'affecter une catégorie à une exigence (‘Non d
 - Technique
 - User story
 
-[Screen a la place de la liste]
-
 !!! note "Info"
-    Par exemple, la valeur 'Technique' pourra être sélectionnée dans le champ 'Catégorie' d'une exigence qui traduit les spécifications d'une fonctionnalité/sous-fonctionnalité teschnque d'une application à tester. 'Fonctionnelle' pourra être sélectionné pour une exigence relevant de la partie fonctionnelle de l'application à tester.
+    Par exemple, la valeur 'Technique' pourra être sélectionnée dans le champ 'Catégorie' d'une exigence qui traduit les spécifications d'une fonctionnalité/sous-fonctionnalité technique d'une application à tester. 'Fonctionnelle' pourra être sélectionné pour une exigence relevant de la partie fonctionnelle de l'application à tester.
 
 Les valeurs de ce champ sont personnalisables depuis l'administration de Squash à l'aide d'une liste personnalisée.
 
@@ -60,7 +58,7 @@ Les valeurs de ce champ sont personnalisables depuis l'administration de Squash 
 
 ## Jalons
 
-Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton [Ajouter] [Screen Icône_add]. L'association a un ou plusieurs jalons permettra notamment d'organiser son référentiel d'exigence.
+Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton [Ajouter] ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permettra notamment d'organiser son référentiel d'exigence.
 
 ##  Description
 Le champ 'Description' permet de décrire l'exigence. La description peut-être complétée en détaillant le comportement attendu.
