@@ -12,10 +12,10 @@ Le numéro de version de l'exigence (nombre entier positif), positionné automat
 
 Le champ 'Statut' permet d'affecter un statut à l’exigence (‘En cours de rédaction’ par défaut). Le statut peut-être modifié à l'aide de la liste déroulante dont les valeurs sont les suivantes :
 
-- En cours de rédaction ![Pastille En cours de rédaction](resources/pastille-en-cours-redaction.png)
-- À approuver ![Pastille À approuver](resources/pastille-aa-approuver.png) 
-- Approuvée ![Pastille Approuvée](resources/pastille-approuvee.png) 
-- Obsolète ![Pastille Obsolète](resources/pastille-obsolete.png)
+- ![Pastille En cours de rédaction](resources/pastille-redaction-en-cours.png) En cours de rédaction 
+- ![Pastille À approuver](resources/pastille-approuver-a.png) À approuver  
+- ![Pastille Approuvée](resources/pastille-approuvee.png) Approuvée
+- ![Pastille Obsolète](resources/pastille-obsolete.png) Obsolète
 
 !!! note "Info"
     Une fois validée, une exigence pourra être passée au statut **'Approuvée'**, elle sest alors prête à être associée à un ou plusieurs cas de test. 
