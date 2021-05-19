@@ -9,7 +9,7 @@ En cliquant sur le bouton ![Ajouter](resources/add.png), il est possible, via un
 
 ![Exigences vérifiées par le cas de test](resources/exigences-verifieesFR.png) 
 
-Une fois liée au cas de test, l'exigence et ses attributs apparaissent dans la table. Un lien cliquable sur le nom de l'exigence permet d'accéder à la page de consultation de l'exigence. 
+Une fois liée au cas de test, l'exigence et ses attributs apparaissent dans la table. Un lien cliquable sur le nom de l'exigence permet d'accéder à la page de consultation de celle-ci. 
 <br/>L'ancre 'Exigences vérifiée par ce cas de test' se met à jour automatiquement avec le nombre d'exigences liées :  ![Exigences vérifiées par le cas de test](resources/ancre-exigences-verifiees.png)
 
 Une fois lié à l'exigence, le cas de test apparaît également dans la table 'Cas de test vérifiant cette exigence' de l'exigence associée.
