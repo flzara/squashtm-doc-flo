@@ -33,9 +33,10 @@ Le Cas de test B est appelé dans le Cas de test A c'est à dire que les pas de 
 Lors d'un appel de cas de test avec jeux de données, Squash TM permet de choisir:
 
 - d'hériter d'un des jeux de données du cas de test appelé.
-- d'hériter des paramètres du cas de test appelé sans ses jeux de données
 
-En choisissant l'option "Choisir un jeu de données parmi ceux du cas de test appelé", lors de l'exécution le paramètre sera automatiquement remplacé par la valeur du jeu de données choisie.
+En choisissant l'option *"Choisir un jeu de données parmi ceux du cas de test appelé"*, lors de l'exécution le paramètre sera automatiquement remplacé par la valeur du jeu de données choisi.
 
-En choisissant l'option "Ne pas choisir de jeux de données parmi ceux du cas de test appelé (paramètres délégués)" : les paramètres du cas de test appelé sont ajoutés aux paramètres du cas de test appelant.
+- d'hériter des paramètres du cas de test appelé sans ses jeux de données.
+
+En choisissant l'option *"Ne pas choisir de jeux de données parmi ceux du cas de test appelé (paramètres délégués)"*, les paramètres du cas de test appelé sont ajoutés aux paramètres du cas de test appelant.
 La valeur de ces paramètres doit être définie au niveau de ce cas de test.
