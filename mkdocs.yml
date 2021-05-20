@@ -268,8 +268,8 @@ nav:
         - 'user-guide/gestion-tests-automatises/processus-automatisation-squash/espace-automatisation-vue-automaticien.md'
       - Suivi du processus d’automatisation dans Jira:
         - 'user-guide/gestion-tests-automatises/processus-automatisation-Jira/presentation-plugin-waj.md'
-        - 'user-guide/gestion-tests-automatises/processus-automatisation-Jira//transmission-creation-ticket-automatisation-jira.md'
-        - 'user-guide/gestion-tests-automatises/processus-automatisation-Jira//suivi-workflow-automatisation-squash.md'
+        - 'user-guide/gestion-tests-automatises/processus-automatisation-Jira/transmission-creation-ticket-automatisation-jira.md'
+        - 'user-guide/gestion-tests-automatises/processus-automatisation-Jira/suivi-workflow-automatisation-squash.md'
       - Association d’un script automatisé:
         - 'user-guide/gestion-tests-automatises/association-script-automatise/scripts-automatises-squash-tf.md'
         - 'user-guide/gestion-tests-automatises/association-script-automatise/scripts-execution-squash-autom.md'
@@ -323,7 +323,7 @@ nav:
       - Les différents espaces de Squash TM: 'user-guide/presentation-generale/espaces-squash.md'
       - Structure générique des pages Squash: 'user-guide/presentation-generale/structure-generique.md'
       - Fonctionnalités de la bibliothèque inter projets: 'user-guide/presentation-generale/fonctionnalites-bibliotheque.md'
-      - Fonctionnalités des objets: 'user-guide/presentation-generale/fonctionnalites-objet.md'
+      - Fonctionnalités transverses: 'user-guide/presentation-generale/fonctionnalites-objet.md'
     - Gestion des exigences:
       - Les exigences dans Squash: 'user-guide/gestion-exigences/exigences-squash.md'
       - Créer et organiser le référentiel d'exigences: 'user-guide/gestion-exigences/creer-organiser-referentiel-exigences.md'
