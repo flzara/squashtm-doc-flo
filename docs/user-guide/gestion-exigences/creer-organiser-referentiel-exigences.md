@@ -4,7 +4,9 @@
 
 ## Les attributs d’une exigence 
 
-## Workflow exigence & Historique des modifications 
+## Workflow exigence 
+
+## Historique des modifications 
 
 ## Organisation du référentiel d’exigences 
 
