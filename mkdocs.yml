@@ -41,10 +41,10 @@ nav:
       - Présentation générale de l'espace Administration de Squash: 'admin-guide/presentation-generale/presentation-administration-squash.md'
       - Fonctionnalités transverses de l’administration: 'admin-guide/presentation-generale/fonctionnalites-transverses.md'
     - Gestion des utilisateurs:
-      - Gérer un utilisateur: 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-utilisateur.md'
-      - Gérer une équipe: 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-equipe.md'
+      - Gérer un utilisateur: 'admin-guide/gestion-utilisateurs/gerer-utilisateur.md'
+      - Gérer une équipe: 'admin-guide/gestion-utilisateurs/gerer-equipe.md'
       - Gérer les habilitations: 
-        - 'admin-guide/gestion-utilisateurs/profils-utilisateurs.md'
+        - 'admin-guide/gestion-utilisateurs/attribuer-habilitations.md'
         - 'admin-guide/gestion-utilisateurs/tables-habilitations.md'
       - Consulter et exporter l’historique des connexions: 'admin-guide/gestion-utilisateurs/historique-connexions.md'
     - Gestion des projets:
