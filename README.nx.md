@@ -20,7 +20,7 @@ choco install git python tortoisegit vscode
 - Pour la génération de la documentation en local et en temps réel, il faut aussi installer [MkDocs](https://www.mkdocs.org) depuis une invitation de commande en mode administrateur :
 
 ```cmd
-pip install mkdocs
+pip install mkdocs-material
 ```
 
 ## Récupérer le répertoire de travail depuis GitHub

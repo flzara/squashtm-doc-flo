@@ -16,7 +16,7 @@ repo_url: https://github.com/squash-test/squashtm-doc
 
 # Theme
 theme:
-  name: readthedocs       # https://www.mkdocs.org/user-guide/styling-your-docs/
+  name: material       # https://www.mkdocs.org/user-guide/styling-your-docs/
   navigation_depth: 3
 
 # Extensions
@@ -36,28 +36,15 @@ nav:
   - 'index.md'
   - Guide d'installation:
     - 'install-guide/index.md'
-  - Guide administrateur:
-    - Présentation générale:
-      - L’espace Administration de Squash:
-        - 'admin-guide/presentation-generale/espace-admin/nav-barre-admin.md'
-        - 'admin-guide/presentation-generale/espace-admin/terminologie.md'
-      - Structure générique des pages de l'administration:
-        - 'admin-guide/presentation-generale/structure-generique/tableaux-admin.md'
-        - 'admin-guide/presentation-generale/structure-generique/page-consultation.md'
-      - Fonctionnalités transverses de l’administration:
-        - 'admin-guide/presentation-generale/fonctionnalites-transverses/creer-objet.md'
-        - 'admin-guide/presentation-generale/fonctionnalites-transverses/modifier-champs-objet.md'
-        - 'admin-guide/presentation-generale/fonctionnalites-transverses/rechercher-objet.md'
-        - 'admin-guide/presentation-generale/fonctionnalites-transverses/supprimer-objet.md'
-        - 'admin-guide/presentation-generale/fonctionnalites-transverses/fonctionnement-tables.md'
+  - Guide administrateur: 
+    - Présentation générale: 
+      - Présentation générale de l'espace Administration de Squash: 'admin-guide/presentation-generale/presentation-administration-squash.md'
+      - Fonctionnalités transverses de l’administration: 'admin-guide/presentation-generale/fonctionnalites-transverses.md'
     - Gestion des utilisateurs:
-      - Gérer un utilisateur:
-        - 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-utilisateur.md'
-        - 'admin-guide/gestion-utilisateurs/activer-desactiver-utilisateur.md'
+      - Gérer un utilisateur: 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-utilisateur.md'
       - Gérer une équipe: 'admin-guide/gestion-utilisateurs/ajout-modif-suppr-equipe.md'
-      - Gérer les habilitations:
+      - Gérer les habilitations: 
         - 'admin-guide/gestion-utilisateurs/profils-utilisateurs.md'
-        - 'admin-guide/gestion-utilisateurs/habilitation-utilisateur-equipe.md'
         - 'admin-guide/gestion-utilisateurs/tables-habilitations.md'
       - Consulter et exporter l’historique des connexions: 'admin-guide/gestion-utilisateurs/historique-connexions.md'
     - Gestion des projets:
