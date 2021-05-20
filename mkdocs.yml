@@ -2,7 +2,7 @@
 # https://jsonformatter.org/yaml-validator
 
 # Project information
-site_name: Squash TM documentation
+site_name: Documentation SQUASH
 site_author: Henix
 site_description: >- 
     Squash TM user documentation starting from 2.0
@@ -54,52 +54,23 @@ nav:
         - 'admin-guide/gestion-utilisateurs/tables-habilitations.md'
       - Consulter et exporter l’historique des connexions: 'admin-guide/gestion-utilisateurs/historique-connexions.md'
     - Gestion des projets:
-      - Gérer un projet: 'admin-guide/gestion-projets/gerer-projet/ajout-modif-suppr-projet.md'
-      - Configurer un projet:
-        - 'admin-guide/gestion-projets/configurer-projet/infos-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/bugtracker-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/habilitations-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/preferences-execution-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/automatisation-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/champs-persos-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/listes-persos-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/jalons-projet.md'
-        - 'admin-guide/gestion-projets/configurer-projet/plugins-projet.md'
-      - Gérer un modèle de projet:
-        - 'admin-guide/gestion-projets/gerer-modele-projet/ajout-modif-suppr-modele-projet.md'
-        - 'admin-guide/gestion-projets/gerer-modele-projet/propagation-modifs-modele-projet.md'
-        - 'admin-guide/gestion-projets/gerer-modele-projet/associer-modele-projet.md'
-        - 'admin-guide/gestion-projets/gerer-modele-projet/creer-modele-depuis-projet.md'
+      - Gérer un projet: 'admin-guide/gestion-projets/gerer-projet.md'
+      - Configurer un projet: 'admin-guide/gestion-projets/configurer-projet.md'
+      - Gérer un modèle de projet: 'admin-guide/gestion-projets/gerer-modele-projet.md'
     - Gestion des jalons:
-      - Les jalons dans Squash:
-        - 'admin-guide/gestion-jalons/jalons-squash/jalon.md'
-        - 'admin-guide/gestion-jalons/jalons-squash/cycle-vie-jalon.md'
-        - 'admin-guide/gestion-jalons/jalons-squash/activer-jalon.md'
-      - Gérer un jalon:
-        - 'admin-guide/gestion-jalons/gerer-jalon/ajout-modif-suppr-jalon.md'
-        - 'admin-guide/gestion-jalons/gerer-jalon/droits-associes.md'
-        - 'admin-guide/gestion-jalons/gerer-jalon/associer-jalon-projet.md'
-      - Dupliquer et synchroniser un jalon:
-        - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/dupliquer-jalon.md'
-        - 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon/synchroniser-jalons.md'
+      - Activer les jalons dans Squash: 'admin-guide/gestion-jalons/activer-jalons.md'
+      - Gérer un jalon: 'admin-guide/gestion-jalons/gerer-jalon.md'
+      - Dupliquer et synchroniser un jalon: 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon.md'
     - Personnalisation des entités:
-      - Les champs personnalisés:
-        - 'admin-guide/personnalisation-entites/types-champs-persos.md'
-        - 'admin-guide/personnalisation-entites/ajout-modif-suppr-champs-persos.md'
-      - Les listes personnalisées: 'admin-guide/personnalisation-entites/ajout-modif-suppr-listes-persos.md'
-      - Les liens entre exigences: 'admin-guide/personnalisation-entites/ajout-modif-suppr-liens-exigences.md'
+      - Gérer les champs personnalisés: 'admin-guide/personnalisation-entites/gerer-champs-persos.md'
+      - Gérer les listes personnalisées: 'admin-guide/personnalisation-entites/gerer-listes-persos.md'
+      - Gérer les liens entre exigences: 'admin-guide/personnalisation-entites/gerer-liens-exigences.md'
     - Gestion des serveurs:
-      - Les bugtrackeurs et serveurs de synchronisation:
-        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/bugtrackers-vs-serveurs-synchros.md'
-        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/ajout-modif-suppr-bugtracker-serveur-synchro.md'
-        - 'admin-guide/gestion-serveurs/bugtrackers-serveurs-synchronisations/parametrer-bugtracker-serveur-synchro.md'
-      - Les serveurs d'exécution automatisée:
-        - 'admin-guide/gestion-serveurs/serveurs-execution-automatisee/ajout-modif-suppr-serveur-autom.md'
-        - 'admin-guide/gestion-serveurs/serveurs-execution-automatisee/parametrer-serveur-autom.md'
-      - Les serveurs de partage de code source:
-        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/ajout-modif-suppr-serveur-scm.md'
-        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/parametrer-serveur-scm.md'
-        - 'admin-guide/gestion-serveurs/serveur-partage-code-source/transmission-cas-test.md'
+      - Gérer les bugtrackeurs et serveurs de synchronisation:
+        - 'admin-guide/gestion-serveurs/gerer-bugtracker-serveur-synchro.md'
+        - 'admin-guide/gestion-serveurs/configurer-oauth.md'
+      - Gérer les serveurs d'exécution automatisée: 'admin-guide/gestion-serveurs/gerer-serveur-autom.md'
+      - Gérer les serveurs de partage de code source: 'admin-guide/gestion-serveurs/gerer-serveur-scm.md'
     - Gestion du système:
       - Les informations système: 'admin-guide/gestion-systeme/infos-systeme.md'
       - Le nettoyage des suites automatisées: 'admin-guide/gestion-systeme/nettoyage-suites-autos.md'
@@ -114,6 +85,84 @@ nav:
       - Paramétrer l’automatisation du projet: 'admin-guide/gestion-automatisation-tests/parametrer-automatisation-projet.md'
       - Nettoyage des suites automatisées: 'admin-guide/gestion-automatisation-tests/nettoyage-suites-autos.md'
   - Guide Utilisateur:
+    - Présentation générale:
+      - Les différents espaces de Squash TM: 'user-guide/presentation-generale/espaces-squash.md'
+      - Structure générique des pages Squash: 'user-guide/presentation-generale/structure-generique.md'
+      - Fonctionnalités de la bibliothèque inter projets: 'user-guide/presentation-generale/fonctionnalites-bibliotheque.md'
+      - Fonctionnalités transverses: 'user-guide/presentation-generale/fonctionnalites-objet.md'
+    - Gestion des exigences:
+      - Les exigences dans Squash: 'user-guide/gestion-exigences/exigences-squash.md'
+      - Créer et organiser le référentiel d'exigences: 'user-guide/gestion-exigences/creer-organiser-referentiel-exigences.md'
+      - Couvrir les exigences par des cas de test: 'user-guide/gestion-exigences/couvrir-exigences-tests.md'
+      - Suivre la couverture et la validation des exigences: 'user-guide/gestion-exigences/couverture-validation-exigences.md'
+      - Versionner les exigences: 'user-guide/gestion-exigences/versionner-exigences.md'
+      - Importer/Exporter des exigences: 
+        - Importer des exigences: 'user-guide/gestion-exigences/importer-exigences.md'
+        - Exporter des exigences: 'user-guide/gestion-exigences/exporter-exigences.md'
+      - Tableau de bord des exigences: 'user-guide/gestion-exigences/tableau-bord-exigences.md'
+      - Rechercher des exigences: 'user-guide/gestion-exigences/rechercher-exigences.md'
+    - Gestion des cas de test:
+      - Les cas de test dans Squash: 'user-guide/gestion-cas-test/cas-test-squash.md'
+      - Créer et organiser le patrimoine de cas de test: 'user-guide/gestion-cas-test/creer-organiser-patrimoine-cas-test.md'
+      - Associer les cas de test aux exigences: 'user-guide/gestion-cas-test/associer-cas-test-exigences.md'
+      - Gérer le scénario d'un cas de test Classique:
+        - Rédiger le scénario d'un cas de test Classique: 'user-guide/gestion-cas-test/rediger-scenario-classique.md'
+        - Variabiliser et modulariser un cas de test Classique: 'user-guide/gestion-cas-test/variabiliser-modulariser-scenario-classique.md'
+      - Gérer le script d'un cas de test BDD:
+        - Rédiger le script d'un cas de test BDD: 'user-guide/gestion-cas-test/rediger-script-bdd.md'
+        - Variabiliser un script BDD: 'user-guide/gestion-cas-test/variabiliser-script-bdd.md'
+      - Gérer le script d'un cas de test Gherkin:
+        - Rédiger le script d'un cas de test Gherkin: 'user-guide/gestion-cas-test/rediger-script-gherkin.md'
+        - Variabiliser un script Gherkin: 'user-guide/gestion-cas-test/variabiliser-script-gherkin.md'
+      - Importer/Exporter des cas de test:
+        - Importer des cas de test: 'user-guide/gestion-cas-test/importer-cas-test.md'
+        - Exporter des cas de test: 'user-guide/gestion-cas-test/exporter-cas-test.md'
+      - Suivre les exécutions d'un cas de test: 'user-guide/gestion-cas-test/suivre-executions-cas-test.md'
+      - Tableau de bord des cas de test: 'user-guide/gestion-cas-test/tableau-bord-cas-test.md'
+      - Rechercher des cas de test: 'user-guide/gestion-cas-test/rechercher-cas-test.md'
+    - Gestion des exécutions:
+      - Les objets de l'espace Campagnes: 'user-guide/gestion-executions/objets-campagnes-squash.md'
+      - Créer et organiser les objets de l’espace Campagnes: 'user-guide/gestion-executions/creer-organiser-objets-campagnes.md'
+      - Créer et gérer un plan d'exécution:
+        - Créer un plan d'exécution: 'user-guide/gestion-executions/creer-plan-execution.md'
+        - Gérer un plan d'exécution: 'user-guide/gestion-executions/gerer-plan-execution.md'
+      - Exécuter manuellement les tests: 'user-guide/gestion-executions/executer-manuellement-tests.md'
+      - Exporter les données d'une campagne: 'user-guide/gestion-executions/exporter-campagne.md'
+      - Tableau de bord des campagnes: 'user-guide/gestion-executions/tableau-bord-campagnes.md'
+      - Rechercher des exécutions: 'user-guide/gestion-executions/rechercher-executions.md'
+    - Gestion des anomalies:
+      - Les anomalies dans Squash: 'user-guide/gestion-anomalies/anomalies-squash.md'
+      - Déclarer et suivre des anomalies: 'user-guide/gestion-anomalies/declarer-suivre-anomalies.md'
+    - Gestion des tests automatisés:
+      - Concevoir des cas de test automatisés: 'user-guide/gestion-tests-automatises/concevoir-tests-automatises.md'
+      - Suivre le processus d'automatisation:
+        - Workflow d'automatisation Squash: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
+        - Workflow d’automatisation Jira: 'user-guide/gestion-tests-automatises/processus-automatisation-jira.md'
+      - Associer un script automatisé: 'user-guide/gestion-tests-automatises/associer-script-automatise.md'
+      - Transmettre un cas de test scripté sur un SCM: 'user-guide/gestion-tests-automatises/transmettre-script-scm.md'
+      - Exécuter un cas de test automatisé: 'user-guide/gestion-tests-automatises/executer-test-auto.md'
+    - Pilotage de la recette:
+      - Le pilotage dans Squash: 'user-guide/pilotage-recette/pilotage-squash.md'
+      - Les rapports: 'user-guide/pilotage-recette/rapports.md'
+      - Les graphiques: 'user-guide/pilotage-recette/graphiques.md'
+      - Les exports de campagne personnalisés: 'user-guide/pilotage-recette/exports-campagne-perso.md'
+      - Les tableaux de bord personnalisés: 'user-guide/pilotage-recette/tableaux-bord-perso.md'
+    - Gestion des jalons:
+      - Les jalons dans Squash: 'user-guide/gestion-jalons/jalons-squash.md'
+      - Associer un jalon à un objet: 'user-guide/gestion-jalons/associer-jalon-objet.md'
+      - Le mode jalon: 'user-guide/gestion-jalons/mode-jalon.md'
+      - Les jalons et le reporting: 'user-guide/gestion-jalons/jalons-reporting.md'
+  - Guides des plugins:
+    - Guide des plugins LDAP/AD: 'plugin-guides/ad-ldap-guide/index.md'
+    - Guide du plugin SAML: 'plugin-guides/saml-guide/index.md'
+    - Guide du plugin Bibliothèque d'actions: 'plugin-guides/action-word-guide/index.md'
+    - Guide du plugin Assistant campagne: 'plugin-guides/campaign-wizard-guide/index.md'
+    - Guide des plugins Xsquash: 'plugin-guides/xsquash-guide/index.md'
+    - Guide du plugin Jira Req: 'plugin-guides/jira-req-guide/index.md'
+    - Guide du plugin Redmine Exigences: 'plugin-guides/redmine-req-guide/index.md'
+    - Guide du plugin Polarion Exigences: 'plugin-guides/polarion-guide/index.md'
+    - Guide du plugin Workflow Automatisation Jira: 'plugin-guides/waj-guide/index.md'
+  - Guide Utilisateur Old:
     - Présentation générale:
       - Les différents espaces de Squash TM:
         - 'user-guide/presentation-generale/espaces-squash/page-accueil-squash.md'
@@ -311,81 +360,4 @@ nav:
       - Les jalons et le reporting:
         - 'user-guide/gestion-jalons/jalons-reporting/tableau-bord-jalon.md'
         - 'user-guide/gestion-jalons/jalons-reporting/rapports-jalon.md'
-  - Guide Utilisateur V2:
-    - Présentation générale:
-      - Les différents espaces de Squash TM: 'user-guide/presentation-generale/espaces-squash.md'
-      - Structure générique des pages Squash: 'user-guide/presentation-generale/structure-generique.md'
-      - Fonctionnalités de la bibliothèque inter projets: 'user-guide/presentation-generale/fonctionnalites-bibliotheque.md'
-      - Fonctionnalités transverses: 'user-guide/presentation-generale/fonctionnalites-objet.md'
-    - Gestion des exigences:
-      - Les exigences dans Squash: 'user-guide/gestion-exigences/exigences-squash.md'
-      - Créer et organiser le référentiel d'exigences: 'user-guide/gestion-exigences/creer-organiser-referentiel-exigences.md'
-      - Couvrir les exigences par des cas de test: 'user-guide/gestion-exigences/couvrir-exigences-tests.md'
-      - Suivre la couverture et la validation des exigences: 'user-guide/gestion-exigences/couverture-validation-exigences.md'
-      - Versionner les exigences: 'user-guide/gestion-exigences/versionner-exigences.md'
-      - Importer/Exporter des exigences: 
-        - Importer des exigences: 'user-guide/gestion-exigences/importer-exigences.md'
-        - Exporter des exigences: 'user-guide/gestion-exigences/exporter-exigences.md'
-      - Tableau de bord des exigences: 'user-guide/gestion-exigences/tableau-bord-exigences.md'
-      - Rechercher des exigences: 'user-guide/gestion-exigences/rechercher-exigences.md'
-    - Gestion des cas de test:
-      - Les cas de test dans Squash: 'user-guide/gestion-cas-test/cas-test-squash.md'
-      - Créer et organiser le patrimoine de cas de test: 'user-guide/gestion-cas-test/creer-organiser-patrimoine-cas-test.md'
-      - Associer les cas de test aux exigences: 'user-guide/gestion-cas-test/associer-cas-test-exigences.md'
-      - Gérer le scénario d'un cas de test Classique:
-        - Rédiger le scénario d'un cas de test Classique: 'user-guide/gestion-cas-test/rediger-scenario-classique.md'
-        - Variabiliser et modulariser un cas de test Classique: 'user-guide/gestion-cas-test/variabiliser-modulariser-scenario-classique.md'
-      - Gérer le script d'un cas de test BDD:
-        - Rédiger le script d'un cas de test BDD: 'user-guide/gestion-cas-test/rediger-script-bdd.md'
-        - Variabiliser un script BDD: 'user-guide/gestion-cas-test/variabiliser-script-bdd.md'
-      - Gérer le script d'un cas de test Gherkin:
-        - Rédiger le script d'un cas de test Gherkin: 'user-guide/gestion-cas-test/rediger-script-gherkin.md'
-        - Variabiliser un script Gherkin: 'user-guide/gestion-cas-test/variabiliser-script-gherkin.md'
-      - Importer/Exporter des cas de test:
-        - Importer des cas de test: 'user-guide/gestion-cas-test/importer-cas-test.md'
-        - Exporter des cas de test: 'user-guide/gestion-cas-test/exporter-cas-test.md'
-      - Suivre les exécutions d'un cas de test: 'user-guide/gestion-cas-test/suivre-executions-cas-test.md'
-      - Tableau de bord des cas de test: 'user-guide/gestion-cas-test/tableau-bord-cas-test.md'
-      - Rechercher des cas de test: 'user-guide/gestion-cas-test/rechercher-cas-test.md'
-    - Gestion des exécutions:
-      - Les objets de l'espace Campagnes: 'user-guide/gestion-executions/objets-campagnes-squash.md'
-      - Créer et organiser les objets de l’espace Campagnes: 'user-guide/gestion-executions/creer-organiser-objets-campagnes.md'
-      - Créer et gérer un plan d'exécution:
-        - Créer un plan d'exécution: 'user-guide/gestion-executions/creer-plan-execution.md'
-        - Gérer un plan d'exécution: 'user-guide/gestion-executions/gerer-plan-execution.md'
-      - Exécuter manuellement les tests: 'user-guide/gestion-executions/executer-manuellement-tests.md'
-      - Exporter les données d'une campagne: 'user-guide/gestion-executions/exporter-campagne.md'
-      - Tableau de bord des campagnes: 'user-guide/gestion-executions/tableau-bord-campagnes.md'
-      - Rechercher des exécutions: 'user-guide/gestion-executions/rechercher-executions.md'
-    - Gestion des anomalies:
-      - Les anomalies dans Squash: 'user-guide/gestion-anomalies/anomalies-squash.md'
-      - Déclarer et suivre des anomalies: 'user-guide/gestion-anomalies/declarer-suivre-anomalies.md'
-    - Gestion des tests automatisés:
-      - Concevoir des cas de test automatisés: 'user-guide/gestion-tests-automatises/concevoir-tests-automatises.md'
-      - Suivre le processus d'automatisation:
-        - Workflow d'automatisation Squash: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
-        - Workflow d’automatisation Jira: 'user-guide/gestion-tests-automatises/processus-automatisation-jira.md'
-      - Associer un script automatisé: 'user-guide/gestion-tests-automatises/associer-script-automatise.md'
-      - Transmettre un cas de test scripté sur un SCM: 'user-guide/gestion-tests-automatises/transmettre-script-scm.md'
-      - Exécuter un cas de test automatisé: 'user-guide/gestion-tests-automatises/executer-test-auto.md'
-    - Pilotage de la recette:
-      - Le pilotage dans Squash: 'user-guide/pilotage-recette/pilotage-squash.md'
-      - Les rapports: 'user-guide/pilotage-recette/rapports.md'
-      - Les graphiques: 'user-guide/pilotage-recette/graphiques.md'
-      - Les exports de campagne personnalisés: 'user-guide/pilotage-recette/exports-campagne-perso.md'
-      - Les tableaux de bord personnalisés: 'user-guide/pilotage-recette/tableaux-bord-perso.md'
-    - Gestion des jalons:
-      - Les jalons dans Squash: 'user-guide/gestion-jalons/jalons-squash.md'
-      - Associer un jalon à un objet: 'user-guide/gestion-jalons/associer-jalon-objet.md'
-      - Le mode jalon: 'user-guide/gestion-jalons/mode-jalon.md'
-      - Les jalons et le reporting: 'user-guide/gestion-jalons/jalons-reporting.md'
-  - Guides des plugins:
-    - Guide des plugins LDAP/AD: 'plugin-guides/ad-ldap-guide/index.md'
-    - Guide du plugin SAML: 'plugin-guides/saml-guide/index.md'
-    - Guide du plugin Bibliothèque d'actions: 'plugin-guides/action-word-guide/index.md'
-    - Guide du plugin Assistant campagne: 'plugin-guides/campaign-wizard-guide/index.md'
-    - Guide des plugins Xsquash: 'plugin-guides/xsquash-guide/index.md'
-    - Guide du plugin Jira Req: 'plugin-guides/jira-req-guide/index.md'
-    - Guide du plugin Redmine Exigences: 'plugin-guides/redmine-req-guide/index.md'
-    - Guide du plugin Polarion Exigences: 'plugin-guides/polarion-guide/index.md'
-    - Guide du plugin Workflow Automatisation Jira: 'plugin-guides/waj-guide/index.md'
+
