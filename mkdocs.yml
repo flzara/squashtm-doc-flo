@@ -16,7 +16,13 @@ repo_url: https://github.com/squash-test/squashtm-doc
 
 # Theme
 theme:
-  name: material       # https://www.mkdocs.org/user-guide/styling-your-docs/
+  name: material       # https://www.mkdocs.org/user-guide/styling-your-docs/ https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  font:
+    text: Segoe UI
+  language: fr 
+  logo: resources/logo_squash_icon_white.svg
+  features:
+    - navigation.tabs
   navigation_depth: 3
 
 # Extensions
