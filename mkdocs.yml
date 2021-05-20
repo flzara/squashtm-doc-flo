@@ -24,6 +24,8 @@ markdown_extensions:
   - admonition            # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - meta                  # https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data
   - tables                # https://www.mkdocs.org/user-guide/writing-your-docs/#tables
+  - toc:
+      toc_depth: "2-3"
 
 # Fichier CSS ajouté par Séverine
 extra_css: 
