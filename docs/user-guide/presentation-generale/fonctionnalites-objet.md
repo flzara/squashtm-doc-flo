@@ -1,7 +1,5 @@
 # Fonctionnalités des objets
 
-[TOC]
-
 ## Modifier les champs d’un objet
 
 Chaque objet de Squash est constitué de divers attributs représentés sous forme de champs de différents types. Au survol de la valeur du champ, un indicateur visuel signale à l'utilisateur qu'elle est modifiable (valeur soulignée, icône crayon ou cadre de couleur).

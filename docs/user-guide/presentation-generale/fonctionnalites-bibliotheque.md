@@ -1,7 +1,5 @@
 # Fonctionnalités de la bibliothèque inter projets
 
-[TOC]
-
 ## Créer un objet
 
 Lorsqu'une sélection est active dans la bibliothèque d'un espace (projet, dossier ou objet), au survol du bouton **[Ajouter]** ![Ajouter](resources/icone-ajouter.png) une liste des objets pouvant être ajoutés s'affiche. Il est possible d'ajouter un dossier (commun à tous les espaces) ou des objets spécifiques à l'espace consulté. Selon l'élément sélectionné, certains items de la liste peuvent être grisés.

@@ -1,7 +1,5 @@
 # Les différents espaces de Squash
 
-[TOC]
-
 ## La page d’accueil de Squash
 
 Une fois l'utilisateur connecté, il accède à la page d'accueil de l'application, où il peut choisir le contenu affiché :

@@ -1,7 +1,5 @@
 # Structure générique des pages Squash
 
-[TOC]
-
 ## La bibliothèque
 
 Pour l'ensemble de l'application, la bibliothèque de chaque espace est structurée à l'identique.
