@@ -330,30 +330,36 @@ nav:
       - Couvrir les exigences par des cas de test: 'user-guide/gestion-exigences/couvrir-exigences-tests.md'
       - Suivre la couverture et la validation des exigences: 'user-guide/gestion-exigences/couverture-validation-exigences.md'
       - Versionner les exigences: 'user-guide/gestion-exigences/versionner-exigences.md'
-      - Importer des exigences: 'user-guide/gestion-exigences/importer-exigences.md'
-      - Exporter des exigences: 'user-guide/gestion-exigences/exporter-exigences.md'
+      - Importer/Exporter des exigences: 
+        - Importer des exigences: 'user-guide/gestion-exigences/importer-exigences.md'
+        - Exporter des exigences: 'user-guide/gestion-exigences/exporter-exigences.md'
       - Tableau de bord des exigences: 'user-guide/gestion-exigences/tableau-bord-exigences.md'
       - Rechercher des exigences: 'user-guide/gestion-exigences/rechercher-exigences.md'
     - Gestion des cas de test:
       - Les cas de test dans Squash: 'user-guide/gestion-cas-test/cas-test-squash.md'
       - Créer et organiser le patrimoine de cas de test: 'user-guide/gestion-cas-test/creer-organiser-patrimoine-cas-test.md'
       - Associer les cas de test aux exigences: 'user-guide/gestion-cas-test/associer-cas-test-exigences.md'
-      - Rédiger le scénario d'un cas de test Classique: 'user-guide/gestion-cas-test/rediger-scenario-classique.md'
-      - Variabiliser et modulariser un cas de test Classique: 'user-guide/gestion-cas-test/variabiliser-modulariser-scenario-classique.md'
-      - Rédiger le script d'un cas de test BDD: 'user-guide/gestion-cas-test/rediger-script-bdd.md'
-      - Variabiliser un script BDD: 'user-guide/gestion-cas-test/variabiliser-script-bdd.md'
-      - Rédiger le script d'un cas de test Gherkin: 'user-guide/gestion-cas-test/rediger-script-gherkin.md'
-      - Variabiliser un script Gherkin: 'user-guide/gestion-cas-test/variabiliser-script-gherkin.md'
-      - Importer des cas de test: 'user-guide/gestion-cas-test/importer-cas-test.md'
-      - Exporter des cas de test: 'user-guide/gestion-cas-test/exporter-cas-test.md'
+      - Gérer le scénario d'un cas de test Classique:
+        - Rédiger le scénario d'un cas de test Classique: 'user-guide/gestion-cas-test/rediger-scenario-classique.md'
+        - Variabiliser et modulariser un cas de test Classique: 'user-guide/gestion-cas-test/variabiliser-modulariser-scenario-classique.md'
+      - Gérer le script d'un cas de test BDD:
+        - Rédiger le script d'un cas de test BDD: 'user-guide/gestion-cas-test/rediger-script-bdd.md'
+        - Variabiliser un script BDD: 'user-guide/gestion-cas-test/variabiliser-script-bdd.md'
+      - Gérer le script d'un cas de test Gherkin:
+        - Rédiger le script d'un cas de test Gherkin: 'user-guide/gestion-cas-test/rediger-script-gherkin.md'
+        - Variabiliser un script Gherkin: 'user-guide/gestion-cas-test/variabiliser-script-gherkin.md'
+      - Importer/Exporter des cas de test:
+        - Importer des cas de test: 'user-guide/gestion-cas-test/importer-cas-test.md'
+        - Exporter des cas de test: 'user-guide/gestion-cas-test/exporter-cas-test.md'
       - Suivre les exécutions d'un cas de test: 'user-guide/gestion-cas-test/suivre-executions-cas-test.md'
       - Tableau de bord des cas de test: 'user-guide/gestion-cas-test/tableau-bord-cas-test.md'
       - Rechercher des cas de test: 'user-guide/gestion-cas-test/rechercher-cas-test.md'
     - Gestion des exécutions:
       - Les objets de l'espace Campagnes: 'user-guide/gestion-executions/objets-campagnes-squash.md'
       - Créer et organiser les objets de l’espace Campagnes: 'user-guide/gestion-executions/creer-organiser-objets-campagnes.md'
-      - Créer un plan d'exécution: 'user-guide/gestion-executions/creer-plan-execution.md'
-      - Gérer un plan d'exécution: 'user-guide/gestion-executions/gerer-plan-execution.md'
+      - Créer et gérer un plan d'exécution:
+        - Créer un plan d'exécution: 'user-guide/gestion-executions/creer-plan-execution.md'
+        - Gérer un plan d'exécution: 'user-guide/gestion-executions/gerer-plan-execution.md'
       - Exécuter manuellement les tests: 'user-guide/gestion-executions/executer-manuellement-tests.md'
       - Exporter les données d'une campagne: 'user-guide/gestion-executions/exporter-campagne.md'
       - Tableau de bord des campagnes: 'user-guide/gestion-executions/tableau-bord-campagnes.md'
@@ -363,8 +369,9 @@ nav:
       - Déclarer et suivre des anomalies: 'user-guide/gestion-anomalies/declarer-suivre-anomalies.md'
     - Gestion des tests automatisés:
       - Concevoir des cas de test automatisés: 'user-guide/gestion-tests-automatises/concevoir-tests-automatises.md'
-      - Suivre le processus d’automatisation dans Squash: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
-      - Suivre le processus d’automatisation dans Jira: 'user-guide/gestion-tests-automatises/processus-automatisation-jira.md'
+      - Suivre le processus d'automatisation:
+        - Workflow d'automatisation Squash: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
+        - Workflow d’automatisation Jira: 'user-guide/gestion-tests-automatises/processus-automatisation-jira.md'
       - Associer un script automatisé: 'user-guide/gestion-tests-automatises/associer-script-automatise.md'
       - Transmettre un cas de test scripté sur un SCM: 'user-guide/gestion-tests-automatises/transmettre-script-scm.md'
       - Exécuter un cas de test automatisé: 'user-guide/gestion-tests-automatises/executer-test-auto.md'
