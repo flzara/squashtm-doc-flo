@@ -6,3 +6,33 @@ td, th {
 th {
 background-color : #ECEDED;
 }
+
+
+/* Personnalisation des titres */
+h1 {
+font-family: Segoe UI Semibold;
+}
+
+h2 {
+color: #005d80;
+font-family: Segoe UI Semibold;
+}
+
+h3 {
+color: #007caa;
+font-family: Segoe UI;
+}
+
+
+
+/* Couleur principale et accentuation */
+:root {
+  --md-primary-fg-color:        #007caa;
+  --md-accent-fg-color:         #13bed0;
+}
+
+
+/* Etendre affichage de la page */
+.md-grid {
+  max-width: initial;
+}
