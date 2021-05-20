@@ -7,7 +7,7 @@ Le bouton **[Rafraîchir]** en haut à droite permet de rafraîchir les graphiqu
 <br/>Le bouton **[Favori]** en haut à droite permet d’afficher un tableau de bord favori personnalisé à la place du tableau de bord par défaut
 
 !!! tip "En savoir plus"
-    Pour plus de renseignements sur le tableau de bord personnalisé, consulter la page "[Les tableaux de bord personnalisés](../../pilotage-recette/tableaux-bord-perso/creer-tableau-bord-personnalise.md)"
+    Pour plus de renseignements sur le tableau de bord personnalisé, consulter la page "[Les tableaux de bord personnalisés](../pilotage-recette/tableaux-bord-perso.md)"
 
 ## Les différents graphiques
 
@@ -32,14 +32,14 @@ Répartition des cas de test en fonction du nombre de pas de test. Ce graphique 
 
 ![Tableau de bord par défaut de l'espace Cas de test](./resources/tableaubord-CT.jpg)
 
-!!! note "Info"
+!!! info "Info"
     Les cas de test Gherkin sont considérés comme n'ayant aucun de pas de test, et sont donc présents dans la portion "CT avec aucun pas de test"
 
 ## Accès à la page de recherche
 
 Au clic sur les portions d'un graphique du tableau de bord par défaut, une page de recherche s'affiche, avec les critères présélectionnés correspondant à la portion de graphique.
 
-**Par exemple:**
+**Par exemple :**
 <br/><br/> Au clic sur la portion de graphique "CT avec aucun pas de test" du graphique "Pas de test", une page de recherche s'affiche avec le critère "Nombre de pas de test : Egal 0". 
 <br/> En cliquant sur le bouton ![Bouton d'édition](./resources/edit1.png) ou le bouton ![Bouton dossier](./resources/dossier.png) il est possible de modifier directement le cas de test en y ajoutant des pas de test.
 
