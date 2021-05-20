@@ -23,7 +23,7 @@ Le champ 'Statut' permet d'affecter un statut à une exigence (‘En cours de r�
 - ![Pastille Approuvée](resources/pastille-approuvee.png) Approuvée
 - ![Pastille Obsolète](resources/pastille-obsolete.png) Obsolète
 
-!!! note "Info"
+!!! info "Info"
     Une fois validée, une exigence pourra être passée au statut **'Approuvée'**, elle est alors prête à être associée à un ou plusieurs cas de test. 
     <br/>Une exigence pourra être passée au statut **'Obsolète'**, lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
     <br/>L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer un attribut.
@@ -36,7 +36,7 @@ Le champ 'Criticité' permet d'affecter une criticité à une exigence ('Mineure
 - ![Icone Majeure](resources/icone-mineure.png) Mineure
 - ![Icone Non définie](resources/icone-non-definie.png) Non définie
 
-!!! note "Info"
+!!! info "Info"
     Par exemple, la valeur 'Critique' pourra être sélectionnée dans le champ 'Criticité' d'une exigence qui traduit les spécifications d'une fonctionnalité/sous-fonctionnalité critique d'une application à tester.
 
 ###  Catégorie
@@ -54,17 +54,17 @@ Le champ 'Catégorie' permet d'affecter une catégorie à une exigence (‘Non d
 - User story
 - Sécurité
 
-!!! note "Info"
+!!! info "Info"
     Par exemple, la valeur 'Technique' pourra être sélectionnée dans le champ 'Catégorie' d'une exigence qui traduit les spécifications d'une fonctionnalité/sous-fonctionnalité technique d'une application à tester. 'Fonctionnelle' pourra être sélectionné pour une exigence relevant de la partie fonctionnelle de l'application à tester.
 
 Les valeurs de ce champ sont personnalisables depuis l'administration de Squash à l'aide d'une liste personnalisée.
 
 !!! tip "En savoir plus"
-	Pour plus d'informations sur les listes personnalisées, se référer à la page [Les listes personnalisées d'un projet](../../admin-guide/gestion-projets/configurer-projet.md) du guide administrateur.
+	Pour plus d'informations sur les listes personnalisées, se référer à la page [Les listes personnalisées d'un projet](../../admin-guide/gestion-projets/configurer-projet.md#les-listes-personnalisees) du guide administrateur.
 
 ### Jalons
 
-Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton [Ajouter] ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permettra notamment d'organiser son référentiel d'exigence.
+Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton **[Ajouter]** ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permettra notamment d'organiser son référentiel d'exigence.
 
 ###  Description
 Le champ 'Description' permet de décrire l'exigence. La description peut-être complétée en détaillant le comportement attendu.
@@ -83,7 +83,7 @@ Le champ 'Création' affiche automatiquement la date de création avec le login 
 Les champs personnalisés peuvent prendre plusieurs formes (texte simple ou riche, case à cocher, liste déroulante, date, tag ou numérique) et peuvent être ajoutés au niveau de l'entité 'Exigence'. Une fois paramétré, sur la page de consultation d'une exigence, ils apparaissent sous le champ 'Jalons' du bloc **Informations**.
 
 !!! tip "En savoir plus"
-	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](../../admin-guide/gestion-projets/configurer-projet.md) du guide administrateur.
+	Pour plus d'informations sur les champs personnalisés, se référer à la page [Les champs personnalisés d'un projet](../../admin-guide/gestion-projets/configurer-projet.md#les-champs-personnalises) du guide administrateur.
 
 
 ## Workflow exigence 
@@ -95,10 +95,10 @@ Le champ 'Statut' permet d'affecter un statut à l’exigence (‘En cours de r�
 - Approuvée
 - Obsolète
 
-!!! info "FOCUS"
-Une fois validée, une exigence pourra être passée au statut 'Approuvée'. Elle est alors prête à être associée à un cas de test. 
-Une exigence pourra être passée au statut 'Obsolète', lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
-L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut 'A approuver' pour éditer un attribut.
+!!! info "Info"
+    Une fois validée, une exigence pourra être passée au statut 'Approuvée'. Elle est alors prête à être associée à un cas de test. 
+    <br/>Une exigence pourra être passée au statut 'Obsolète', lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
+    <br/>L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut 'A approuver' pour éditer un attribut.
 
 ## Historique des modifications
 

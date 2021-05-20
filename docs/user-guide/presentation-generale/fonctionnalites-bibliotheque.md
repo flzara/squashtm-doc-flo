@@ -125,7 +125,7 @@ Il est également possible d'importer les cas de test au format Zip :
 - Pour ce format, il est nécessaire de sélectionner un projet de destination
 
 !!! tip "En savoir plus"
-    Pour compléter un fichier d'import, consulter les pages [Renseigner un fichier d'import d'exigences](../gestion-exigences/importer-exigences.md#renseigner-un-fichier-dimport-dexigence) et [Renseigner un fichier d'import de cas de test](../gestion-cas-test/importer-cas-test.md#renseigner-un-fichier-dimport-de-cas-de-test)
+    Pour compléter un fichier d'import, consulter les pages [Renseigner un fichier d'import d'exigences](../gestion-exigences/importer-exigences.md#renseigner-un-fichier-dimport-dexigences) et [Renseigner un fichier d'import de cas de test](../gestion-cas-test/importer-cas-test.md#renseigner-un-fichier-dimport-de-cas-de-test)
     
 
 !!! warning "Attention"
