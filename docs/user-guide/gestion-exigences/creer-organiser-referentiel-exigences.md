@@ -2,13 +2,13 @@
 
 ## Créer une exigence 
 
-La création d'une exigence se fait depuis l'espace Exigences via la popup 'Ajouter une exigence':
+La création d'une exigence se fait depuis l'espace Exigences via la popup 'Ajouter une exigence' :
 
 ![Ajouter une exigence](resources/ajouter-exigence-s-fr.png)
 
 Il est possible de créer une exigence à la racine d'un projet, dans un dossier ou sous une exigence.
 
-Lors de la création, il est obligatoire de renseigner à minima, une valeur pour le champ 'Nom'. 
+Lors de la création, il est obligatoire de renseigner, à minima, une valeur pour le champ 'Nom'. 
 
 Il est recommandé de renseigner une référence et une description à l'exigence même si ces champs sont facultatifs. 
 <br> En l'absence de sélection dans les champs 'Criticité' et 'Catégorie' la valeur par défaut sera appliquée.
@@ -103,13 +103,13 @@ Le workflow d'attribution du statut d'une exigence conseillé est le suivant :
 Une exigence peut être passée au statut **'Obsolète'**, lorsqu'elle est considérée comme non utile pour le référentiel d'exigences sans pour autant être supprimée.
 
 !!! danger "Attention"
-    L'édition des attributs d'une exigence ayant les statuts **'Approuvée'** ou '**Obsolète**' est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer les attributs.
-
-
+    L'édition des attributs d'une exigence ayant les statuts **'Approuvée'** ou '**'Obsolète'**' est impossible. Il convient de repasser au statut **'A approuver'** pour éditer les attributs.
 
 ## Historique des modifications
 
-A faire
+La table 'Historique des modifications' d'une exigence liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'À approuver'.
+
+Par exemple, la modification de la référence d'une exigence au statut 'À approuver', apparait dans cette table avec la référence d'origine, et la nouvelle référence ainsi que la date, heure et login du modificateur.
 
 ## Organisation du référentiel d’exigences
 
