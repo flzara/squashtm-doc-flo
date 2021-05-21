@@ -57,7 +57,7 @@ Le bloc 'Exigences liées' permet d'associer des exigences à l'exigence consult
 
 ### ![Ancre Historique des modifications](resources/icone_history.png) Historique des modifications
 
-La table 'Historique des modifications' liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'A approuver'.
+La table 'Historique des modifications' liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'À approuver'.
 
 ### ![Ancre Anomalies connues](resources/icone_issues.png) Anomalies connues
 
