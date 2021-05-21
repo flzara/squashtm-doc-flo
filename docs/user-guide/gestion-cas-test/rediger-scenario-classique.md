@@ -49,13 +49,13 @@ Le nouvel ordre après modification sera pris en compte lors de l'exécution.
 
 L'association d'une exigence à un pas de test se fait depuis l'ancre 'Prérequis et pas de test' ![Ancre Prérequis et pas de test](resources/steps.png)de l'espace **Cas de test**. L'association se fait:
 
-- En cliquant sur le bouton [...] puis en sélectionnant l'option *"Associer des exigences"*. L'arbre du Référentiel des exigences permet d'associer une exigence à un pas de test via un glisser-déposer.
+- En cliquant sur le bouton [...] qui apparaît au survol en haut à droite du pas de test, puis en sélectionnant l'option *"Associer des exigences"*. L'arbre du Référentiel des exigences permet d'associer une exigence à un pas de test via un glisser-déposer.
 
 - En cliquant sur le bouton [...] puis en sélectionnant l'option *"Détails du pas de test"*. Lorsqu'une exigence est ajoutée à la table 'Exigences vérifiées par ce cas de test', la case 'Etape' est cochée par défaut, indiquant que l'exigence est reliée au pas de test.
 
 Une fois associée au pas de test, l'exigence associée apparaît:
 
-- dans le pas de test, sous les champs 'Action' et 'Résultat attendu'
+- dans le pas de test, sous les champs 'Action' et 'Résultat attendu'.
 
 ![Pas de test avec exigence associée](resources/pas-de-test-avec-exiFR.png)
 
@@ -70,6 +70,6 @@ Le pas de test associé à l'exigence apparaît dans la table 'Cas de test véri
 
 ## Rédiger un pas de test en visualisant les exigences 
 
-En cliquant sur le bouton [...] puis en sélectionnant l'option *'Détails du pas de test'*, il est possible de créer, modifier et supprimer des pas de test en visualisant les exigences qui sont associées. 
+En cliquant sur le bouton [...] qui apparaît au survol en haut à droite du pas de test, puis en sélectionnant l'option *'Détails du pas de test'*, il est possible de créer, modifier et supprimer des pas de test en visualisant les exigences qui sont associées. 
 
 ![Détails du pas de test](resources/details-du-pas-de-test.png)
