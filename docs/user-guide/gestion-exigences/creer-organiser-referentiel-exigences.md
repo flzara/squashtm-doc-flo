@@ -107,7 +107,7 @@ Une exigence peut être passée au statut **'Obsolète'**, lorsqu'elle est consi
 
 ## Historique des modifications
 
-La table 'Historique des modifications' accessible via l'ancre ![Ancre Historique des modifications](resources/icone_history.png) liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'À approuver'.
+La table 'Historique des modifications' d'une exigence liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'À approuver'.
 
 Par exemple, la modification de la référence d'une exigence au statut 'À approuver', apparait dans cette table avec la référence d'origine, et la nouvelle référence ainsi que la date, heure et login du modificateur.
 
