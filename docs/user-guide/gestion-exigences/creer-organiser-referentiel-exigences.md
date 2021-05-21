@@ -2,9 +2,9 @@
 
 ## Créer une exigence 
 
-La création d'une exigence se fait depuis l'espace Exigences via la popup 'Ajouter une exigence'.
+La création d'une exigence se fait depuis l'espace Exigences via la popup 'Ajouter une exigence':
 
-![Ajouter une exigence](resources/ajouter-exigence-fr.png)
+![Ajouter une exigence](resources/ajouter-exigence-s-fr.png)
 
 Il est possible de créer une exigence à la racine d'un projet, dans un dossier ou sous une exigence.
 
@@ -13,7 +13,7 @@ Lors de la création, il est obligatoire de renseigner à minima, une valeur pou
 Il est recommandé de renseigner une référence et une description à l'exigence même si ces champs sont facultatifs. 
 <br> En l'absence de sélection dans les champs 'Criticité' et 'Catégorie' la valeur par défaut sera appliquée.
 
-Si des champs personnalisés obligatoires sont associés à l'entité Exigences, ils apparaissent également dans la popup afin d'être renseignés.
+Si des champs personnalisés obligatoires sont associés à l'entité Exigences, ils apparaissent également dans la popup.
 
 ## Les attributs d’une exigence 
 
