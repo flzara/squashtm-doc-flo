@@ -23,11 +23,6 @@ Le champ 'Statut' permet d'affecter un statut à une exigence (‘En cours de r�
 - ![Pastille Approuvée](resources/pastille-approuvee.png) Approuvée
 - ![Pastille Obsolète](resources/pastille-obsolete.png) Obsolète
 
-!!! info "Info"
-    Une fois validée, une exigence pourra être passée au statut **'Approuvée'**, elle est alors prête à être associée à un ou plusieurs cas de test. 
-    <br/>Une exigence pourra être passée au statut **'Obsolète'**, lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
-    <br/>L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer un attribut.
-
 ###  Criticité
 Le champ 'Criticité' permet d'affecter une criticité à une exigence ('Mineure' par défaut). La criticité peut-être modifiée à l'aide de la liste déroulante dont les valeurs sont les suivantes :
 
@@ -64,14 +59,14 @@ Les valeurs de ce champ sont personnalisables depuis l'administration de Squash 
 
 ### Jalons
 
-Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton **[Ajouter]** ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permettra notamment d'organiser son référentiel d'exigence.
+Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton **[Ajouter]** ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permettra notamment d'organiser le référentiel d'exigences.
 
 ###  Description
 Le champ 'Description' permet de décrire l'exigence. La description peut-être complétée en détaillant le comportement attendu.
 Elle peut être rédigée sous la forme : "L'application doit permettre de [action]".
 
 ### ID exigence et Id version
-Les numéros d'identifiant prennent pour valeur un entier strictement positif déterminé automatiquement par le système. Le premier est le numéro d'identifiant de l'exigence. Une même exigence pouvant exister sous différentes versions, le second identifiant est le numéro d'identifiant de la version d'exigence.
+Les numéros d'identifiant technique prennent pour valeur un entier strictement positif déterminé automatiquement par le système. Le premier est le numéro d'identifiant technique de l'exigence. Une même exigence pouvant exister sous différentes versions, le second identifiant est le numéro d'identifiant technique de la version d'exigence.
 <br/>Les 2 champs ne sont pas éditables. 
 
 ### Création et Modification
@@ -88,17 +83,18 @@ Les champs personnalisés peuvent prendre plusieurs formes (texte simple ou rich
 
 ## Workflow exigence 
 
-Le champ 'Statut' permet d'affecter un statut à l’exigence (‘En cours de rédaction’ par défaut). La valeur peut-être modifiée au moyen de la liste déroulante dont les valeurs sont le suivantes :
+Le workflow d'attribution du statut d'une exigence conseillé est le suivant : 
 
-- En cours de rédaction
-- A approuver
-- Approuvée
-- Obsolète
+1. Le statut **'En cours de rédaction'** est le statut par défaut d'une exigence
+2. Une fois rédigée, une exigence est passée au statut **'À approuver'**
+3. Le statut **'Approuvée'** est attibué à l'exigence après validation, elle est alors prête à être associée à un ou plusieurs cas de test 
 
-!!! info "Info"
-    Une fois validée, une exigence pourra être passée au statut 'Approuvée'. Elle est alors prête à être associée à un cas de test. 
-    <br/>Une exigence pourra être passée au statut 'Obsolète', lorsqu'elle sera considérée comme non utile pour le référentiel d'exigence sans pour autant être supprimée.
-    <br/>L'édition des attributs d'une exigence ayant l'un de ces 2 statuts est impossible. Il conviendra de repasser au statut 'A approuver' pour éditer un attribut.
+Une exigence peut être passée au statut **'Obsolète'**, lorsqu'elle est considérée comme non utile pour le référentiel d'exigences sans pour autant être supprimée.
+
+!!! danger "Attention"
+    L'édition des attributs d'une exigence ayant les statuts **'Approuvée'** ou '**Obsolète**' est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer les attributs.
+
+
 
 ## Historique des modifications
 
