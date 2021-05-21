@@ -103,7 +103,7 @@ Le workflow d'attribution du statut d'une exigence conseillé est le suivant :
 Une exigence peut être passée au statut **'Obsolète'**, lorsqu'elle est considérée comme non utile pour le référentiel d'exigences sans pour autant être supprimée.
 
 !!! danger "Attention"
-    L'édition des attributs d'une exigence ayant les statuts **'Approuvée'** ou '**Obsolète**' est impossible. Il conviendra de repasser au statut **'A approuver'** pour éditer les attributs.
+    L'édition des attributs d'une exigence ayant les statuts **'Approuvée'** ou '**'Obsolète'**' est impossible. Il convient de repasser au statut **'A approuver'** pour éditer les attributs.
 
 ## Historique des modifications
 
