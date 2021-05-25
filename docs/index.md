@@ -8,7 +8,7 @@ La structure de l'application Squash en différents espaces permet alors de cré
 
 Squash, de part sa capacité à s'interfacer avec des applications tierces, permet le travail en "cycle en V" ou en Agile.
 
-Squash est un outil multi-projets : une fois connecté, l'utilisateur accède à l'ensemble du patrimoine des projets sur lequel est habilité.
+Squash est un outil multi-projets : une fois connecté, l'utilisateur accède à l'ensemble du patrimoine des projets sur lequel est il est habilité.
 
 ## Terminologie
 
