@@ -6,7 +6,7 @@ Une exigence est "une condition ou capacité requise par un utilisateur pour ré
 
 Le terme "exigence" recouvre plusieurs niveaux allant des exigences métiers (macro) aux exigences de tests (micro). Les livrables d'un projet logiciel (cahier des charges, spécifications fonctionnelles, spécifications détaillées, maquettes) permettent l'extraction des exigences. 
 
-Dans Squash TM, une exigence est un objet de l’Espace **Exigences**. Toutes exigences ou règles de gestion qualifiant un système pourra être représentée sur Squash TM sous forme d'une exigence avec la possibilité d'être qualifiée ( 'Criticité', 'Statut', 'Catégorie', ... ) pour constituer le référentiel d'exigences souhaité.
+Dans Squash, une exigence est un objet de l’Espace **Exigences**. Toute exigence ou règle de gestion qualifiant un système pourra être représentée sur Squash TM sous forme d'une exigence avec la possibilité d'être qualifiée ( 'Criticité', 'Statut', 'Catégorie', ... ) pour constituer le référentiel d'exigences souhaité.
 
 !!! info "Info"
     Une exigence doit être non ambiguë et testable : elle doit offrir un moyen de prouver que le système satisfait à son énoncé.
@@ -26,7 +26,8 @@ La page de consultation de l'exigence est constituée :
 - des attributs de l'exigence et de ses associations dans des blocs dédiés rétractables
 
 !!! info "Info"
-	Le nom et la référence (facultative) sont déterminés lors de la création de l’exigence. Avoir une exigence avec une référence est fortement conseillé afin d'organiser son référentiel. Il est possible de modifier la référence et le nom depuis la page de consultation d'une exigence. 
+	Le nom et la référence (facultative) sont déterminés lors de la création de l’exigence. Avoir une exigence avec une référence est fortement conseillé afin d'organiser son référentiel. 
+<br/>Il est possible de modifier la référence et le nom depuis la page de consultation d'une exigence. 
 
 L'ajout d'une nouvelle version de l'exigence ou d'une pièce jointe est possible via les boutons situés en haut à droite de la page : ![Icone More](resources/icone_more.png) et ![Icone Attachement](resources/icone_attachement.png)
 
@@ -34,7 +35,7 @@ L'ajout d'une nouvelle version de l'exigence ou d'une pièce jointe est possible
 
 ### ![Ancre Informations](resources/icone_information.png) Informations
 
-Le bloc 'Informations' affiche notamment les attributs de l'exigence : 'Statut', 'Criticité', 'Catégorie' et 'Description' ainsi que ses champs personnalisés.
+Le bloc 'Informations' affiche les attributs de l'exigence : 'Statut', 'Criticité', 'Catégorie' et 'Description' ainsi que ses champs personnalisés.
 
 ### ![Ancre Indicateur de couverture](resources/icone_coverage_indicators.png) Indicateur de couverture
 
@@ -66,10 +67,10 @@ Trois liens cliquables permettent à l'utilisateur d'accéder à :
 
 - la page de consultation de l’anomalie dans le bugtracker
 - la page de consultation de l’exécution durant laquelle l’anomalie a été relevée
-- la page de consultation de l’exigence
+- la page de consultation de l’exigence ou de l'exigence fille impactée par l'anomalie
 
 Dans le cas où il existe plusieurs versions de l’exigence, seules les anomalies associées à la version courante de l’exigence sont affichées.
-Dans le cas où il existe une hiérarchie d’exigences, la table 'Anomalies connues' de l’exigence mère liste à la fois toutes les anomalies associées  à l’exigence mère et à ses descendantes.
+<br/>Dans le cas où il existe une hiérarchie d’exigences, la table 'Anomalies connues' de l’exigence mère liste à la fois toutes les anomalies associées  à l’exigence mère et à ses descendantes.
 
 <div class="footnotes">
 <hr/>
