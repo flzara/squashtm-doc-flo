@@ -85,8 +85,8 @@ nav:
       - Nettoyage des suites automatisées: 'admin-guide/gestion-automatisation-tests/nettoyage-suites-autos.md'
   - Guide Utilisateur:
     - Présentation générale:
-      - Les différents espaces de Squash TM: 'user-guide/presentation-generale/espaces-squash.md'
-      - Structure générique des pages Squash: 'user-guide/presentation-generale/structure-generique.md'
+      - Les différents espaces de Squash: 'user-guide/presentation-generale/espaces-squash.md'
+      - Structure générique des pages: 'user-guide/presentation-generale/structure-generique.md'
       - Fonctionnalités de la bibliothèque inter projets: 'user-guide/presentation-generale/fonctionnalites-bibliotheque.md'
       - Fonctionnalités transverses: 'user-guide/presentation-generale/fonctionnalites-objet.md'
     - Gestion des exigences:
