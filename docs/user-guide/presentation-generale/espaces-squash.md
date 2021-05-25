@@ -26,14 +26,12 @@ Rétractée, elle n'affiche que les icônes des espaces afin d'offrir plus d'esp
 
 ![Barre de navigation rétractée](resources/acceuil-retracte-fr.png)
 
-Le clic sur le logo Squash présent en haut de la barre de navigation redirige vers la page d'accueil de Squash.
-
 ### Espaces Exigences, Cas de test et Campagnes
 
 Espaces dédiés au cœur de métier de qualification logicielle, ils permettent respectivement de :
 
 - créer, organiser, tracer et versionner les exigences
-- créer, gérer, factoriser et variabiliser les cas de test
+- créer, gérer, modulariser et variabiliser les cas de test
 - gérer, planifier et exécuter les campagnes de tests
 
 ### Espace Pilotage
@@ -42,16 +40,16 @@ Espace consacré au suivi de la recette, il est essentiellement destiné à l'us
 
 ### Espace Automatisation
 
-Espace destiné à la gestion du processus d'automatisation Squash.
+Espace destiné à la gestion du processus d'automatisation dans Squash.
 
 ### Espace Actions
 
 Espace dédié à la mutualisation des actions des cas de test BDD (nécessite le plugin Bibliothèque d'actions).
 
 !!! note "Info"
-    Le menu Administration est accessible uniquement pour les utilisateurs Administrateur ou Chef de projet
+    Le menu Administration est accessible uniquement aux utilisateurs Administrateur ou Chef de projet
 
-## Mon compte & déconnexion
+## Mon compte
 
 La page **Mon compte** est accessible depuis l'icône contenant les initiales de l'utilisateur au pied de la barre de navigation.
 
@@ -72,12 +70,12 @@ Cette table permet de visualiser la liste des projets auxquels l'utilisateur est
 **Mode de configuration des bugtrackers**
 
 Ce bloc permet de gérer la connexion aux bugtrackers associés aux projets sur lesquels l'utilisateur est habilité. 
-Lorsque l'option 'Les utilisateurs s'authentifient eux-mêmes' est sélectionnée lors de la configuration d'un bugtracker par un administrateur et que celui-ci est associé à un projet pour lequel l'utilisateur a été habilité, alors l'utilisateur peut choisir une connexion manuelle ou automatique.
+Lorsque l'option 'Les utilisateurs s'authentifient eux-mêmes' est sélectionnée lors de la configuration d'un bugtracker par un administrateur et que celui-ci est associé à un projet auquel l'utilisateur a été habilité, alors l'utilisateur peut choisir une connexion manuelle ou automatique.
 
-Lorsque la connexion 'Manuelle' au bugtracker est sélectionnée, l'utilisateur devra se connecter systématiquement au bugtracker pour déclarer ou consulter une anomalie en cliquant sur le bouton **[Se connecter].**
-Lorsque la connexion ‘Automatique’ est sélectionnée, une connexion sera automatiquement effectuée au bugtracker.
+Lorsque la connexion 'Manuelle' au bugtracker est sélectionnée, l'utilisateur doit se connecter systématiquement au bugtracker pour déclarer ou consulter une anomalie en cliquant sur le bouton **[Se connecter].**
+Lorsque la connexion ‘Automatique’ est sélectionnée, une connexion au bugtracker est automatiquement déclenchée.
 
-Le champ 'Enregistrement des identifiants' liste les bugtrackers associés aux projets pour lequel l'utilisateur est habilité. Lorsque l’utilisateur enregistre ses identifiants de connexion, il sera connecté automatiquement au bugtracker depuis les différents espaces de l’application. Il est nécessaire de cliquer sur le bouton **[Enregistrer]** pour valider la saisie.
+Le champ 'Enregistrement des identifiants' liste les bugtrackers associés aux projets auxquels l'utilisateur est habilité. Lorsque l’utilisateur enregistre ses identifiants de connexion, il est connecté automatiquement au bugtracker depuis les différents espaces de l’application. Il est nécessaire de cliquer sur le bouton **[Enregistrer]** pour valider la saisie.
 
 ![Mon compte](resources/mon-compte-fr.png)
 
@@ -94,23 +92,23 @@ Depuis ce menu, l'option "Tous les projets" permet d'afficher tous les projets t
 ![filtre-projet](resources/filtre-projet.png)
 
 !!! warning "Focus"
-	Le filtre projets est appliqué par défaut sur les espaces Recherche.
+	Le filtre projets est appliqué par défaut sur les pages de Recherche.
 
 ## Bugtrackers
 
-Le menu **Bugtrackers** de la barre de navigation affiche en sous-menu la liste de tous les bugtrackers associés aux projets sur lesquels l'utilisateur courant est habilité.
+Le menu **Bugtrackers** de la barre de navigation affiche la liste de tous les bugtrackers associés aux projets sur lesquels l'utilisateur courant est habilité.
 
 Au clic sur son nom, le bugtracker s'affiche dans un nouvel onglet ou dans une i-frame. Seuls les bugtrackers Jira et RTC supportent l'affichage en i-frame.
 
 ## Aide
 
-Le menu **Aide** présent dans la barre de navigation donne accès à 3 sous-menus.
+Le menu **Aide** présent dans la barre de navigation donne accès à 3 sous-menus : 
 
 ![Aide](resources/sous-menu-aide-fr.png)
 
 ### À propos de Squash
 
-La popup affichée indique la version de Squash en cours d'utilisation, le lien vers la licence LGPL et un lien vers les crédits des icônes utilisées dans l'application.
+La popup indique la version de Squash en cours d'utilisation, le lien vers la licence LGPL et un lien vers les crédits des icônes utilisées dans l'application.
 
 ### Documentation
 
