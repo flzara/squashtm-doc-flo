@@ -40,7 +40,6 @@ extra_css:
 nav:
   - A propos de Squash TM: 'index.md'
   - Guide d'installation:
-    - 'install-guide/index.md'
     - Configuration minimale et prérequis: 'install-guide/installation-squash/config-mini-prerequis.md'
     - Installation de Squash TM:
       - Installation de la base de données: 'install-guide/installation-squash/installation-bdd.md'

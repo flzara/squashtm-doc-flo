@@ -27,7 +27,7 @@ Présentation des notions et concepts abordés dans cette documentation :
 
 ## Documentation de l'outil Squash
 
-- [Guide d'installation](install-guide/index.md)
+- [Guide d'installation](install-guide/installation-squash/config-mini-prerequis.md)
 - [Guide administrateur](admin-guide/presentation-generale/presentation-administration-squash.md)
 - [Guide Utilisateur](user-guide/presentation-generale/espaces-squash.md)
 
