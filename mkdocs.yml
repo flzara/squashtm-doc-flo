@@ -2,7 +2,7 @@
 # https://jsonformatter.org/yaml-validator
 
 # Project information
-site_name: Documentation SQUASH
+site_name: Documentation Squash TM
 site_author: Henix
 site_description: >- 
     Squash TM user documentation starting from 2.0
@@ -38,12 +38,30 @@ extra_css:
     - css/extra.css
 
 nav:
-  - A propos de Squash: 'index.md'
+  - A propos de Squash TM: 'index.md'
   - Guide d'installation:
     - 'install-guide/index.md'
+    - Configuration minimale et prérequis: 'install-guide/installation-squash/config-mini-prerequis.md'
+    - Installation de Squash TM:
+      - Installation de la base de données: 'install-guide/installation-squash/installation-bdd.md'
+      - Installation de l’applicatif: 'install-guide/installation-squash/installation-applicatif.md'
+    - Paramétrage de Squash TM:
+      - Configuration générale de Squash TM: 'install-guide/parametrage-squash/config-generale.md'
+      - Utilisation du HTTPS: 'install-guide/parametrage-squash/utilisation-https.md'
+      - Externalisation des fichiers de langues: 'install-guide/parametrage-squash/externalisation-langues.md'
+    - Installation des plugins et de la licence:
+      - Installer les plugins et la licence Squash TM: 'install-guide/installation-plugins/installer-plugins.md'
+      - Configurer les plugins: 'install-guide/installation-plugins/configurer-plugins.md'
+    - Exploitation:
+      - Sauvegarde et optimisation de la base de données: 'install-guide/exploitation/sauvegarde-optimisation-bdd.md'
+      - Supervision de Squash TM: 'install-guide/exploitation/supervision-squash.md'
+    - Montée de version: 
+      - Effectuer un montée de version: 'install-guide/montee-version/procedure-montee-version.md'
+      - Informations complémentaires sur les montées de version: 'install-guide/montee-version/montees-versions-specifiques.md'
+    - Externalisation des pièces jointes: 'install-guide/externalisation-pj/externalisation-pj.md'
   - Guide administrateur: 
     - Présentation générale: 
-      - Présentation générale de l'espace Administration de Squash: 'admin-guide/presentation-generale/presentation-administration-squash.md'
+      - Présentation générale de l'espace Administration de Squash TM: 'admin-guide/presentation-generale/presentation-administration-squash.md'
       - Fonctionnalités transverses de l’administration: 'admin-guide/presentation-generale/fonctionnalites-transverses.md'
     - Gestion des utilisateurs:
       - Gérer un utilisateur: 'admin-guide/gestion-utilisateurs/gerer-utilisateur.md'
