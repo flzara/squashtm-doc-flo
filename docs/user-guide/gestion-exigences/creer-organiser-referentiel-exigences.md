@@ -95,7 +95,7 @@ Les valeurs du champ 'Statut' d'une exigence sont la représentation d'un workfl
 
 1. Le statut **'En cours de rédaction'** est le statut par défaut d'une exigence. Ce statut permet d'identifier les exigences en cours de conception.
 2. Une fois rédigée, une exigence est passée au statut **'À approuver'** afin d'être validée. Une relecture des exigences pour validation de l'équipe MOA ou du PO est recommandée.
-3. Le statut **'Approuvée'** est attibué à l'exigence après validation. Ce statut a pour effet de bloqué toutes modifications de l'exigence. Elle est prête à être associée à un ou plusieurs cas de test.
+3. Le statut **'Approuvée'** est attibué à l'exigence après validation. Ce statut a pour effet de bloquer toutes modifications de l'exigence. Elle est prête à être associée à un ou plusieurs cas de test.
 4. Une exigence est passée au statut **'Obsolète'**, lorsqu'elle n'est plus valide suite à une évolution du système à tester. Ce statut permet d'identifier les exigences archivées sans pour autant les supprimer du référentiel.
 
 !!! danger "Attention"
