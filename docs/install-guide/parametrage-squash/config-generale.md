@@ -40,7 +40,8 @@ Le timeout de connexion au bugtracker est par défaut configuré à 15 secondes.
 
     squashtm.bugtracker.timeout=15
 
-Les encarts d'erreur dans Squash sont par défaut caché aux utilisateurs. Pour activer l'affichage du détail des erreurs aux utilisateurs Squash TM modifier la valeur de cette propriété à 'true' :
+L’affichage du panneau de configuration pour activer/désactiver le détail d’erreur est par défaut masqué dans la page ‘Paramètres système’ dans l'Adrministration de Squash TM. 
+<br/>Pour le rendre visible, il faut modifier la propriété suivante dans le fichier ‘conf\squash.tm.cfg.properties’ :
     
     stack.trace.control.panel.visible=true
     
