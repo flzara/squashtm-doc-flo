@@ -46,7 +46,7 @@ Espace destiné à la gestion du processus d'automatisation dans Squash.
 
 Espace dédié à la mutualisation des actions des cas de test BDD (nécessite le plugin Bibliothèque d'actions).
 
-!!! note "Info"
+!!! info "Info"
     Le menu Administration est accessible uniquement aux utilisateurs Administrateur ou Chef de projet
 
 ## Mon compte
