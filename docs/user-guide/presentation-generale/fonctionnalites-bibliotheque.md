@@ -97,7 +97,7 @@ Depuis les espaces Exigences, Cas de test et Campagnes, le bouton [Importer/Expo
 
 ### Importer
 
-La fonction d'import permet d'importer en masse une arborescence d'éléments dans les espaces Exigences ou Cas de test. Il est notamment possible d'importer depuis un même fichier des éléments dans différents projets Squash.
+La fonction d'import permet d'importer en masse une arborescence d'éléments dans les espaces Exigences ou Cas de test. Il est notamment possible d'importer depuis un même fichier des éléments dans différents projets Squash TM.
 
 ![menu-importer](resources/menu-importer.png)
 

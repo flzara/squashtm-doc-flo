@@ -1,6 +1,6 @@
-# Les différents espaces de Squash
+# Les différents espaces de Squash TM
 
-## La page d’accueil de Squash
+## La page d’accueil de Squash TM
 
 Une fois l'utilisateur connecté, il accède à la page d'accueil de l'application, où il peut choisir le contenu affiché :
 
@@ -12,15 +12,15 @@ Le clic sur le bouton **[Tableau de bord]** affiche le tableau de bord s'il a é
 
 ![accueil-db](resources/accueil-db-fr.png)
 
-La page d'accueil est également accessible depuis la barre de navigation en cliquant sur le logo Squash.
+La page d'accueil est également accessible depuis la barre de navigation en cliquant sur le logo Squash TM.
 
-## Présentation des espaces de Squash
+## Présentation des espaces de Squash TM
 
 ### La barre de navigation
 
-La barre de navigation latérale, sur la gauche de l'écran, est permanente et permet d'accéder à tous moments aux différents espaces de Squash.
+La barre de navigation latérale, sur la gauche de l'écran, est permanente et permet d'accéder à tous moments aux différents espaces de Squash TM.
 
-![Page d'accueil Squash](resources/accueil-navigation-fr.png)
+![Page d'accueil Squash TM](resources/accueil-navigation-fr.png)
 
 Rétractée, elle n'affiche que les icônes des espaces afin d'offrir plus d'espace à la consultation des objets.
 
@@ -40,7 +40,7 @@ Espace consacré au suivi de la recette, il est essentiellement destiné à l'us
 
 ### Espace Automatisation
 
-Espace destiné à la gestion du processus d'automatisation dans Squash.
+Espace destiné à la gestion du processus d'automatisation dans Squash TM.
 
 ### Espace Actions
 
@@ -108,12 +108,12 @@ Le menu **Aide** présent dans la barre de navigation donne accès à 3 sous-men
 
 ### À propos de Squash
 
-La popup indique la version de Squash en cours d'utilisation, le lien vers la licence LGPL et un lien vers les crédits des icônes utilisées dans l'application.
+La popup indique la version de Squash TM en cours d'utilisation, le lien vers la licence LGPL et un lien vers les crédits des icônes utilisées dans l'application.
 
 ### Documentation
 
-Le lien redirige vers la documentation en ligne de Squash.
+Le lien redirige vers la documentation en ligne de Squash TM.
 
 ### Rapporter une anomalie
 
-Le lien redirige vers le Mantis de l'outil Squash sur lequel il est possible de soumettre les anomalies rencontrées au cours de son utilisation. La création d'un compte est libre sur cette instance.
+Le lien redirige vers le Mantis de l'outil Squash TM sur lequel il est possible de soumettre les anomalies rencontrées au cours de son utilisation. La création d'un compte est libre sur cette instance.

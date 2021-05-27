@@ -1,4 +1,4 @@
-# Structure générique des pages Squash
+# Structure générique des pages Squash TM
 
 ## La bibliothèque
 
@@ -16,7 +16,7 @@ Devant le nom de chaque projet dans la bibliothèque, une icône indique les per
 - ![Icone play](resources/icone-play.png) : cette icône, visible uniquement sur l'espace Campagnes, indique un droit d'exécution sur les tests présents dans les plans d'exécution du projet.
 
 !!! warning "Focus"
-	Le profil Automaticien n'a pas accès aux espaces classiques de Squash. Il n'a des droits que sur l'espace Automatisation.
+	Le profil Automaticien n'a pas accès aux espaces classiques de Squash TM. Il n'a des droits que sur l'espace Automatisation.
 
 ## La page de consultation 
 
