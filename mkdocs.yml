@@ -17,13 +17,30 @@ repo_url: https://github.com/squash-test/squashtm-doc
 # Theme
 theme:
   name: material       # https://www.mkdocs.org/user-guide/styling-your-docs/ https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  custom_dir: docs/overrides
+  palette:
+    primary: white
   font:
     text: Segoe UI
   language: fr 
-  logo: resources/logo_squash_icon_white.svg
+  logo: resources/icone_Squash_TM.svg
+  favicon: resources/favicon_squash.jpg
   features:
     - navigation.tabs
+    - navigation.top
   navigation_depth: 3
+
+# Modif langue  
+extra:
+  alternate:
+    # Switch to French
+    - name: Français
+      link: https://squash-test.github.io/squashtm-doc/
+      lang: fr
+    # Switch to English
+    - name: Anglais
+      link: https://squash-test.github.io/squashtm-doc-en
+      lang: en
 
 # Extensions
 markdown_extensions:
@@ -32,6 +49,18 @@ markdown_extensions:
   - tables                # https://www.mkdocs.org/user-guide/writing-your-docs/#tables
   - toc:
       toc_depth: "2-3"
+
+# Plugins
+plugins:
+  - search
+  - print-site:
+        print_page_title: 'Version imprimable'
+        path_to_pdf: "resources/documentation.pdf"
+        add_to_navigation: false
+        add_print_site_banner: true
+        print_site_banner_template: "docs/resources/print_site_banner.tpl"
+        toc_title: 'Table de matières'
+        toc_depth: 2
 
 # Fichier CSS ajouté par Séverine
 extra_css: 
