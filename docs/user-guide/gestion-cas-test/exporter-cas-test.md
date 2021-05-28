@@ -5,7 +5,7 @@
 Squash TM permet d’exporter au format .xls ou .csv une arborescence de cas de test. Cette fonctionnalité est très souvent utilisée pour la sauvegarde de données ou la [modification de données en masse](#importer-des-cas-de-test-a-partir-dun-export).
 
 !!! info "Info"
-	Si le format .csv est sélectionné pour l'export, un seul onglet est exporté contenant les attributs du cas de test et les pas de test. <br/>Les paramètres, les jeux de données et les associations avec des exigences ne sont pas exportés.
+	Si le format .csv est sélectionné pour l'export, seuls les attributs du cas de test et les pas de test sont exportés. <br/>Les paramètres, les jeux de données et les associations avec des exigences ne sont pas exportés.
 
 Le nom du fichier d'export est par défaut  « export-cas-de-test_aaaammjj_hhmmss » mais peut être modifié.
 
@@ -29,12 +29,12 @@ Les associations avec les exigences sont exportées et se trouvent dans l'onglet
 	Lors d'un export de cas de test BDD, les pas de test ne sont pas présents dans le fichier.
 	
 !!! tip "En savoir plus"
-	Il est également possible d'[exporter des scripts](#exporter-les-scripts-des-cas-de-test-bdd-et-gherkin) Gherkin et des BDD
+	Il est également possible d'[exporter des scripts](#exporter-les-scripts-des-cas-de-test-bdd-et-gherkin) BDD et Gherkin
 
 
 ## Importer des cas de test à partir d’un export
 
-Squash TM permet d'importer un fichier précédemment exporter depuis l'outil. Cette technique est utile lorsque l'on souhaite modifier en masse des données ou faire une restauration de données.
+Squash TM permet d'importer un fichier précédemment exporté depuis l'outil. Cette technique est utile lorsque l'on souhaite modifier en masse des données ou faire une restauration de données.
 
 **Pour importer un fichier d'export d'exigences, voici la marche à suivre :**
 
@@ -45,7 +45,7 @@ Squash TM permet d'importer un fichier précédemment exporter depuis l'outil. C
  3. Apporter les modifications voulues en respectant la syntaxe pour chaque colonne
  4. Importer le nouveau fichier
  
- Pour importer les cas de test dans un nouveau projet ou à un autre emplacement dans l'arborescence, la colonne "TC_PATH" est à modifier.
+ Pour importer les cas de test dans un nouveau projet ou à un autre emplacement dans l'arborescence, la colonne "TC_PATH" est à modifier dans chacun des onglets.
 
 !!! warning "Focus" 
 	Si le libellé des objets contient le caractère '/' il faut  l'échapper dans le chemin du cas de test (dans la colonne "TC_PATH") au moment de l'import. <br/>L’échappement est indiqué par le caractère ‘\’. 
