@@ -51,16 +51,16 @@ markdown_extensions:
       toc_depth: "2-3"
 
 # Plugins
-plugins:
-  - search
-  - print-site:
-        print_page_title: 'Version imprimable'
-        path_to_pdf: "resources/documentation.pdf"
-        add_to_navigation: false
-        add_print_site_banner: true
-        print_site_banner_template: "docs/resources/print_site_banner.tpl"
-        toc_title: 'Table de matières'
-        toc_depth: 2
+# plugins:
+  # - search
+  # - print-site:
+        # print_page_title: 'Version imprimable'
+        # path_to_pdf: "resources/documentation.pdf"
+        # add_to_navigation: false
+        # add_print_site_banner: true
+        # print_site_banner_template: "docs/resources/print_site_banner.tpl"
+        # toc_title: 'Table de matières'
+        # toc_depth: 2
 
 # Fichier CSS ajouté par Séverine
 extra_css: 
