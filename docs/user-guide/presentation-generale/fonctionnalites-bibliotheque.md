@@ -67,7 +67,7 @@ Il est possible de déplacer une sélection d'objets au sein d'un même projet o
 Lors d'un déplacement d'objet d'un projet à un autre : 
 
  - si les deux projets présentent des configurations différentes, les valeurs de tous les champs sont conservés à l'identique sauf pour les champs personnalisés, listes personnalisées et jalons
- - si les deux projets présentent la même configuration, les champs personnalisés, listes personnalisés et les jalons sont repris à l'identique
+ - si les deux projets présentent la même configuration, les champs personnalisés, listes personnalisées et les jalons sont repris à l'identique
  - toutes les associations de l'objet sont conservées : liens exigence/exigence, lien exigence/cas de test, appel de cas de test, etc
  - lorsque la sélection comporte un élément ne pouvant être déplacé, il est impossible de visualiser un emplacement de destination
 
