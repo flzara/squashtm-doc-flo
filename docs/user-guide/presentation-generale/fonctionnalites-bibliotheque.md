@@ -1,14 +1,16 @@
 # Fonctionnalités de la bibliothèque inter projets
 
+Au sein de chaque espace, Squash TM permet de réaliser des actions génériques depuis la bibliothèque inter projets. 
+
 ## Créer un objet
 
-Lorsqu'une sélection est active dans la bibliothèque d'un espace (projet, dossier ou objet), au survol du bouton **[Ajouter]** ![Ajouter](resources/icone-ajouter.png) une liste des objets pouvant être ajoutés s'affiche. Il est possible d'ajouter un dossier (commun à tous les espaces) ou des objets spécifiques à l'espace consulté. Selon l'élément sélectionné, certains items de la liste peuvent être grisés.
+Lorsqu'une sélection est active dans la bibliothèque d'un espace (projet, dossier ou objet), au survol du bouton **[Ajouter]** ![Ajouter](resources/icone-ajouter.png) une liste des objets pouvant être ajoutés s'affiche. Il est possible d'ajouter un dossier (fonction communne à tous les espaces) ou des objets spécifiques à l'espace consulté. Selon l'élément cible sélectionné, certains items de la liste peuvent être grisés.
 
 ![Ajouter un objet](resources/ajout-objet.png)
 
 Le clic sur une option de la liste ouvre une popup de création. Il sera nécessaire de saisir, à minima, une valeur pour le champ 'Nom' pour pouvoir ajouter l'objet. Si des champs personnalisés obligatoires sont associés à l'objet, ils apparaissent également afin d'être renseignés à la création.
 
-Cette popup de création offre la possibilité d'ajouter des objets à la chaîne. En effet, elle est réinitialisée au clic sur le bouton **[Ajouter un autre]** permettant ainsi l'ajout rapide d'objets.
+Cette popup de création offre la possibilité d'ajouter des objets à la chaîne. En effet, elle est réinitialisée au clic sur le bouton **[Ajouter un autre]** permettant ainsi l'ajout rapide de plusieurs objets.
 À chaque ajout, la bibliothèque se met à jour automatiquement et l'objet est inséré à la racine de l'élément sélectionné.
 
 Dans l'espace Pilotage, le clic sur certaines options de création donnent accès à une page de configuration :
@@ -17,25 +19,26 @@ Dans l'espace Pilotage, le clic sur certaines options de création donnent accè
 - page de sélection du rapport pour 'Ajouter un rapport',
 - page de sélection des attributs pour 'Ajouter un export personnalisé'
 
-Une fois les attributs ou le rapport sélectionnés, l'utilisateur peut ensuite enregistrer l'objet crée. Il est ensuite accessible depuis la bibliothèque de l'espace Pilotage à la racine de l'élément sélectionné.
+Une fois les attributs ou le rapport sélectionnés, l'utilisateur peut enregistrer l'objet crée. Il est ensuite accessible depuis la bibliothèque de l'espace Pilotage à la racine de l'élément sélectionné.
 
 ## Supprimer un objet
 
 Le bouton **[Supprimer]** est à la fois disponible dans la bibliothèque et dans certaines tables.
 
-Lors d'une sélection simple, multiple continue ou discontinue, le bouton **[Supprimer]** est actif. Lorsque la sélection comporte un élément ne pouvant être supprimé, le bouton est grisé (un projet, une exigence dont le statut n'autorise pas sa suppression par exemple). Il est également possible de supprimer une sélection en utilisant le raccourci clavier **Suppr**.
+Suite à une sélection simple, multiple continue ou discontinue d'objets, le bouton **[Supprimer]** devient actif. Lorsque la sélection comporte un élément ne pouvant être supprimé, le bouton reste grisé (par exemple un projet ou une exigence dont le statut n'autorise pas sa suppression). Il est également possible de supprimer une sélection en utilisant le raccourci clavier **Suppr**.
 
-Dans la bibliothèque, la suppression d'un objet ou répertoire parent entraîne la suppression de tous les éléments qu'il contient. Par exemple, la suppression d'un dossier de cas de test entraîne la suppression des cas de test qu'il contient et la suppression d'une campagne entraîne la suppression de ses itérations et des exécutions contenues dans celles-ci.
+Dans la bibliothèque, la suppression d'un objet ou répertoire parent entraîne la suppression de tous les éléments qu'il contient. Par exemple, la suppression d'un dossier de cas de test entraîne la suppression des cas de test qu'il contient et la suppression d'une campagne entraîne la suppression de ses itérations et des exécutions contenues dans celles-ci. 
+<br/>Cette régle ne s'applique pas à la suppression d'un exigence mère. En effet, si elle est supprimée, les exigences filles qu'elles contient s'affichent à l'emplacement précédent de l'exigence mère.
 
 !!! danger "Attention"
-	Toute suppression est définitive et il n'existe pas de moyen de récupérer ce qui a été supprimé. D'une manière générale nous recommandons d'être vigilant quant à l'attribution des profils et habilitations aux utilisateurs et de faire des sauvegardes régulières du patrimoine (exports et/ou sauvegarde de la base de données) afin de faciliter une restauration partielle ou complète.
+	Toute suppression est définitive et il n'existe pas de moyen de récupérer ce qui a été supprimé. D'une manière générale nous recommandons d'être vigilant quant à l'attribution des profils et habilitations aux utilisateurs et de faire des sauvegardes régulières du patrimoine (exports d'objets et/ou sauvegarde de la base de données) afin de faciliter une restauration partielle ou complète.
 
 ![Supprimer plusieurs objets](resources/suppression-fr.png)
 
 ## Copier/coller un objet
 
-Lors d'une sélection simple, multiple continue ou discontinue, le bouton **[Copier la sélection]** ![Copier la sélection](resources/icone-copier.png) est actif. Lorsque la sélection comporte un élément ne pouvant être copié, le bouton est grisé (un projet par exemple).
-Il est également possible de copier une sélection en utilisant le raccourci  clavier **Crtl+C**.
+Lors d'une sélection simple, multiple continue ou discontinue d'objets, le bouton **[Copier la sélection]** ![Copier la sélection](resources/icone-copier.png) est actif. Lorsque la sélection comporte un élément ne pouvant être copié, le bouton reste grisé (un projet par exemple).
+Il est également possible de copier une sélection en utilisant le raccourci clavier **Crtl+C**.
 
 ![Copier un objet](resources/copier-objet.png)
 
@@ -47,7 +50,7 @@ Lorsque des éléments ont été copiés, il faut sélectionner un répertoire d
 - les éléments copiés sont gardés en mémoire et peuvent être collés à différents emplacements dans l'arborescence
 - lorsque la sélection comporte un élément ne pouvant être copié dans l'élément cible, le bouton est grisé : un dossier ne peut pas être copié dans une exigence, un cas de test dans un autre cas de test ou une itération dans un projet
 
-Il est également possible de coller une sélection en utilisant le raccourci  clavier **Crtl+V**.
+Il est également possible de coller une sélection en utilisant le raccourci clavier **Crtl+V**.
 
 ![Coller un objet](resources/coller-objet.png)
 
@@ -77,7 +80,7 @@ Lors d'un déplacement d'objet d'un projet à un autre :
 
 ## Ordonner la bibliothèque
 
-Le bouton [Ordonner la bibliothèque] ![cone ordre](resources/icone-sort.png) permet à l'utilisateur de choisir l'ordre d'affichage des objets dans les bibliothèques des espaces Exigences, Cas de test et Campagnes.
+Le bouton **[Ordonner la bibliothèque]** ![cone ordre](resources/icone-sort.png) permet à l'utilisateur de choisir l'ordre d'affichage des objets dans les bibliothèques des espaces Exigences, Cas de test et Campagnes.
 Cet ordre, propre à chaque espace, est partagé par l’ensemble des utilisateurs.
 
 L'ordre alphabétique affiche les objets par ordre alphabétique de leur référence (lorsqu'elle existe), puis de leur nom.
@@ -94,7 +97,7 @@ Depuis les espaces Exigences, Cas de test et Campagnes, le bouton [Importer/Expo
 
 ### Importer
 
-La fonction d'import permet d'importer en masse une arborescence d'éléments dans les espaces Exigences ou Cas de test. Il est notamment possible d'importer depuis un même fichier des éléments dans différents projets Squash.
+La fonction d'import permet d'importer en masse une arborescence d'éléments dans les espaces Exigences ou Cas de test. Il est notamment possible d'importer depuis un même fichier des éléments dans différents projets Squash TM.
 
 ![menu-importer](resources/menu-importer.png)
 
@@ -104,7 +107,7 @@ Pour importer une arborescence d'exigences ou de cas de test au format Excel :
 2. Dans la popup d'import, télécharger le gabarit d'import
 3. Compléter le fichier d'import
 4. Choisir le fichier d'import depuis la popup
-5. Simuler l'import. Cette étape permet de vérifier que le fichier d'import est conforme, elle est facultative.
+5. Simuler l'import. Cette étape permet de vérifier que le fichier d'import est conforme. Elle est facultative.
 6. Importer le fichier 
 7. Une fois l'import effectué, l'arborescence est mise à jour.
 
@@ -112,7 +115,7 @@ Pour importer une arborescence d'exigences ou de cas de test au format Excel :
 
 À l'issue de la simulation et/ou de l'import, un rapport s'affiche et présente :
 
-- les lignes traitées avec succès : aucune erreur rencontrée, les objets sont importés tels qu'ils figurent dans le fichier
+- les lignes traitées en succès : aucune erreur rencontrée, les objets sont importés tels qu'ils figurent dans le fichier
 - les lignes traitées avec réserve : les objets sont importés mais des éléments peuvent manquer ou avoir été modifiés
 - les lignes en échec : les objets ne sont pas importés pour cause de saisie incomplète ou erronée dans le fichier d'import
 - un bilan téléchargeable qui détaille les erreurs rencontrées
@@ -133,7 +136,7 @@ Il est également possible d'importer les cas de test au format Zip :
 
 ### Exporter
 
-La fonction d'export permet d'exporter en masse des éléments des espaces Exigences, Cas de test. Elle fonctionne sur une sélection simple, multiple continue ou discontinue d'éléments d'un ou plusieurs projets.
+La fonction d'export permet d'exporter en masse des éléments des espaces Exigences et Cas de test. Elle fonctionne sur une sélection simple, multiple continue ou discontinue d'éléments d'un ou plusieurs projets.
 
 Pour exporter une arborescence d'exigences ou de cas de test au format Excel :
 
@@ -142,12 +145,9 @@ Pour exporter une arborescence d'exigences ou de cas de test au format Excel :
 3. Dans la popup, choisir le format d'export. Le format XLS est compatible au format attendu pour un import  tandis que le format CSV est idéal pour l'exploitation de données.
 4. Nommer le fichier d'export
 5. Choisir les options d'export. L'option 'Conserver le format des textes riches' permet de conserver les balises html des champs texte riche (ex: champ 'Description') afin de conserver leur mise en forme pour un futur import
-6. Cliquer sur [Exporter] pour télécharger le document.
+6. Cliquer sur **[Exporter]** pour télécharger le document.
 
 L'export dans l'espace Campagnes est différent. Il ne fonctionne que si une seule campagne est sélectionnée et il se décline sous trois formes :  simple, standard ou complet.
-
-!!! tip "En savoir plus"
-    Pour plus de détails sur les exports de campagnes, consulter la page [Exporter les données d'une campagne](../gestion-executions/exporter-campagne.md)
 
 Pour exporter une campagnes au format Excel :
 
@@ -156,18 +156,19 @@ Pour exporter une campagnes au format Excel :
 3. Choisir un des 3 formats d'export possibles.
 4. Le fichier est téléchargé directement au format CSV sur le poste de l'utilisateur.
 
-![exporter-tous-les-espaces](resources/exporter-tous-les-espaces.png)
+!!! tip "En savoir plus"
+    Pour plus de détails sur les exports de campagnes, consulter la page [Exporter les données d'une campagne](../gestion-executions/exporter-campagne.md)
 
 ## Générer un tableau de bord 
 
-Depuis la bibliothèque d'un espace, un tableau de bord par défaut s'affiche à la sélection d'un projet, d'un dossier ou d'une sélection multiple.
-Les tableaux de bord par défaut présentent une sélection de graphiques dont leurs lectures indiquent l'état d'avancement de rédaction, de couverture et de validation.
+Depuis la bibliothèque d'un espace, un tableau de bord par défaut s'affiche à la sélection d'un projet, d'un dossier ou d'une sélection multiple d'objets.
+Les tableaux de bord par défaut présentent une sélection de graphiques indiquants l'état d'avancement de rédaction, de couverture et de validation des objets de chaque espace.
 
 Au survol d'une portion, une infobulle précise le critère de la portion, le nombre d'éléments comptabilisé pour ce critère et le pourcentage que cela représente par rapport au nombre total d'éléments de la sélection.
 
 ![Survol d'une portion](resources/selection-personnalisee-infobulle-portion.png)
 
-Le clic sur une portion renvoi vers le résultat de recherche relatif aux critères de la portion : le périmètre correspond à la sélection et le ou les critères propres au graphique et à la portion sont pré-sélectionnés.
+Le clic sur une portion renvoi vers le résultat de recherche relatif aux critères de la portion : le périmètre de la recherche correspond à la sélection réalisée et le ou les critères propres au graphique et à la portion choisie sont pré-sélectionnés.
 
 ![Résultat de recherche clic portion](resources/resultat-de-recherche-graphique-fr.png)
 
