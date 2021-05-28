@@ -18,10 +18,13 @@ Elle est dite opérationnelle puisqu'elle permet, depuis son plan de tests, d'ex
 
 Lors de la création d'une itération pour une campagne, les cas de test présents dans le plan d'exécution pourront être ajoutés au plan d'exécution de l'itération.
 
-![Qu'est-ce qu'une itération ?](C:resources/qu-est-ce-qu-une-iteration.png)
+![Qu'est-ce qu'une itération ?](resources/qu-est-ce-qu-une-iteration.png)
 
 ### La suite
-La suite permet d'organiser le plan d'exécution d'une itération, par exemple pour regrouper des tests par fonctionnalités ou par type.
+La suite permet d'organiser le plan d'exécution d'une itération, par exemple pour regrouper des tests par fonctionnalité ou par type.
 
+![Qu'est-ce qu'une suite ?|10%](resources/qu-est-qu-une-suite.png)
+
+<img src="resources/qu-est-qu-une-suite.png" style="width: 10%;" />
 
 ## La page de consultation des objets de l’espace Campagnes 
