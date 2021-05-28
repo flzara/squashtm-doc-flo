@@ -20,7 +20,7 @@ Devant le nom de chaque projet dans la bibliothèque, une icône indique les per
 
 ## La page de consultation 
 
-Dans chaque espaces, le clic sur un objet présent dans la bibliothèque ouvre sa page de consultation. Le schéma de fonctionnement est identique sur tous les espaces.
+Dans chaque espace, le clic sur un objet présent dans la bibliothèque ouvre sa page de consultation. Le schéma de fonctionnement est identique sur tous les espaces.
 
 ### Partie haute de la page
 

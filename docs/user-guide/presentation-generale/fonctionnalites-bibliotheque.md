@@ -19,7 +19,7 @@ Dans l'espace Pilotage, le clic sur certaines options de création donnent accè
 - page de sélection du rapport pour 'Ajouter un rapport',
 - page de sélection des attributs pour 'Ajouter un export personnalisé'
 
-Une fois les attributs ou le rapport sélectionnés, l'utilisateur peut enregistrer l'objet crée. Il est ensuite accessible depuis la bibliothèque de l'espace Pilotage à la racine de l'élément sélectionné.
+Une fois les attributs ou le rapport sélectionnés, l'utilisateur peut enregistrer l'objet créé. Il est ensuite accessible depuis la bibliothèque de l'espace Pilotage à la racine de l'élément sélectionné.
 
 ## Supprimer un objet
 
