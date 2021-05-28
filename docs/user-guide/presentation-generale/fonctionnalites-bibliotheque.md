@@ -144,12 +144,12 @@ Pour exporter une arborescence d'exigences ou de cas de test au format Excel :
 2. Cliquer sur l'option 'Exporter'
 3. Dans la popup, choisir le format d'export. Le format XLS est compatible au format attendu pour un import  tandis que le format CSV est idéal pour l'exploitation de données.
 4. Nommer le fichier d'export
-5. Choisir les options d'export. L'option 'Conserver le format des textes riches' permet de conserver les balises html des champs texte riche (ex: champ 'Description') afin de conserver leur mise en forme pour un futur import
+5. Choisir les options d'export. L'option 'Conserver le format des textes riches' permet de conserver les balises html des champs texte riches (ex: champ 'Description') afin de conserver leur mise en forme pour un futur import
 6. Cliquer sur **[Exporter]** pour télécharger le document.
 
 L'export dans l'espace Campagnes est différent. Il ne fonctionne que si une seule campagne est sélectionnée et il se décline sous trois formes :  simple, standard ou complet.
 
-Pour exporter une campagnes au format Excel :
+Pour exporter une campagne au format Excel :
 
 1. Sélectionner une campagne
 2. Survoler le bouton ![icone-export-campagne](resources/icone-export-campagne.png)
@@ -168,7 +168,7 @@ Au survol d'une portion, une infobulle précise le critère de la portion, le no
 
 ![Survol d'une portion](resources/selection-personnalisee-infobulle-portion.png)
 
-Le clic sur une portion renvoi vers le résultat de recherche relatif aux critères de la portion : le périmètre de la recherche correspond à la sélection réalisée et le ou les critères propres au graphique et à la portion choisie sont pré-sélectionnés.
+Le clic sur une portion renvoie vers le résultat de recherche relatif aux critères de la portion : le périmètre de la recherche correspond à la sélection réalisée et le ou les critères propres au graphique et à la portion choisie sont pré-sélectionnés.
 
 ![Résultat de recherche clic portion](resources/resultat-de-recherche-graphique-fr.png)
 
