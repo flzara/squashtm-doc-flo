@@ -33,7 +33,7 @@ Dans la bibliothèque, la suppression d'un objet ou répertoire parent entraîne
 !!! danger "Attention"
 	Toute suppression est définitive et il n'existe pas de moyen de récupérer ce qui a été supprimé. D'une manière générale nous recommandons d'être vigilant quant à l'attribution des profils et habilitations aux utilisateurs et de faire des sauvegardes régulières du patrimoine (exports d'objets et/ou sauvegarde de la base de données) afin de faciliter une restauration partielle ou complète.
 
-![Supprimer plusieurs objets](resources/suppression-fr.png)
+![Supprimer plusieurs objets](resources/suppression-fr.png){class="pleinepage"}
 
 ## Copier/coller un objet
 
@@ -99,7 +99,7 @@ Depuis les espaces Exigences, Cas de test et Campagnes, le bouton [Importer/Expo
 
 La fonction d'import permet d'importer en masse une arborescence d'éléments dans les espaces Exigences ou Cas de test. Il est notamment possible d'importer depuis un même fichier des éléments dans différents projets Squash TM.
 
-![menu-importer](resources/menu-importer.png)
+![menu-importer](resources/menu-importer.png){class="pleinepage"}
 
 Pour importer une arborescence d'exigences ou de cas de test au format Excel :
 
@@ -120,7 +120,7 @@ Pour importer une arborescence d'exigences ou de cas de test au format Excel :
 - les lignes en échec : les objets ne sont pas importés pour cause de saisie incomplète ou erronée dans le fichier d'import
 - un bilan téléchargeable qui détaille les erreurs rencontrées
 
-![rapport-import-arbre](resources/rapport-import-arbre.png)
+![rapport-import-arbre](resources/rapport-import-arbre.png){class="pleinepage"}
 
 Il est également possible d'importer les cas de test au format Zip :
 
@@ -166,10 +166,10 @@ Les tableaux de bord par défaut présentent une sélection de graphiques indiqu
 
 Au survol d'une portion, une infobulle précise le critère de la portion, le nombre d'éléments comptabilisé pour ce critère et le pourcentage que cela représente par rapport au nombre total d'éléments de la sélection.
 
-![Survol d'une portion](resources/selection-personnalisee-infobulle-portion.png)
+![Survol d'une portion](resources/selection-personnalisee-infobulle-portion.png){class="pleinepage"}
 
 Le clic sur une portion renvoi vers le résultat de recherche relatif aux critères de la portion : le périmètre de la recherche correspond à la sélection réalisée et le ou les critères propres au graphique et à la portion choisie sont pré-sélectionnés.
 
-![Résultat de recherche clic portion](resources/resultat-de-recherche-graphique-fr.png)
+![Résultat de recherche clic portion](resources/resultat-de-recherche-graphique-fr.png){class="pleinepage"}
 
 Il est alors possible d'affiner sa recherche et d'utiliser [toutes les fonctionnalités liées à la recherche](./fonctionnalites-objet.md#rechercher-un-objet).
