@@ -79,7 +79,7 @@ Les associations entre objets (Exigences-Exigences, Exigences-Cas de test, Plan 
  - d'ajouter une association via le bouton ![Ajouter](resources/icone-ajouter.png)
  - de rechercher un ou plusieurs objets puis de les associer via le bouton ![Loupe](resources/browse.png)
  - de supprimer une association via le bouton ![Supprimer l'association](resources/unlike.png) présent en bout de ligne 
-- de supprimer une sélection de plusieurs associations ![Supprimer les associations](resources/unlike.png) présent au-dessus de la table
+ - de supprimer une sélection de plusieurs associations via le bouton ![Supprimer les associations](resources/unlike.png) présent au-dessus de la table
  - d'accéder via un lien sur le nom de l'objet à la page de niveau 2 de ce dernier pour le consulter
 
 Par défaut, un tri est appliqué aux tables et il est possible, en cliquant sur l'en-tête de la colonne de modifier ce tri : la flèche orientée vers le haut indique un tri alphabétique ou chronologique, la flèche orientée vers le bas indique un tri inverse.
@@ -99,23 +99,19 @@ Depuis la page de consultation d'une exigence, il est possible via un glisser/d�
 ![Associer depuis la bibliothèque](resources/associer-bibliotheque-fr.png){class="pleinepage"}
 
 ### Associer deux objet depuis la bibliothèque d'association
-Depuis la page de consultation d'une exigence, d'un cas de test ou d'un plan d'exécution, il est possible d'accéder à une bibliothèque d'association en cliquant sur le bouton ![Ajouter](resources/icone-ajouter.png).
-
-**YAMINA : RELECTURE A SUIVRE**
+Depuis la page de consultation d'une exigence, d'un cas de test ou d'un plan d'exécution, il est possible d'accéder à une bibliothèque d'association en cliquant sur le bouton ![Ajouter](resources/icone-ajouter.png) de la table d'association. Le lien est créé entre les deux entités en réalisant un glisser déposer depuis cette bibliothèque vers l'objet consulté. Les liens apparaissent ensuite dans la table correspondante.
 
 ### Associer depuis la recherche
-À partir d'une table d'association, **Cas de test vérifiant cette exigence**, **Exigences vérifiées par ce cas de test** ou un **Plan d'exécution**, le bouton ![Rechercher](resources/browse.png) permet d'accéder à la recherche des objets: tout ou partie des résultats peut alors être associé.
+À partir d'une table d'association, **Cas de test vérifiant cette exigence**, **Exigences vérifiées par ce cas de test** ou un **Plan d'exécution**, le bouton ![Rechercher](resources/browse.png) permet d'accéder à la recherche des objets: tout ou partie des résultats peut alors être associé via les boutons ![Associer la sélection](resources/link-selection.png) et ![Tout associer](resources/link-all.png).
 
 ![Associer la recherche](resources/associer-recherche-fr.png){class="pleinepage"}
 
 !!! info "Info"
-	Depuis un **Plan d'exécution**, il est possible d'accéder à la recherche directe de cas de test ou d'accéder à la recherche d'exigences dont les résultats sont les cas de tests associés aux exigences respectant les critères de recherche.
+	Depuis un **Plan d'exécution**, il est possible d'accéder à la recherche directe de cas de test ou d'accéder à la recherche de cas de test via leurs exigences. En effet, cette recherche basée sur les critères des exigence récupère en resultat les cas de tests associés aux exigences répondant aux critères choisis.
 
 ### Dissocier des objets
 
-Dans les différentes tables de Squash TM, il est possible de supprimer une association via le bouton présent en bout de ligne pour une dissociation simple ou via le bouton présent au dessus de la table lors d'une sélection multiple.
-
-![Supprimer des associations](resources/dissociation-fr.png){class="pleinepage"}
+Dans les différentes tables de Squash TM, il est possible de supprimer une association via le bouton ![Supprimer les associations](resources/unlike.png) présent en bout de ligne pour une dissociation simple ou via le bouton ![Supprimer les associations](resources/unlike.png) présent au dessus de la table lors d'une sélection multiple.
 
 ## Ajouter/Supprimer une pièce jointe
 
@@ -127,38 +123,37 @@ L'ajout se fait par glisser déposer dans l'encart dédié ou en parcourant les 
 
 Ce volet permet de consulter les informations des pièces jointes (nom, taille et date d'ajout) et de les télécharger.
 
-!!! note "Info"
+!!! info "Info"
 	Par défaut, les types de fichier acceptés sont : txt, doc, xls, ppt, docx, xlsx, pptx, odt, ods, odp, pdf. La liste est modifiable par un Administrateur pour ajouter ou supprimer des extensions.
 	Par défaut, la taille maximale d'une pièce jointe est de 4000000 bytes. Elle aussi peut être ajustée par un Administrateur.
 
 ### Supprimer une pièce jointe
-À partir du volet des pièces jointes, la suppression des pièces jointes est possible via le bouton **[Poubelle]** présent en bout de ligne.
-
-![Suppression d'une pièce jointe](resources/suppression-pj.png){class="pleinepage"}
+À partir du volet des pièces jointes, la suppression des pièces jointes est possible via le bouton ![Poubelle](resources/delete.png) présent en bout de ligne.
 
 ## Rechercher un objet
 
-Au clic sur le bouton [Rechercher] ![icone Rechercher](resources/browse.svg){class="icone"} présent au-dessus des bibliothèques Exigences, Cas de test et Campagnes, la page de recherche propre à chaque espace s'ouvre. Par défaut, le périmètre de recherche est celui du filtre projet.
+Au clic sur le bouton ![icone Rechercher](resources/browse.svg){class="icone"} présent au-dessus des bibliothèques Exigences, Cas de test et Campagnes, la page de recherche propre à chaque espace s'ouvre. Par défaut, le périmètre de recherche est celui du filtre projet.
+
 Le volet sur la gauche de la page des résultats de recherche permet de définir un périmètre de recherche et d'ajouter des critères de recherches propres aux objets de l'espace.
 
 ### Le périmètre
-Depuis le critère Périmètre et l'onglet Projet, il est possible de sélectionner ou désélectionner par case à cocher le ou les projets à inclure ou exclure du périmètre.
+Depuis l'onglet Projet du critère Périmètre, il est possible de sélectionner les projets à inclure ou exclure du périmètre.
 
 ![Rechercher un objet - Périmètre projet](resources/rechercher-perimetre-projet-fr.png){class="pleinepage"}
 
-L'onglet Personnalisé permet de sélectionner un ou plusieurs répertoires ou des éléments pour définir le périmètre de recherche.
+L'onglet Personnalisé permet de sélectionner un ou plusieurs répertoires ou des objets précis pour définir le périmètre de recherche.
 
 ![Rechercher un objet - Périmètre personnalisé](resources/rechercher-perimetre-perso-fr.png){class="pleinepage"}
 
 ### Les critères
-L'ajout de critères de recherche se fait par simple sélection des attributs disponibles pour l'entité de l'espace à partir du bouton **[Ajouter des critères]**. La liste de résultat se met automatiquement à jour à la sélection d'un critère.
+L'ajout de critères de recherche se fait par simple sélection des attributs disponibles pour l'entité de l'espace à partir du bouton **[+ Ajouter un critère]**. La liste de résultat se met automatiquement à jour à la sélection d'un critère.
 
 ![Rechercher un objet - Ajouter un critère](resources/rechercher-ajouter-un-critere-fr.png){class="pleinepage"}
 
 Le clic sur le bouton **[Nouvelle recherche]** réinitialise les critères de recherche.
 
 ### Modifier les attributs
-À partir d'une sélection simple ou multiple dans la table de résultats, il est possible de modifier en masse certains attributs :
+À partir d'une sélection simple ou multiple dans la table des résultats de recherche, il est possible de modifier en masse certains attributs en cliquant sur le bouton ![Modifier les attributs](resources/bulk-edition.svg){class="icone"} :
 
  - le statut, la criticité ou la catégorie de la version d'une exigence
  - l'importance, le statut, le type, la nature ou l'éligibilité à l'automatisation d'un cas de test
@@ -166,26 +161,22 @@ Le clic sur le bouton **[Nouvelle recherche]** réinitialise les critères de re
  
 ![Rechercher un objet - Modifier en masse](resources/rechercher-modif-masse-fr.png){class="pleinepage"}
 
-!!! note "Info"
+!!! info "Info"
 	Il est possible via cette fonctionnalité d'appliquer le statut Approuvée à une version d'exigence depuis n'importe quel autre statut.
 
-### Modifier les associations aux jalons
-À partir d'une sélection simple ou multiple dans la table de résultats, il est possible d'associer en masse la sélection à un jalon à condition que le jalon soit déjà associé au projet auxquels appartiennent les objets sélectionnés.
-
-![Rechercher un objet - association en masse à un jalon](resources/rechercher-asso-masse-fr.png){class="pleinepage"}
-
 ### Exporter
-À partir du bouton **[Exporter]**, il est possible d'exporter vers un tableur tout ou sélection du résultat de recherche.
+À partir du bouton ![Exporter](resources/icone-export-campagne.png), il est possible d'exporter vers un tableur la totalité ou une sélection des résultats de recherche.
 Diverses options sont alors disponibles : 
 
- - le format XLS 'Champs actuels' : cet export permet de récupérer les données des exigence ou des cas de test sous la forme d'un classeur Excel n'ayant que les informations affichées dans les résultats de recherche;
- - le format XLS 'Tous les champs' : cet export permet de récupérer l'intégralité des données des exigences des cas de test sous la forme d'un classeur Excel.
- - conserver le format des textes riches : les champs de type "texte riche" seront exportés avec leur balises HTML afin de conserver la mise en forme lors d'un futur import. Ne pas conserver le format facilite la lecture de ces champs dans l'export
- - inclure ou non les cas de test appelés (pour l'espace Cas de test uniquement)
+ - le format XLS 'Champs actuels' : cet export permet de récupérer les données des exigence ou des cas de test dans un classeur Excel avec uniquement les informations affichées dans les résultats de recherche;
+ - le format XLS 'Tous les champs' : 
+	- cet export permet de récupérer l'intégralité des données des exigences ou des cas de test sous la forme d'un classeur Excel.
+ 	- de conserver le format des textes riches : les champs de type "texte riche" sont exportés avec leur balises HTML afin de conserver leur mise en forme lors d'un futur import. Ne pas conserver le format facilite la lecture de ces champs dans l'export
+ 	- d'inclure ou non les cas de test appelés (pour l'espace Cas de test uniquement)
 
 ![Rechercher un objet - exporter les résultats](resources/rechercher-exporter-fr.png){class="pleinepage"}
 
 !!! tip "En savoir plus"
-	Les résultats de recherche de l'espace Campagne ne sont pas exportables mais il est possible d'[ajouter tout ou sélection des résultats à un plan d'exécution d'une itération](../gestion-executions/creer-plan-execution.md#identifier-les-tests-a-rejouer-selon-les-resultats-dexecution-precedents).
+	Les résultats de recherche de l'espace Campagnes ne sont pas exportables mais il est possible d'[ajouter tout ou une sélection des résultats au plan d'exécution d'une itération](../gestion-executions/creer-plan-execution.md#identifier-les-tests-a-rejouer-selon-les-resultats-dexecution-precedents).
 
 
