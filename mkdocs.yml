@@ -17,21 +17,51 @@ repo_url: https://github.com/squash-test/squashtm-doc
 # Theme
 theme:
   name: material       # https://www.mkdocs.org/user-guide/styling-your-docs/ https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+  custom_dir: docs/overrides
+  palette:
+    primary: white
   font:
     text: Segoe UI
   language: fr 
-  logo: resources/logo_squash_icon_white.svg
+  logo: resources/icone_Squash_TM.svg
+  favicon: resources/favicon_squash.jpg
   features:
     - navigation.tabs
+    - navigation.top
   navigation_depth: 3
+
+# Modif langue  
+extra:
+  alternate:
+    # Switch to French
+    - name: Français
+      link: https://squash-test.github.io/squashtm-doc/
+      lang: fr
+    # Switch to English
+    - name: Anglais
+      link: https://squash-test.github.io/squashtm-doc-en
+      lang: en
 
 # Extensions
 markdown_extensions:
   - admonition            # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - meta                  # https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data
   - tables                # https://www.mkdocs.org/user-guide/writing-your-docs/#tables
+  - attr_list
   - toc:
       toc_depth: "2-3"
+
+# Plugins
+# plugins:
+  # - search
+  # - print-site:
+        # print_page_title: 'Version imprimable'
+        # path_to_pdf: "resources/documentation.pdf"
+        # add_to_navigation: false
+        # add_print_site_banner: true
+        # print_site_banner_template: "docs/resources/print_site_banner.tpl"
+        # toc_title: 'Table de matières'
+        # toc_depth: 2
 
 # Fichier CSS ajouté par Séverine
 extra_css: 
@@ -74,7 +104,7 @@ nav:
       - Configurer un projet: 'admin-guide/gestion-projets/configurer-projet.md'
       - Gérer un modèle de projet: 'admin-guide/gestion-projets/gerer-modele-projet.md'
     - Gestion des jalons:
-      - Activer les jalons dans Squash: 'admin-guide/gestion-jalons/activer-jalons.md'
+      - Activer les jalons dans Squash TM: 'admin-guide/gestion-jalons/activer-jalons.md'
       - Gérer un jalon: 'admin-guide/gestion-jalons/gerer-jalon.md'
       - Dupliquer et synchroniser un jalon: 'admin-guide/gestion-jalons/dupliquer-synchroniser-jalon.md'
     - Personnalisation des entités:
@@ -102,12 +132,12 @@ nav:
       - Nettoyage des suites automatisées: 'admin-guide/gestion-automatisation-tests/nettoyage-suites-autos.md'
   - Guide Utilisateur:
     - Présentation générale:
-      - Les différents espaces de Squash: 'user-guide/presentation-generale/espaces-squash.md'
+      - Les différents espaces de Squash TM: 'user-guide/presentation-generale/espaces-squash.md'
       - Structure générique des pages: 'user-guide/presentation-generale/structure-generique.md'
       - Fonctionnalités de la bibliothèque inter projets: 'user-guide/presentation-generale/fonctionnalites-bibliotheque.md'
       - Fonctionnalités transverses: 'user-guide/presentation-generale/fonctionnalites-objet.md'
     - Gestion des exigences:
-      - Les exigences dans Squash: 'user-guide/gestion-exigences/exigences-squash.md'
+      - Les exigences dans Squash TM: 'user-guide/gestion-exigences/exigences-squash.md'
       - Créer et organiser le référentiel d'exigences: 'user-guide/gestion-exigences/creer-organiser-referentiel-exigences.md'
       - Couvrir les exigences par des cas de test: 'user-guide/gestion-exigences/couvrir-exigences-tests.md'
       - Suivre la couverture et la validation des exigences: 'user-guide/gestion-exigences/couverture-validation-exigences.md'
@@ -118,7 +148,7 @@ nav:
       - Tableau de bord des exigences: 'user-guide/gestion-exigences/tableau-bord-exigences.md'
       - Rechercher des exigences: 'user-guide/gestion-exigences/rechercher-exigences.md'
     - Gestion des cas de test:
-      - Les cas de test dans Squash: 'user-guide/gestion-cas-test/cas-test-squash.md'
+      - Les cas de test dans Squash TM: 'user-guide/gestion-cas-test/cas-test-squash.md'
       - Créer et organiser le patrimoine de cas de test: 'user-guide/gestion-cas-test/creer-organiser-patrimoine-cas-test.md'
       - Associer les cas de test aux exigences: 'user-guide/gestion-cas-test/associer-cas-test-exigences.md'
       - Gérer le scénario d'un cas de test Classique:
@@ -147,24 +177,24 @@ nav:
       - Tableau de bord des campagnes: 'user-guide/gestion-executions/tableau-bord-campagnes.md'
       - Rechercher des exécutions: 'user-guide/gestion-executions/rechercher-executions.md'
     - Gestion des anomalies:
-      - Les anomalies dans Squash: 'user-guide/gestion-anomalies/anomalies-squash.md'
+      - Les anomalies dans Squash TM: 'user-guide/gestion-anomalies/anomalies-squash.md'
       - Déclarer et suivre des anomalies: 'user-guide/gestion-anomalies/declarer-suivre-anomalies.md'
     - Gestion des tests automatisés:
       - Concevoir des cas de test automatisés: 'user-guide/gestion-tests-automatises/concevoir-tests-automatises.md'
       - Suivre le processus d'automatisation:
-        - Workflow d'automatisation Squash: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
+        - Workflow d'automatisation Squash TM: 'user-guide/gestion-tests-automatises/processus-automatisation-squash.md'
         - Workflow d’automatisation Jira: 'user-guide/gestion-tests-automatises/processus-automatisation-jira.md'
       - Associer un script automatisé: 'user-guide/gestion-tests-automatises/associer-script-automatise.md'
       - Transmettre un cas de test scripté sur un SCM: 'user-guide/gestion-tests-automatises/transmettre-script-scm.md'
       - Exécuter un cas de test automatisé: 'user-guide/gestion-tests-automatises/executer-test-auto.md'
     - Pilotage de la recette:
-      - Le pilotage dans Squash: 'user-guide/pilotage-recette/pilotage-squash.md'
+      - Le pilotage dans Squash TM: 'user-guide/pilotage-recette/pilotage-squash.md'
       - Les rapports: 'user-guide/pilotage-recette/rapports.md'
       - Les graphiques: 'user-guide/pilotage-recette/graphiques.md'
       - Les exports de campagne personnalisés: 'user-guide/pilotage-recette/exports-campagne-perso.md'
       - Les tableaux de bord personnalisés: 'user-guide/pilotage-recette/tableaux-bord-perso.md'
     - Gestion des jalons:
-      - Les jalons dans Squash: 'user-guide/gestion-jalons/jalons-squash.md'
+      - Les jalons dans Squash TM: 'user-guide/gestion-jalons/jalons-squash.md'
       - Associer un jalon à un objet: 'user-guide/gestion-jalons/associer-jalon-objet.md'
       - Le mode jalon: 'user-guide/gestion-jalons/mode-jalon.md'
       - Les jalons et le reporting: 'user-guide/gestion-jalons/jalons-reporting.md'

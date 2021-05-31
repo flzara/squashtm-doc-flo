@@ -2,7 +2,7 @@
 
 ## Créer une exigence 
 
-La création d'une exigence se fait depuis l'espace Exigences via le bouton **[+]** :
+La création d'une exigence se fait depuis l'espace Exigences via le bouton ![Bouton ajouter une exigence](resources/icone-add.png) :
 
 ![Ajouter une exigence](resources/ajouter-exigence-s-fr.png)
 
@@ -67,7 +67,7 @@ Les valeurs de ce champ sont personnalisables depuis l'administration de Squash 
 
 ### Jalons
 
-Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton **[Ajouter]** ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permet d'organiser le référentiel d'exigences.
+Lorsque l'utilisation des jalons est activée, le champ 'Jalons' permet d'associer l'exigence à un ou plusieurs jalons via le bouton ![Bouton ajouter jalon](resources/icone-add.png). L'association a un ou plusieurs jalons permet d'organiser le référentiel d'exigences.
 
 ###  Description
 Le champ 'Description' permet de décrire l'exigence attendu du système à tester. La description doit détailler le comportement attendu du système pour répondre au besoin des utilisateurs.

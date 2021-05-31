@@ -39,6 +39,6 @@ Lors de la sélection d'un autre objet du même type dans la bibliothèque, le b
 
 Par défaut, l'affichage est en mode réduit (bibliothèque visible + page de consultation). Il est possible de masquer la bibliothèque afin d'étendre l'affiche de la page de consultation en cliquant sur le bouton **[<<]** à gauche du nom de l'objet et de revenir à l'affiche réduit en cliquant sur le bouton **[>>]**.
 
-![consultation-dossier-fr](resources/consultation-dossier-fr.png)
+![consultation-dossier-fr](resources/consultation-dossier-fr.png){class="pleinepage"}
 
-![consultation-exig-fr](resources/consultation-exig-fr.png)
+![consultation-exig-fr](resources/consultation-exig-fr.png){class="pleinepage"}

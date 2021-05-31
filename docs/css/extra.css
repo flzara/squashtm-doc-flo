@@ -23,16 +23,52 @@ color: #007caa;
 font-family: Segoe UI;
 }
 
-
-
-/* Couleur principale et accentuation */
+/* Couleurs */
 :root {
-  --md-primary-fg-color:        #007caa;
-  --md-accent-fg-color:         #13bed0;
+  --md-default-fg-color:        #404040; /* texte */
+  --md-default-fg-color--light: #7f7f7f; /* h1 */
+  --md-accent-fg-color:         #FF8024; /* surbrillance */
 }
 
+:root>* {
+--md-typeset-a-color: #FF8024; /*  liens */
+}
+
+/* Titre du site */
+.md-header {
+  color: #404040;
+  font-family: Segoe UI Semibold;
+}
+
+/* Onglets */
+.md-tabs {
+  width: 100%;
+  color: #007caa;
+  font-family: Segoe UI Semibold;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* Etendre affichage de la page */
 .md-grid {
-  max-width: initial;
+  max-width: 1680px;
+}
+
+/*class réduction image + centrer*/
+.pleinepage {
+  width:90%;
+  margin: auto;
+  display: block;
+}
+
+/*class icone*/
+.icone {
+  height: auto;
+  width: 27px;
+}
+
+/*class image a centrer*/
+.centre {
+  margin: auto;
+  display: block;
 }
