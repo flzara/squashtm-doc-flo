@@ -17,7 +17,7 @@ Dans Squash TM, une exigence est un objet de l’Espace **Exigences**. Toute exi
 
 La page de consultation d'une exigence s'affiche lorsque l'exigence est sélectionnée dans la bibliothèque des exigences.
 
-![Page de consultation d'une exigence](resources/consultation_exigence_fr.png)
+![Page de consultation d'une exigence](resources/consultation_exigence_fr.png){class="pleinepage"}
 
 La page de consultation de l'exigence est constituée :
 
@@ -33,11 +33,11 @@ L'ajout d'une nouvelle version de l'exigence ou d'une pièce jointe est possible
 
  La barre des ancres à gauche, permet au clic sur une ancre, d'accéder au bloc correspondant :
 
-### ![Ancre Informations](resources/icone_information.png) Informations
+### ![Ancre Informations](resources/icone_information.png){class="icone"} Informations
 
 Le bloc 'Informations' affiche les attributs de l'exigence : 'Statut', 'Criticité', 'Catégorie' et 'Description' ainsi que ses champs personnalisés.
 
-### ![Ancre Indicateur de couverture](resources/icone_coverage_indicators.png) Indicateur de couverture
+### ![Ancre Indicateur de couverture](resources/icone_coverage_indicators.png){class="icone"} Indicateur de couverture
 
 Le bloc 'Indicateur de couverture' présente les indicateurs suivants :
 
@@ -48,19 +48,19 @@ Le bloc 'Indicateur de couverture' présente les indicateurs suivants :
 !!! tip "En savoir plus"
 	Pour plus de détails, consulter la partie [Suivre la couverture et la validation des exigences](./couverture-validation-exigences.md)
 
-### ![Ancre cas de test verifiant cette exigence](resources/icone_linked_test_cases.png) Cas de test vérifiant cette exigence
+### ![Ancre cas de test verifiant cette exigence](resources/icone_linked_test_cases.png){class="icone"} Cas de test vérifiant cette exigence
 
 Le bloc 'Cas de test vérifiant cette exigence' permet d'associer des cas de test à l'exigence. Une table affiche les informations des cas de test associés.
 
-### ![Ancre Exigences lies](resources/icone_linked_requierement.png) Exigences liées
+### ![Ancre Exigences lies](resources/icone_linked_requierement.png){class="icone"} Exigences liées
 
 Le bloc 'Exigences liées' permet d'associer des exigences à l'exigence consultée. Une table affiche les informations des exigences liées.
 
-### ![Ancre Historique des modifications](resources/icone_history.png) Historique des modifications
+### ![Ancre Historique des modifications](resources/icone_history.png){class="icone"} Historique des modifications
 
 La table 'Historique des modifications' liste toutes les modifications apportées à une exigence dès lors que son statut passe de 'En cours de rédaction' à 'À approuver'.
 
-### ![Ancre Anomalies connues](resources/icone_issues.png) Anomalies connues
+### ![Ancre Anomalies connues](resources/icone_issues.png){class="icone"} Anomalies connues
 
 La table de l'ancre 'Anomalie connues' <sup id="fnref:2"><a href="#fn:1" rel="footnote">2</a></sup> liste les anomalies déclarées lors de l’exécution des tests liés à l'exigence. La table est alimentée automatiquement et en temps réel par le bugtracker et ne peut être modifiée.
 Trois liens cliquables permettent à l'utilisateur d'accéder à :
