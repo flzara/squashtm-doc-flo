@@ -1,4 +1,4 @@
-# Les exigences dans Squash
+# Les exigences dans Squash TM
 
 ## Qu’est-ce qu’une exigence ?
 
@@ -6,7 +6,7 @@ Une exigence est "une condition ou capacité requise par un utilisateur pour ré
 
 Le terme "exigence" recouvre plusieurs niveaux allant des exigences métiers (macro) aux exigences de tests (micro). Les livrables d'un projet logiciel (cahier des charges, spécifications fonctionnelles, spécifications détaillées, maquettes) permettent l'extraction des exigences. 
 
-Dans Squash, une exigence est un objet de l’Espace **Exigences**. Toute exigence ou règle de gestion qualifiant un système pourra être représentée sur Squash TM sous forme d'une exigence avec la possibilité d'être qualifiée ( 'Criticité', 'Statut', 'Catégorie', ... ) pour constituer le référentiel d'exigences souhaité.
+Dans Squash TM, une exigence est un objet de l’Espace **Exigences**. Toute exigence ou règle de gestion qualifiant un système pourra être représentée sur Squash TM sous forme d'une exigence avec la possibilité d'être qualifiée ( 'Criticité', 'Statut', 'Catégorie', ... ) pour constituer le référentiel d'exigences souhaité.
 
 !!! info "Info"
     Une exigence doit être non ambiguë et testable : elle doit offrir un moyen de prouver que le système satisfait à son énoncé.
