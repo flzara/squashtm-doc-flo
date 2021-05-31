@@ -60,3 +60,9 @@ font-family: Segoe UI;
   margin: auto;
   display: block;
 }
+
+/*class icone*/
+.icone {
+  height: auto;
+  width: 27px;
+}
