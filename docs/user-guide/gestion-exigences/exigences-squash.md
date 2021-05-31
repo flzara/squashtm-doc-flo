@@ -2,7 +2,7 @@
 
 ## Qu’est-ce qu’une exigence ?
 
-Une exigence est "une condition ou capacité requise par un utilisateur pour résoudre un problème ou atteindre un objectif qui doit être tenu ou possédé par un système ou composant pour satisfaire à un contrat, standard, spécification ou autre document imposé formellement" (ISTQB) <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Une exigence décrit un comportement attendu d'un système définit en amont dans un document spécifique pour répondre au besoin d'un utilisateur.
+Une exigence est "une condition ou capacité requise par un utilisateur pour résoudre un problème ou atteindre un objectif qui doit être tenu ou possédé par un système ou composant pour satisfaire à un contrat, standard, spécification ou autre document imposé formellement" (ISTQB) <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Une exigence décrit le comportement attendu d'un système (logiciel, site web, application, SI, etc) définit en amont dans un document spécifique pour répondre au besoin d'un utilisateur.
 
 Le terme "exigence" recouvre plusieurs niveaux allant des exigences métiers (macro) aux exigences de tests (micro). Les livrables d'un projet logiciel (cahier des charges, spécifications fonctionnelles, spécifications détaillées, maquettes) permettent l'extraction des exigences. 
 
