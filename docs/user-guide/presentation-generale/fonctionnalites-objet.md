@@ -138,7 +138,7 @@ Ce volet permet de consulter les informations des pièces jointes (nom, taille e
 
 ## Rechercher un objet
 
-Au clic sur le bouton [Rechercher] ![icone Rechercher](resources/browse.png) présent au-dessus des bibliothèques Exigences, Cas de test et Campagnes, la page de recherche propre à chaque espace s'ouvre. Par défaut, le périmètre de recherche est celui du filtre projet.
+Au clic sur le bouton [Rechercher] ![icone Rechercher](resources/browse.svg){class="icone"} présent au-dessus des bibliothèques Exigences, Cas de test et Campagnes, la page de recherche propre à chaque espace s'ouvre. Par défaut, le périmètre de recherche est celui du filtre projet.
 Le volet sur la gauche de la page des résultats de recherche permet de définir un périmètre de recherche et d'ajouter des critères de recherches propres aux objets de l'espace.
 
 ### Le périmètre
