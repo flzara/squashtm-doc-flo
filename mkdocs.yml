@@ -47,6 +47,7 @@ markdown_extensions:
   - admonition            # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
   - meta                  # https://www.mkdocs.org/user-guide/writing-your-docs/#meta-data
   - tables                # https://www.mkdocs.org/user-guide/writing-your-docs/#tables
+  - attr_list
   - toc:
       toc_depth: "2-3"
 

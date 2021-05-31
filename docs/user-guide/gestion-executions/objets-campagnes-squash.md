@@ -23,8 +23,14 @@ Lors de la création d'une itération pour une campagne, les cas de test présen
 ### La suite
 La suite permet d'organiser le plan d'exécution d'une itération, par exemple pour regrouper des tests par fonctionnalité ou par type.
 
-![Qu'est-ce qu'une suite ?|10%](resources/qu-est-qu-une-suite.png)
 
-<img src="resources/qu-est-qu-une-suite.png" style="width: 10%;" />
+![Qu'est-ce qu'une suite ?](resources/qu-est-qu-une-suite.png){class="pleinepage" }
+
+
+
+
+
 
 ## La page de consultation des objets de l’espace Campagnes 
+
+

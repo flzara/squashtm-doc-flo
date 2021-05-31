@@ -53,3 +53,10 @@ font-family: Segoe UI;
 .md-grid {
   max-width: 1680px;
 }
+
+/*class réduction image + centrer*/
+.pleinepage {
+  width:90%;
+  margin: auto;
+  display: block;
+}
