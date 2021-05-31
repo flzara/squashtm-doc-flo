@@ -66,3 +66,9 @@ font-family: Segoe UI;
   height: auto;
   width: 27px;
 }
+
+/*class image a centrer*/
+.centre {
+  margin: auto;
+  display: block;
+}
