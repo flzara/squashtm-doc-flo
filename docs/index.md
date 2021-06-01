@@ -25,13 +25,14 @@ Présentation des notions et concepts abordés dans cette documentation :
 |Plan d'exécution |Table permettant l’organisation et le pilotage des tests de la campagne. Vision proposant différentes informations sur les cas de test comme leur mode d'exécution (automatique ou manuel), leur importance, leur statut, ou encore l’utilisateur assigné à leur exécution.
 |Exécution|Il s’agit de la phase de déroulement des cas de test sur le système testé. C'est lors de cette phase que sont identifiés et tracés les anomalies rencontrées.
 
-## Documentation de l'outil Squash
+## Documentation de l'outil Squash TM
 
 - [Guide d'installation](install-guide/installation-squash/config-mini-prerequis.md)
 - [Guide administrateur](admin-guide/presentation-generale/presentation-administration-squash.md)
-- [Guide Utilisateur](user-guide/presentation-generale/espaces-squash.md)
+- [Guide utilisateur](user-guide/presentation-generale/espaces-squash.md)
+- [Documentation Legacy](https://sites.google.com/a/henix.fr/wiki-squash-tm/)
 
-## Documentation des plugins Squash
+## Documentation des plugins Squash TM
 
 - [Guide LDAP/AD](plugin-guides/ad-ldap-guide/index.md)
 - [Guide SAML](plugin-guides/saml-guide/index.md)
@@ -42,3 +43,8 @@ Présentation des notions et concepts abordés dans cette documentation :
 - [Guide Redmine Exigences](plugin-guides/redmine-req-guide/index.md)
 - [Guide Polarion Exigences](plugin-guides/polarion-guide/index.md)
 - [Guide Workflow Automatisation Jira](plugin-guides/waj-guide/index.md)
+
+## Documentation Squash AUTOM et DEVOPS
+
+- [Documentation AUTOM] (lien à mettre)
+- [Documentation DEVOPS] (lien à mettre)
