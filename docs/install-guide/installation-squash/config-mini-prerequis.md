@@ -2,6 +2,8 @@
 
 ## Dimensionnement minimal et recommandé
 
+Pour l'installation et le déploiement de Squash TM, le tableau ci-dessous indique le dimensionnement minimal et celui recommandé :
+
 |  | CPU | RAM | HDD | OS | Navigateur |
 |--|--|--|--|--|--|
 | Minimum (pour essai) | Mono-core | 1 Go dédié | 120 Mo | Linux, Windows, Mac | Firefox ESR, Chrome 13+ |
@@ -20,9 +22,9 @@ Tableau des versions des intergiciels compatibles avec Squash TM :
 
 |  | Minimal pour environnement de production | Recommandé |
 |--|--|--|
-| Système d’exploitation | Tout système Linux ou Windows | **Debian 10.6, Centos 7** |
+| Système d’exploitation | Tout système Linux ou Windows | Debian 10, Centos 7 |
 | Java | JVM version 8 LTS | JVM version 11 |
-| Base de données | Postgresql 9.6+, Mariadb 10.2 | **Potgresql 11+**, Mariadb 10.5 |
+| Base de données | Postgresql 9.6+, Mariadb 10.2 | Potgresql 11+, Mariadb 10.5 |
 
 Précisions sur les intergiciels.
 
@@ -60,4 +62,10 @@ Pour un déploiement dans une infrastructure mutualisée, il est tout à fait po
 
 Le mandataire inverse (reverse proxy) est facultatif mais nous recommandons son usage afin de séparer les logs d’accès des logs applicatif d’une part, et pour confier le chiffrement TLS à un autre processus/service que l’application Squash TM bien que le serveur Tomcat embarqué en soit capable.
 
+
+
+**Questions à poser aux admins sys et aux devs:**
+
 **Quelle type d'archi est préconnisée dans le cas d'une forte volumétrie ?**
+
+**Nous ne mentionnons pas dans les pré-requis la possibilité de déployer via docker (voir même K8s) et donc les pré-requis de ce déploiement. Est-ce un choix volontaire ?**
