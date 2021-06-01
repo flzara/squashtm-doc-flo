@@ -32,7 +32,7 @@ Répartition des cas de test en fonction de leur importance.
 Répartition des cas de test en fonction du nombre de pas de test. Ce graphique permet de contrôler l'homogénéité de la taille des cas de test pour mieux appréhender la charge. Il permet également d'identifier rapidement les cas de test qui n'ont pas de pas de test et qui ne peuvent donc pas être exécutés.
 
 
-![Tableau de bord par défaut de l'espace Cas de test](./resources/tableaubord-CT.jpg)
+![Tableau de bord par défaut de l'espace Cas de test](./resources/tableau-bord-ct.jpg)
 
 !!! info "Info"
     Les cas de test Gherkin sont considérés comme n'ayant aucun de pas de test, et sont donc présents dans la portion "CT avec aucun pas de test"
