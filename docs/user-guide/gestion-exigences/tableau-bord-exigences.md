@@ -38,7 +38,7 @@ Répartition des exigences en fonction de leur criticité et de leur couverture 
 Répartition des exigences en fonction de leur criticité et du taux de validation des cas de test associés aux exigences. Ce graphique permet par exemple, de savoir si toutes les exigences critiques ont été validées suite à l'exécution des cas de test associés.
 
 
-![Tableau de bord par défaut de l'espace Exigences](./resources/tableaubord-exigences.png)
+![Tableau de bord par défaut de l'espace Exigences](./resources/tableau-bord-exigences.png)
 
 ## Accès à la page de recherche
 
