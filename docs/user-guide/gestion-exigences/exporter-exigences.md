@@ -19,7 +19,7 @@ Les associations avec d'autres exigences et avec des cas de test sont également
 
 ## Importer des exigences à partir d’un export
 
-Squash permet d'importer un fichier précédemment exporter depuis l'outil. Cette technique est utile lorsque l'on souhaite modifier en masse des données ou faire une restauration de données.
+Squash TM permet d'importer un fichier précédemment exporté depuis l'outil. Cette technique est utile lorsque l'on souhaite modifier en masse des données ou faire une restauration de données.
 
 **Pour importer un fichier d'export d'exigences, voici la marche à suivre :**
 
