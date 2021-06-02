@@ -2,15 +2,15 @@
 
 ## Renseigner un fichier d’import de cas de test
 
-L'import de cas de test via un fichier Excel permet de créer ou modifier un patrimoine de tests **en masse**. Il est possible d'importer des cas de test, leurs attributs, leurs paramètres et jeux de données ainsi que leur associations à des exigences.
+L'import de cas de test via un fichier Excel permet de créer ou modifier un patrimoine de tests **en masse**. Il est possible d'importer des cas de test, leurs attributs et pas de test, leurs paramètres et jeux de données ainsi que leur associations à des exigences.
 
 Cette fonctionnalité est très utile :
 
 - lors d'une **migration** depuis un outil tiers
 - pour récupérer un patrimoine de tests existant dans un document
-- pour effectuer des modifications en masse sur les cas de test présents dans Squash
+- pour effectuer des modifications en masse sur les cas de test présents dans Squash TM
 
-L'import de cas de test se fait depuis des fichiers au format **.xls**, **.xlsx**, **.xlsm** ou un dossier **Zip**.
+L'import de cas de test se fait depuis des fichiers au format **.xls**, **.xlsx**, **.xlsm** ou une archive **.zip**.
 
 !!! info "Info"
 	L'import est réservé aux profils "Administrateur" et "Chef de projet".
@@ -18,7 +18,7 @@ L'import de cas de test se fait depuis des fichiers au format **.xls**, **.xlsx*
 
 !!! warning "Focus"
 	Il n'est pas possible d'importer des cas de test BDD
-	<br/>Il n'est pas possible de modifier le format d'un cas de test (Classique/Gherkin/BDD) via l’import
+	<br/>Il n'est pas possible de modifier le format d'un cas de test (Classique/BDD/Gherkin) via l’import
 
 ## Structure du fichier d'import au format Excel
 
@@ -26,19 +26,19 @@ Le fichier d'import comprend cinq onglets :
 
  - L'onglet TEST_CASES renseigne les informations liées aux cas de test à importer comme l'emplacement, la description, l'importance, etc.  
  - L'onglet STEPS renseigne les informations sur les pas de test d'un cas de test classique
- - L’onglet PARAMETERS renseigne les informations liées aux paramètres d'un cas de test
+ - L’onglet PARAMETERS renseigne les informations liées aux paramètres des das de test
  - L’onglet DATASETS renseigne les informations liées aux jeux de données
  - L'onglet LINK_REQ_TC renseigne les informations pour associer les cas de test aux exigences déjà présentes dans Squash.
 
 !!! warning "Focus"
 	Le fichier d'import doit respecter les règles ci-dessous :
 	
-	- Les noms des 5 onglets ne doivent pas être modifiés.
-	- Les entêtes des colonnes ne doivent pas être modifiées.  
-	- Les lignes vides ne sont pas interprétées.   
-	- Les cellules ne doivent pas être fusionnées.
-	- L'ordre des lignes n'a pas d'importance. 
-	- L'import se fait ligne par ligne.
+	- Les noms des 5 onglets ne doivent pas être modifiés
+	- Les entêtes des colonnes ne doivent pas être modifiées  
+	- Les lignes vides ne sont pas interprétées   
+	- Les cellules ne doivent pas être fusionnées
+	- L'ordre des lignes n'a pas d'importance 
+	- L'import se fait ligne par ligne
 
 
 ### Onglet TEST_CASES
@@ -47,7 +47,7 @@ Le fichier d'import comprend cinq onglets :
 |-----|------------|------|
 | ACTION |Valeur qui indique l'action à effectuer.| <u>Champ Obligatoire</u> <br/>C : pour la création (**Create**)  <br/>U : pour la mise à jour (**Update**)|
 | TC_PATH    | Chemin du cas de test. Il commence par "/nom du projet" et se termine par le nom du cas de test. Il inclut le nom du projet car l'import est multi-projet|<u>Champ Obligatoire</u> <br/>Par exemple :  <br/>- /projet/dossier/casdetest  |
-| TC_NUM   | Ordre du cas de test dans son dossier conteneur. <br/><br/>- Mode **CREATE** : si non renseigné, considéré comme le dernier élément du conteneur. Si renseigné, le cas de test est donc créé à cette position. <br/>- Mode **UPDATE** : si non renseigné l'information est ignorée. Si le numéro d'ordre renseigné est différent de l'ordre actuel le cas de test est déplacé à cette nouvelle position. |                                                         |                                                                                
+| TC_NUM   | Ordre du cas de test dans son dossier conteneur. <br/><br/>Cet ordre n'est appliqué que lorsque la bibliothèque des cas de test est triée par ordre positionnel.<br/><br/>- Mode **CREATE** : si non renseigné, considéré comme le dernier élément du conteneur. Si renseigné, le cas de test est donc créé à cette position. <br/>- Mode **UPDATE** : si non renseigné l'information est ignorée. Si le numéro d'ordre renseigné est différent de l'ordre actuel le cas de test est déplacé à cette nouvelle position. |                                                         |                                                                                
 | TC_UUID  | Identifiant universel unique du cas de test. <br/><br/>- Mode **CREATE** : si renseigné, le cas de test est créé avec cet UUID. Si non renseigné, le cas de test est créé avec un UUID généré automatiquement. <br/>- Mode **UPDATE** : la valeur de la colonne TC_UUID n'est pas considérée. Il n'est pas possible de modifier l'UUID d'un cas de test déjà existant dans la base de données. |  Si renseignée, la valeur de la colonne TC_UUID doit correspondre à l'expression régulière :<br/> [0-9a-fA-F]{8}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{4}\-[0-9a-fA-F]{12} |
 | TC_REFERENCE  | Référence du cas de test  |  |
 | TC_NAME  | Nom du cas de test. <br/>- Mode **CREATE**: le champ est ignoré <br/>- Mode **UPDATE** : permet de renommer un cas de test |  |
@@ -63,7 +63,7 @@ Le fichier d'import comprend cinq onglets :
 | TC_CREATED_BY   | Login du créateur.|Si non renseigné, c'est le login de l’utilisateur réalisant l'import qui est utilisé. |  
 | *TC_LAST_MODIFIED_ON* | *Date de dernière modification du cas de test* | *Colonne ignorée si présente dans le fichier d’import*   |
 | *TC_LAST_MODIFIED_BY*  | *Login du dernier modificateur.*|*Colonne ignorée si présente dans le fichier d’import*       |
-| TC_KIND              | Code du format du cas de test. <br/>Si non renseigné, le cas de test est importé comme un cas de test classique. | Format :<br/>- STANDARD (Classique)<br/>- GHERKIN<br/>- KEYWORD (BDD)                                                                                                                                                                  |
+| TC_KIND              | Code du format du cas de test. <br/>Si non renseigné, le cas de test est importé comme un cas de test classique. | Format :<br/>- STANDARD (Classique)<br/>- KEYWORD (BDD)<br/>- GHERKIN                                                                                                                                                                  |
 | TC_SCRIPT            | Script Gherkin du cas de test |    |
 | TC_AUTOMATABLE       | Eligibilité à l’automatisation du cas de test | - M : À instruire [Valeur par défaut]<br/>- Y : Eligible<br/>- N : Non éligible |
 | TC_CUF_<cuf's code\>    | Une colonne par champ personnalisé.  <br/>Dans l'en-tête, remplacer <cuf's code\> par le code du champ personnalisé. |   Valeur associée au champ personnalisé  |
@@ -122,9 +122,9 @@ Pour faire des associations entre les cas de test et des exigences présentes da
 
 ## Structure du fichier d'import au format Zip
 
-Le fichier zip contient les dossiers, les sous dossiers ainsi que l'ensemble des cas de test à importer.
+L'archive .zip contient les dossiers, les sous dossiers ainsi que l'ensemble des cas de test à importer.
 Pour chaque cas de test à importer, il faut créer un fichier Excel. Chaque fichier doit contenir un onglet avec les informations du cas de test.  Le nom de l’onglet doit correspondre au **nom du cas de test à importer**.
-<br/>Ces fichiers doivent être placés dans leurs dossiers respectifs afin que les cas de test soient importés au bon emplacement dans la bibliothèque de l'Espace Cas de test. 
+<br/>Ces fichiers doivent être placés dans leurs dossiers respectifs afin que l'arborescence de cas de test soit recrée au moment de l'import. 
 
 **Par exemple:**
 
@@ -132,7 +132,7 @@ Pour chaque cas de test à importer, il faut créer un fichier Excel. Chaque fic
 - Pour importer un cas de test dans un dossier intitulé "Dossier1" : il faut créer un dossier intitulé "Dossier1", y placer le fichier Excel qui contient les informations du cas de test à importer avant de le zipper pour import.
 
 !!! warning "Focus"
-	L’import par .zip ne permet pas d’importer des cas de test Gherkin et BDD
+	L’import par .zip ne permet pas d’importer des cas de test BDD et Gherkin
 	<br/> L'import par .zip se fait sur **un seul projet** à la fois
 	<br/> Seule la création de nouveaux cas de test est possible via un import par .zip
 	<br/> L'import par .zip ne permet pas d'importer les paramètres, les jeux de données et les associations d'un cas de test.
@@ -259,7 +259,7 @@ Renseigner le cas de test appelant dans l'onglet "TEST_CASES", puis dans l'ongle
 
 Pour importer un cas de test Gherkin avec son script, des colonnes spécifiques au format Gherkin sont à renseigner, dans l'onglet "TEST_CASES":
 
-- Colonne "TC_KING" : GHERKIN
+- Colonne "TC_KIND" : GHERKIN
 - Colonne "TC_SCRIPTING_LANGUAGE" : Le script gherkin du cas de test
 
 ![Importer un cas de test gherkin avec un script](resources/import-script-gherkin.png)

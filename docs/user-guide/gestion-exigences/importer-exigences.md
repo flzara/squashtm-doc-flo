@@ -127,7 +127,7 @@ Si une liste personnalisée est configurée pour la catégorie des exigences sur
 
 1. Avoir une liste personnalisée avec plusieurs options, dont une des options est "Option2" associée au code "Opt2".
 <br/>
-![Page de consultation d'une liste personnalisé](resources/listeperso.jpg)
+![Page de consultation d'une liste personnalisée](resources/listeperso.jpg)
 <br/>
 3. Dans le fichier Excel, renseigner la valeur du code de l'option dans la colonne "REQ_VERSION_CATEGORY" : ici "Opt2"
 

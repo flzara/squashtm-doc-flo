@@ -1,4 +1,4 @@
-# Structure générique des pages Squash
+# Structure générique des pages Squash TM
 
 ## La bibliothèque
 
@@ -16,11 +16,11 @@ Devant le nom de chaque projet dans la bibliothèque, une icône indique les per
 - ![Icone play](resources/icone-play.png) : cette icône, visible uniquement sur l'espace Campagnes, indique un droit d'exécution sur les tests présents dans les plans d'exécution du projet.
 
 !!! warning "Focus"
-	Le profil Automaticien n'a pas accès aux espaces classiques de Squash. Il n'a des droits que sur l'espace Automatisation.
+	Le profil Automaticien n'a pas accès aux espaces classiques de Squash TM. Il n'a des droits que sur l'espace Automatisation.
 
 ## La page de consultation 
 
-Dans chaque espaces, le clic sur un objet présent dans la bibliothèque ouvre sa page de consultation. Le schéma de fonctionnement est identique sur tous les espaces.
+Dans chaque espace, le clic sur un objet présent dans la bibliothèque ouvre sa page de consultation. Le schéma de fonctionnement est identique sur tous les espaces.
 
 ### Partie haute de la page
 
@@ -39,6 +39,6 @@ Lors de la sélection d'un autre objet du même type dans la bibliothèque, le b
 
 Par défaut, l'affichage est en mode réduit (bibliothèque visible + page de consultation). Il est possible de masquer la bibliothèque afin d'étendre l'affiche de la page de consultation en cliquant sur le bouton **[<<]** à gauche du nom de l'objet et de revenir à l'affiche réduit en cliquant sur le bouton **[>>]**.
 
-![consultation-dossier-fr](resources/consultation-dossier-fr.png)
+![consultation-dossier-fr](resources/consultation-dossier-fr.png){class="pleinepage"}
 
-![consultation-exig-fr](resources/consultation-exig-fr.png)
+![consultation-exig-fr](resources/consultation-exig-fr.png){class="pleinepage"}
