@@ -38,7 +38,7 @@ Pour installer Squash TM avec le tarball Linux :
 
 - Faire Ctrl + C pour reprendre le contrôle sur votre terminal.
 
-## Installation du service systemd sous Debian
+## Installation du service systemd sous Debian (est-ce qu'on le garde ?)
 
 Pour installer Squash TM comme service systemd sous Debian :
 
@@ -106,3 +106,10 @@ Pour installer Squash TM en tant que service Windows :
 !!! info "Info"
     L’installeur Windows est livré à des fins d’évaluation et son utilisation dans un contexte de production est déconseillée.
     Son installation étant guidée via un installeur, il ne sera pas décrit ici.
+
+
+## Installation avec l'image Docker de Squash
+
+## Procédure si on utilisait avant les distribution packagé Redhat et Debian
+
+Passage par l'archive .tar.gz

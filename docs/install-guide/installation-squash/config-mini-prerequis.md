@@ -69,3 +69,5 @@ Le mandataire inverse (reverse proxy) est facultatif mais nous recommandons son 
 **Quelle type d'archi est préconnisée dans le cas d'une forte volumétrie ?**
 
 **Nous ne mentionnons pas dans les pré-requis la possibilité de déployer via docker (voir même K8s) et donc les pré-requis de ce déploiement. Est-ce un choix volontaire ?**
+
+**Recommandations si on installe TM avec AUTOM et DEVOPS : Modif d'isntall ? ou dimensionnement plus elevé ? ou priviligié install Docker ?**
