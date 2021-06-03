@@ -2,7 +2,7 @@
 
 ## Qu’est-ce qu’une exigence ?
 
-Une exigence est "une condition ou capacité requise par un utilisateur pour résoudre un problème ou atteindre un objectif qui doit être tenu ou possédé par un système ou composant pour satisfaire à un contrat, standard, spécification ou autre document imposé formellement" (ISTQB) <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Une exigence décrit le comportement attendu d'un système (logiciel, site web, application, SI, etc) définit en amont dans un document spécifique pour répondre au besoin d'un utilisateur.
+Une exigence est "une condition ou capacité requise par un utilisateur pour résoudre un problème ou atteindre un objectif qui doit être tenu ou possédé par un système ou composant pour satisfaire à un contrat, standard, spécification ou autre document imposé formellement" (ISTQB) <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. Une exigence décrit le comportement attendu d'un système (logiciel, site web, application, SI, etc) défini en amont dans un document spécifique pour répondre au besoin d'un utilisateur.
 
 Le terme "exigence" recouvre plusieurs niveaux allant des exigences métiers (macro) aux exigences de tests (micro). Les livrables d'un projet logiciel (cahier des charges, spécifications fonctionnelles, spécifications détaillées, maquettes) permettent l'extraction des exigences. 
 
@@ -42,7 +42,7 @@ Le bloc 'Informations' affiche les attributs de l'exigence : 'Statut', 'Criticit
 Le bloc 'Indicateur de couverture' présente les indicateurs suivants :
 
 - 'Taux de couverture' : indique le pourcentage de cas de test au statut 'À approuver' ou 'Approuvé', parmi tous les cas de test couvrant l'exigence ou l'une de ses descendantes.
-- 'Taux de vérification' : indique le pourcentage de cas de test exécutés, en ne tenant compte que de la dernière exécution, parmi les cas de couvrant l'exigence ou l'une de ses descendantes
+- 'Taux de vérification' : indique le pourcentage de cas de test exécutés, en ne tenant compte que de la dernière exécution, parmi les cas couvrant l'exigence ou l'une de ses descendantes
 - 'Taux de validation' : indique le pourcentage de cas de test ayant un statut d'exécution concluant (Succès ou Arbitré), en ne tenant compte que la dernière exécution, parmi les cas de test exécutés couvrants l'exigence ou l'une de ses descendantes.
 
 !!! tip "En savoir plus"

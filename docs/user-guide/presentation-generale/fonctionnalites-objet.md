@@ -98,7 +98,7 @@ Depuis la page de consultation d'une exigence, il est possible via un glisser/d�
 
 ![Associer depuis la bibliothèque](resources/associer-bibliotheque-fr.png){class="pleinepage"}
 
-### Associer deux objet depuis la bibliothèque d'association
+### Associer deux objets depuis la bibliothèque d'association
 Depuis la page de consultation d'une exigence, d'un cas de test ou d'un plan d'exécution, il est possible d'accéder à une bibliothèque d'association en cliquant sur le bouton ![Ajouter](resources/icone-ajouter.png) de la table d'association. Le lien est créé entre les deux entités en réalisant un glisser déposer depuis cette bibliothèque vers l'objet consulté. Les liens apparaissent ensuite dans la table correspondante.
 
 ### Associer depuis la recherche
@@ -107,7 +107,7 @@ Depuis la page de consultation d'une exigence, d'un cas de test ou d'un plan d'e
 ![Associer la recherche](resources/associer-recherche-fr.png){class="pleinepage"}
 
 !!! info "Info"
-	Depuis un **Plan d'exécution**, il est possible d'accéder à la recherche directe de cas de test ou d'accéder à la recherche de cas de test via leurs exigences. En effet, cette recherche basée sur les critères des exigence récupère en resultat les cas de tests associés aux exigences répondant aux critères choisis.
+	Depuis un **Plan d'exécution**, il est possible d'accéder à la recherche directe de cas de test ou d'accéder à la recherche de cas de test via leurs exigences. En effet, cette recherche basée sur les critères des exigences récupère en resultat les cas de tests associés aux exigences répondant aux critères choisis.
 
 ### Dissocier des objets
 
@@ -168,7 +168,7 @@ Le clic sur le bouton **[Nouvelle recherche]** réinitialise les critères de re
 À partir du bouton ![Exporter](resources/icone-export-campagne.png), il est possible d'exporter vers un tableur la totalité ou une sélection des résultats de recherche.
 Diverses options sont alors disponibles : 
 
- - le format XLS 'Champs actuels' : cet export permet de récupérer les données des exigence ou des cas de test dans un classeur Excel avec uniquement les informations affichées dans les résultats de recherche;
+ - le format XLS 'Champs actuels' : cet export permet de récupérer les données des exigences ou des cas de test dans un classeur Excel avec uniquement les informations affichées dans les résultats de recherche;
  - le format XLS 'Tous les champs' : 
 	- cet export permet de récupérer l'intégralité des données des exigences ou des cas de test sous la forme d'un classeur Excel.
  	- de conserver le format des textes riches : les champs de type "texte riche" sont exportés avec leur balises HTML afin de conserver leur mise en forme lors d'un futur import. Ne pas conserver le format facilite la lecture de ces champs dans l'export
