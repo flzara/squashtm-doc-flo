@@ -1,78 +1,88 @@
 # Variabiliser et modulariser un cas de test classique
 
+La variabilisation et la modularisation des cas de test classiques ont des objectifs similaires :
+
+- Réduire la charge de création et de maintenance des cas de test
+- Faciliter la lisibilité du référentiel de test en diminuant les répétitions et le nombre de cas de test
+
 ## Variabiliser un cas de test classique
 
-Squash TM permet de variabiliser et de valoriser des pas de test par une gestion des paramètres et des jeux de données. 
+Squash TM permet de variabiliser les prérequis et les pas de test d'un cas de test classique avec des paramètres et des jeux de données.
+
+Cette fonctionnalité est particulièrement utile dans le cas où l'on souhaite tester différentes combinaisons de valeurs pour un même scénario. Au lieu de dupliquer le cas de test, il suffit de l'écrire une fois et de le variabiliser.
 
 ### Paramètres 
 
-Pour être considéré comme tel, un paramètre doit se présenter sous la forme : **${‘Nom_du_parametre’}**.
+Pour être considéré comme tel, un paramètre doit être renseigné sous la forme : **${‘Nom_du_parametre’}** dans les prérequis ou dans les pas de test d'un cas de test.
 
-![Paramètre dans un pas de test](resources/parametres-pas-de-test.png)
+![Paramètre dans un pas de test](resources/parametres-pas-de-test.png){class="pleinepage"}
 
 !!! warning "Focus"
     Le nom du paramètre doit contenir exclusivement les caractères suivants: [0-9], [a-z], [A-Z] et [-,_] et ne doit comprendre aucun espace, caractère spécial ou accentué.
 
-Un paramètre peut également être ajouté au bloc "Prérequis" du cas de test. Il s'écrira sous la même forme que pour un pas de test.
+Les paramètres créés sont automatiquement répertoriés dans la table de l'ancre **Paramètres et jeux de données**  ![Ancre Paramètres et jeux de données](resources/param_et_jdd.png){class="icone"} et le nom de chaque paramètre est repris en en-tête de colonne.
 
-Les paramètres créés sont automatiquement répertoriés dans la table de l'ancre **Paramètres et jeux de données**  ![Ancre Paramètres et jeux de données](resources/param_et_jdd.png) et le nom de chaque paramètre est repris en en-tête de colonne.
-
-Il est possible d'ajouter de nouveaux paramètres directement depuis cette table mais ils ne seront pas utilisés s'ils ne sont pas présents dans le prérequis ou les pas de test du cas de test.
+Il est possible d'ajouter de nouveaux paramètres directement depuis cette table via le bouton **[+]** mais ils ne seront pas utilisés s'ils ne sont pas présents dans le prérequis ou les pas de test du cas de test.
 Il est donc recommandé de renseigner les paramètres directement dans les prérequis ou les pas de test afin qu'ils soient automatiquement récupérés dans le bloc "Paramètres et jeux de données".
 
 ### Jeux de données
 
-Il est possible d’ajouter un ou plusieurs jeux de données à un cas de test à partir de la table **Paramètres et jeux de données** en cliquant sur le bouton [Ajouter un jeu de données] et en renseignant la valeur qui remplacera le ou les paramètres.
+Les jeux données représentent des ensembles de valeurs qui vont remplacer les paramètres lors de l'exécution des tests.
 
-![Ajouter un jeu de données](resources/ajouter-jdd.png)
+L'ajout de jeux de données se fait depuis la table **Paramètres et jeux de données** en cliquant sur le bouton **[Ajouter un jeu de données]** et en renseignant les valeurs associées à chaque paramètre.
 
-Les jeux de données ajoutés sont automatiquement mis à jour dans la table **Paramètres et jeux de données**.
+![Ajouter un jeu de données](resources/ajouter-jdd.png){class="centre"}
 
-![Table Paramètres et jeux de données](resources/parametres-pas-de-test-completes.png)
+Chaque ligne de la table **Paramètres et jeux de données** représente un jeu de données.
 
-Pendant l'exécution du cas de test, le paramètre sera remplacé par la valeur du jeu de données.
+![Table Paramètres et jeux de données](resources/parametres-pas-de-test-completes.png){class="pleinepage"}
+
+Pendant l'exécution du cas de test, les paramètres sont remplacés par les valeurs définies dans les jeux de données.
 
 !!! info "Info"
-    Lorsqu'on intègre au Plan d’exécution (Espace Campagnes) un cas de test possédant plusieurs jeux de données, il se créera dans la campagne autant de lignes (et donc de tests) qu'il y'a de jeux de données, sauf il est précisé quel(s) jeu(x) de données doit(vent) être testé(s).
+    Lorsque l'on intègre au Plan d’exécution (Espace Campagnes) un cas de test possédant plusieurs jeux de données, il sera ajouté autant de fois qu'il y a de jeux de données.
 
-## Modulariser : Appeler un cas de test tiers
+## Modulariser les tests avec l'appel de cas de test
+
+L'appel de cas de test permet de mutualiser des étapes de test redondantes au sein d'un même cas de test pour ensuite l'intégrer et le réutiliser dans d'autres cas de test.
+
+Par exemple, au lieu de répéter dans chaque test les étapes de connexion, un test comportant ces étapes est écrit une unique fois et est appelé dans tous les cas de test qui nécessite une action de connexion.
+
+Cette fonctionnalité permet également de construire un cas de test à partir de plusieurs autres cas de test pour constituer des tests de bout-en-bout.
 
 ### Appeler un cas de test
 
-Le mécanisme d'appel de tests dans un cas de test permet la construction de bibliothèques modulaires de cas de test. Lors de l'exécution, les pas de test du cas de test appelé sont vu comme des pas de test dans le cas de test appelant.
+L'appel de cas de test se fait depuis les Prérequis et Pas de test ![Prérequis et Pas de test](resources/steps.png){class="icone"} de deux manières différentes :
 
-Ce mécanisme peut aussi être utilisé pour des tests de bout en bout faisant appel au patrimoine de tests de différents projets.
+-	Faire un glisser-déposer depuis la bibliothèque des cas de test avant ou après n'importe quel pas de test. 
+-	Cliquer sur le bouton […] en haut à droite du pas de test puis sur l’option « Appeler un cas de test ». Faire un glisser-déposer depuis le volet référentiel des cas de test à l'emplacement choisi.
 
-L'appel de cas de test se fait depuis l'ancre 'Prérequis et Pas de test' ![Prérequis et Pas de test](resources/steps.png) de l'espace **Cas de test**. Un cas de test appelé peut être ajouté avant ou après n’importe quel pas de test.
+Un cas de test appelé est vu comme un pas de test du cas de test appelant.
 
-Il est possible d’appeler un cas de test de deux façons :
+**ajouter capture avec cas de test appelé replié : idéalement, reprendre l'exemple avec le CT Connexion**
 
--	En le sélectionnant dans la bibliothèque des cas de test puis en faisant un glisser-déposer. 
--	En cliquant sur le bouton […] en haut à droite du pas de test puis en cliquant sur l’option « Appeler un cas de test » et en faisant un glisser-déposer.
+Les étapes du cas de test appelé peuvent être visulisées en cliquant sur ![Déplier appel](resources/expand-single.png){class="icone"}
 
-!!! info "Info"
+!!! warning "Focus"
     Il n’est pas possible d’appeler un cas de test Gherkin ou BDD.
 
-Les cas de tests appelants sont listés dans le bloc « Cas de test appelé par » dans l'onglet ‘Informations' du cas de test appelé.
+Les cas de tests appelants sont listés dans le bloc « Cas de test appelé par » du cas de test appelé. Cela permet d'identifier les cas de test impactés par une mise à jour du cas de test appelé.
 
-*Exemple : 
-Le Cas de test B est appelé dans le Cas de test A c'est à dire que les pas de test contenus dans le Cas de test B se retrouvent dans le Cas de test A.*
+![Cas de test appelé](resources/cas-de-tes-appeleFR.png){class="pleinepage"}
 
-![Cas de test appelé](resources/appel-de-cas-de-testFR.png)
+**Remplacer cette capture par un la capture d'un CT "Connexion" qui est appelé dans plusieurs CT**
 
-*Le Cas de test A (cas de test appelant) s'affiche dans le bloc "Cas de test appelé par" dans l'onglet 'Informations' du Cas de test B (cas de test appelé).*
+!!! warning "Focus"
+    Pour supprimer un cas de test appelé, il faut d'abord supprimer les pas de test correspondant dans les cas de test appelant, ce bloc permet de les retrouver facilement
 
-![Cas de test appelé](resources/cas-de-tes-appeleFR.png)
+Lors de l'exécution, les pas de test du cas de test appelé sont vus comme des pas de test du cas de test appelant.
+
+**ajouter capture de la page d'exécution d'une exécution avec l'enchaînement des pas de test appelés**
 
 ### Choisir un jeu de données
 
-Lors d'un appel de cas de test avec jeux de données, Squash TM permet de choisir:
+Lors d'un appel de cas de test comportant des jeux de données, Squash TM permet de :
 
-- d'hériter d'un des jeux de données du cas de test appelé.
+- Reprendre un des jeux de données du cas de test appelé (option *"Choisir un jeu de données parmi ceux du cas de test appelé"*). Lors de l'exécution, le paramètre est automatiquement remplacé par la valeur du jeu de données choisi.
 
-En choisissant l'option *"Choisir un jeu de données parmi ceux du cas de test appelé"*, lors de l'exécution le paramètre est automatiquement remplacé par la valeur du jeu de données choisi.
-
-- d'hériter des paramètres du cas de test appelé sans ses jeux de données.
-
-En choisissant l'option *"Ne pas choisir de jeux de données parmi ceux du cas de test appelé (paramètres délégués)"*, les paramètres du cas de test appelé sont ajoutés aux paramètres du cas de test appelant.
-La valeur de ces paramètres doit être définie au niveau de ce cas de test.
+- Définir un nouveau jeu de données dans le cas de test appelant (option *"Ne pas choisir de jeux de données parmi ceux du cas de test appelé (paramètres délégués)"*). Les paramètres issus du cas de test appelé s'affichent comme paramètres du cas de test appelant et peuvent donc être valorisés par des nouveaux jeux de données.
