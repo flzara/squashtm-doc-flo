@@ -27,12 +27,15 @@ La suite permet d'organiser le plan d'exécution d'une itération, par exemple p
 ![Qu'est-ce qu'une suite ?](resources/qu-est-qu-une-suite.png){class="pleinepage" }
 
 
-
-
-
-
-
-
 ## La page de consultation des objets de l’espace Campagnes 
 
+Les différentes ancres d'une campagne, une itération ou une suite permettent d'accéder aux informations de gestion et de suivi d'exécutions des tests.
 
+### Tableau de bord (campagne et itération)
+
+Lorsque des dates de début et de fin d'itération sont renseignées, le bloc **Avancement cumulé** représente le nombre de tests exécutés (courbe violette) et le nombre de tests planifiés (courbe bleue).
+Le périmètre de l'avancement cumulé d'une campagne est toutes les itérations que contient la campagne.
+
+Les graphiques du bloc **Statistiques** permettent de visualiser la répartition par statut d'exécution des tests, le taux de succès ou d'échec par importance des tests et la répartition par importance des tests jamais exécutés.
+
+Le bloc **Inventaire des test** d'une campagne est un tableau de répartition comptant le nombre de tests par statut d'exécution et par itération
