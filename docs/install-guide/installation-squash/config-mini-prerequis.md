@@ -54,6 +54,7 @@ SI vous souhaitez déployer Squash TM dans votre propre serveur applicatif c’e
 ## Architecture possible
 
 Pour des faibles volumétries et un nombre contenu d’utilisateurs (moins de 50), Henix préconise une architecture « trois-tiers » telle que : sur une machine virtuelle / conteneur, on installe les trois services :
+
 •	Application
 •	SGBD
 •	Frontal web
