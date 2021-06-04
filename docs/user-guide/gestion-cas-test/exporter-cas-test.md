@@ -28,9 +28,6 @@ Les associations avec les exigences sont exportées et se trouvent dans l'onglet
 !!! warning "Focus"
 	Lors d'un export de cas de test BDD, les pas de test ne sont pas présents dans le fichier.
 	
-!!! tip "En savoir plus"
-	Il est également possible d'[exporter des scripts](#exporter-les-scripts-des-cas-de-test-bdd-et-gherkin) BDD et Gherkin
-
 
 ## Importer des cas de test à partir d’un export
 
