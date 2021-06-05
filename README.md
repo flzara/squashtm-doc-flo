@@ -1,6 +1,8 @@
 # Squash TM Documentation
 
-This is the official repository for Squash TM documentation. It is
+🚨🚨 This is the **previous** official repository for Squash TM documentation. It has been transfered to a [new home on GitLab](https://gitlab.com/squashtest/doc/squashtm-doc-fr/) were contributions should be done. This repository is archived and read-only.
+
+It is
 
 - Done in markdown
 - Generated using [MkDocs](https://www.mkdocs.org)
